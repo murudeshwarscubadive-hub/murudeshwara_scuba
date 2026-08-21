@@ -331,6 +331,12 @@ export default function Footer() {
           </div>
           <div className="flex flex-wrap gap-2 text-xs text-gray-400">
             <Link
+              href="/blog/scuba-diving-murudeshwar-netrani-island-guide"
+              className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-[#00D4FF]/50 hover:text-[#00D4FF] transition-all text-[#00D4FF] font-semibold"
+            >
+              Complete 2026 Netrani Guide
+            </Link>
+            <Link
               href="/blog/gandhada-gudi-netrani-scuba-diving-puneeth-rajkumar"
               className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-[#00D4FF]/50 hover:text-[#00D4FF] transition-all text-[#00D4FF] font-semibold"
             >

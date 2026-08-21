@@ -10,9 +10,318 @@ export interface BlogPost {
   date: string;
   coverImage: string;
   content: string;
+  faq?: Array<{
+    question: string;
+    answer: string;
+  }>;
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "murudeshwar-scuba-diving-first-timer-guide",
+    title: "Murudeshwar Scuba Diving: The Complete First-Timer's Trip Guide (2026)",
+    metaTitle: "Murudeshwar Scuba Diving: First-Timer's Trip Guide 2026",
+    subtitle: "Never dived before? From reaching Murudeshwar to your very first breath underwater at Netrani Island - here's exactly how to plan a first-time scuba diving trip.",
+    description: "Planning your first scuba dive in Murudeshwar? A complete 2026 first-timer's guide - how to reach, best time, prices, dive-day steps, what to pack, and how to book Netrani Island.",
+    category: "Guides",
+    tags: ["Murudeshwar", "Netrani Island", "Scuba Diving", "First-Timer", "Beginners", "2026 Guide", "Packages", "Non-Swimmers", "What to Pack"],
+    readTime: "7 min read",
+    date: "21 Feb 2026",
+    coverImage: "/images/blog/hero-scuba-diver-netrani-reef.jpg",
+    faq: [
+      {
+        question: "Do I need to know swimming to scuba dive in Murudeshwar?",
+        answer: "No. Non-swimmers can do the intro dive with one-on-one instructor guidance. Swimming ability is not required."
+      },
+      {
+        question: "How much does a first scuba dive in Murudeshwar cost?",
+        answer: "An intro (try) dive starts at Rs. 1,999 and a full Netrani dive is Rs. 3,500. Both include the boat ride, equipment, a certified instructor, and free HD photos and videos."
+      },
+      {
+        question: "What is the best time to visit Murudeshwar for scuba diving?",
+        answer: "October to May, with November to February being the most reliable for calm seas and clear water. Diving is closed during the monsoon, June to September."
+      },
+      {
+        question: "What is the minimum age for scuba diving?",
+        answer: "The minimum age is 10 years. A short medical screening is done before every dive."
+      },
+      {
+        question: "How long is the boat ride to Netrani Island?",
+        answer: "Netrani Island is about 19 km offshore, roughly a 45 to 60 minute boat ride from Murudeshwar beach."
+      },
+      {
+        question: "What will I see underwater?",
+        answer: "Coral reefs and a wide range of reef fish - butterflyfish, parrotfish, triggerfish, eels - with visibility of 15-30 metres in season. Larger marine life like whale sharks appears occasionally in deeper water."
+      }
+    ],
+    content: `
+Never dived before? This is the only guide you need. From reaching Murudeshwar to your very first breath underwater at Netrani Island - here's exactly how to plan a first-time scuba diving trip, step by step.
+
+Murudeshwar, on the Karnataka coast, is one of the easiest and most rewarding places in India to try scuba diving for the first time. You don't need experience. You don't need to be a swimmer. You just need a free morning, a sense of adventure, and this guide. Below, we walk you through everything - how to get there, when to go, what a dive costs, what actually happens on the boat, and the small tips that make a first dive feel effortless.
+
+## Is Murudeshwar Good for First-Time Divers?
+
+Yes - it's one of the best. The dives happen at [Netrani Island](/blog/netrani-island-guide), a heart-shaped coral island about 19 km offshore, where the reef sits in calm, shallow, warm water. Every first dive is guided one-on-one by a PADI-certified instructor who handles all the technical parts, so all you do is breathe and take in the view.
+
+Visibility runs 15-30 metres in season, the water stays a warm 26-30°C, and the reef is alive with butterflyfish, parrotfish, and coral gardens. It's the closest genuine coral-reef diving for anyone travelling from Bangalore, Mangalore, or Goa.
+
+## Murudeshwar Scuba Diving at a Glance
+
+- Dive site: Netrani Island - 19 km / ~45-60 min boat ride
+- Season: October to May (closed June-September for monsoon)
+- Best months: November to February (clearest water)
+- Intro dive: Rs. 1,999 - ~15 min underwater
+- Full dive: Rs. 3,500 - 30-40 min underwater
+- Minimum age: 10 years
+- Swimming needed?: No - non-swimmers welcome
+- Timings: 8:00 AM - 3:00 PM - boats depart 8-9 AM
+
+![Underwater view of a coral reef with tropical fish, similar to the reef at Netrani Island|Netrani's reef is home to 89 recorded varieties of coral fish.](/images/blog/netrani-coral-reef-fish.jpg)
+
+## Step 1 - Getting to Murudeshwar
+
+Murudeshwar sits on the Konkan coast and is well connected from all directions:
+- By train: Murudeshwar railway station is on the Konkan Railway line, with direct trains from Mangalore, Mumbai, and Goa. The beach is a short auto ride away.
+- By road: Connected via NH-66 - roughly 12-13 hours from Bangalore, about 3 hours from Mangalore, and an easy drive down from Goa.
+- By air: Nearest airports are Mangalore (~140 km) and Hubli; continue by road or train from there.
+
+The dive centre operates from Temple Main Road, Murudeshwar, right by the beach where the boats leave. For detailed instructions, see our full guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar).
+
+![A small white dive boat heading out across calm tropical ocean water|Dive boats leave Murudeshwar beach between 8 and 9 AM.](/images/blog/murudeshwar-dive-boat-departure.jpg)
+
+## Step 2 - Picking the Right Time to Go
+
+The diving season runs from October to May. During the monsoon (June-September) the Arabian Sea gets rough and diving closes for safety.
+
+For a first dive, aim for November to February, when the sea is calmest and visibility is at its best. Go early in the day - the morning boats catch the clearest water and the most active marine life. Weekends and holidays fill up fast in peak season, so book a day or two ahead. Read more in our guide to the [best time for scuba diving in Murudeshwar](/blog/best-time-scuba-diving-murudeshwar).
+
+## Step 3 - Choosing Your First Dive
+
+There are two ways to get in the water, plus an option for friends who'd rather stay dry:
+- [Intro Scuba](/intro-scuba-diving) (Try Dive): Rs. 1,999 - ~15 min underwater - Best for first-timers & non-swimmers
+- [Full Dive (Netrani)](/netrani-scuba-diving): Rs. 3,500 - 30-40 min underwater - Best for the full reef experience
+- Non-Diver Boat Pass: Rs. 1,500 - snorkel & cruise - Best for companions joining the boat
+
+Every package includes the boat ride, all scuba gear, your instructor, and complimentary HD photos and videos shared the same day. The full dive adds unlimited snorkelling, onboard snacks and fruit, and changing facilities on the boat. For a first-ever dive, the Intro Scuba is the easy, low-commitment way in - many first-timers then upgrade to the full dive once they're hooked. Learn more about [scuba diving prices in Murudeshwar](/blog/murudeshwar-scuba-diving-price-cost).
+
+## Step 4 - What Actually Happens on Dive Day
+
+Here's the full flow, so nothing feels unfamiliar when you arrive:
+1. Check-in & briefing. You meet your instructor, fill a short medical form, and learn a few hand signals and how to breathe through the regulator.
+2. Boat ride to Netrani. A 45-60 minute cruise across open water - keep an eye out for dolphins on the way.
+3. Gear up & descend. Your instructor fits your equipment and guides you gently into the water at the reef.
+4. The dive. 15 minutes for the intro dive, 30-40 for the full dive. The instructor controls your depth - you just look around.
+5. Snorkel & head back. Surface, snorkel over the reef, then cruise home with your photos and videos already on the way to your phone.
+
+![A scuba instructor underwater making an OK hand signal to a first-time diver|Your instructor stays with you the whole dive and handles the technical work.](/images/blog/scuba-instructor-hand-signal.jpg)
+
+## Can You Dive if You Can't Swim?
+
+Yes - this is the question first-timers ask most, and the answer is a confident yes. For the intro dive, your instructor stays beside you the entire time, controlling your buoyancy and depth while you simply breathe and enjoy the reef. You don't need any swimming ability. Check our complete guide to [scuba diving for non-swimmers](/blog/scuba-diving-murudeshwar-non-swimmers) for more details.
+
+HEALTH NOTE: A short fitness screening is done before every dive. If you have asthma, a heart condition, recent surgery, or are pregnant, talk to the dive team in advance - for your safety, they may advise against diving. Avoid alcohol before diving, and don't fly within 18-24 hours after a dive.
+
+## Step 5 - What to Pack for Your Dive
+
+All the diving equipment is provided - you only need the personal basics:
+- Swimwear worn under your clothes
+- A change of clothes and a towel
+- Reef-safe sunscreen and sunglasses
+- A light snack and water
+- A waterproof phone pouch (optional - your dive is filmed for you)
+- Any prescription medicines you normally carry
+
+![A snorkeller swimming above a reef surrounded by a school of tropical fish|After the dive, there's time to snorkel over the reef.](/images/blog/snorkelling-fish-netrani.jpg)
+
+## First-Timer Tips (From Divers Who've Been There)
+
+- Eat a light breakfast. Dive on an empty-ish stomach to avoid seasickness on the boat ride out.
+- Relax your breathing. The hardest part is trusting the regulator for the first two minutes - after that, it's easy.
+- Equalise early. Pinch your nose and gently blow as you descend to clear your ears. Tell your instructor if it hurts.
+- Don't hold your breath. Breathe slow and steady, in and out, the whole time.
+- Beat seasickness. If boats bother you, take a motion-sickness tablet an hour before.
+- Book the morning slot. Clearer water, calmer sea, better photos.
+
+👉 **Ready for Your First Dive?**
+Tell us your date, how many are coming, and whether anyone's a non-swimmer - we'll set up the right support and reserve your slot.
+Call / WhatsApp +91 78299 75777 | murudeshwar.scuba.dive@gmail.com
+
+## Frequently Asked Questions
+
+Q: Do I need to know swimming to scuba dive in Murudeshwar?
+A: No. Non-swimmers can do the intro dive with one-on-one instructor guidance. Swimming ability is not required.
+
+Q: How much does a first scuba dive in Murudeshwar cost?
+A: An intro (try) dive starts at Rs. 1,999 and a full Netrani dive is Rs. 3,500. Both include the boat ride, equipment, a certified instructor, and free HD photos and videos.
+
+Q: What is the best time to visit Murudeshwar for scuba diving?
+A: October to May, with November to February being the most reliable for calm seas and clear water. Diving is closed during the monsoon, June to September.
+
+Q: What is the minimum age for scuba diving?
+A: The minimum age is 10 years. A short medical screening is done before every dive.
+
+Q: How long is the boat ride to Netrani Island?
+A: Netrani Island is about 19 km offshore, roughly a 45 to 60 minute boat ride from Murudeshwar beach.
+
+Q: What will I see underwater?
+A: Coral reefs and a wide range of reef fish - butterflyfish, parrotfish, triggerfish, eels - with visibility of 15-30 metres in season. Larger marine life like whale sharks appears occasionally in deeper water.
+    `
+  },
+  {
+    slug: "scuba-diving-murudeshwar-netrani-island-guide",
+    title: "Scuba Diving in Murudeshwar: The Complete 2026 Guide to Netrani Island",
+    metaTitle: "Scuba Diving in Murudeshwar: The Complete 2026 Guide to Netrani Island",
+    subtitle: "Everything you need to know - prices, best season, marine life, safety, non-swimmer guidance, and how to book your Netrani Island dive.",
+    description: "Everything about scuba diving in Murudeshwar and Netrani Island - 2026 prices, best season, marine life, safety, and how to book. Beginners and non-swimmers welcome.",
+    category: "Guides",
+    tags: ["Murudeshwar", "Netrani Island", "Scuba Diving", "2026 Guide", "Prices", "Non-Swimmers", "Best Time", "Safety"],
+    readTime: "6 min read",
+    date: "21 Feb 2026",
+    coverImage: "/images/netrani-scuba-cover.png",
+    faq: [
+      {
+        question: "How much does scuba diving in Murudeshwar cost?",
+        answer: "An intro (try) dive starts at Rs. 1,999 and a full Netrani dive is Rs. 3,500. A non-diver boat pass is Rs. 1,500. All packages include the boat ride, equipment, a certified instructor, and free HD photos and videos."
+      },
+      {
+        question: "What is the best time for scuba diving in Murudeshwar?",
+        answer: "October to May, with November to February being the most reliable for calm seas and clear water. Diving is closed during the monsoon from June to September."
+      },
+      {
+        question: "Can non-swimmers scuba dive at Netrani Island?",
+        answer: "Yes. Non-swimmers can do the intro dive with one-on-one instructor guidance. Swimming ability is not required."
+      },
+      {
+        question: "What is the minimum age for scuba diving in Murudeshwar?",
+        answer: "The minimum age is 10 years. A short medical screening is done before every dive."
+      },
+      {
+        question: "How far is Netrani Island from Murudeshwar?",
+        answer: "Netrani Island is about 19 km offshore, roughly a 45-60 minute boat ride from Murudeshwar beach."
+      },
+      {
+        question: "What will I see while diving at Netrani?",
+        answer: "Coral reefs and a wide range of reef fish - butterflyfish, parrotfish, triggerfish, eels - with visibility of 15-30 metres in season. Larger marine life like whale sharks appear occasionally in deeper water."
+      }
+    ],
+    content: `
+You strap on the mask, take one last breath of sea air, and let go of the boat. A few feet down, the noise of the world disappears. Then the reef comes into view - a wall of coral, a shoal of parrotfish scattering like confetti, sunlight cutting the blue into ribbons. This is scuba diving in Murudeshwar, and it is one of the finest first dives anyone can have on India's west coast.
+
+Murudeshwar sits on the Karnataka coastline, famous for its towering Shiva statue and the temple by the sea. But just 19 km offshore lies its best-kept secret: [Netrani Island](/blog/netrani-island-guide), a heart-shaped coral island that has quietly become one of the top scuba diving destinations in India. This guide covers everything you need - prices, the best time to go, what you'll see underwater, safety, and how to book your dive.
+
+## Why Murudeshwar and Netrani Island Are Worth the Dive
+
+Netrani Island is the only heart-shaped island in India, ringed by healthy coral reefs and clear Arabian Sea water. It is a marine reserve teeming with life - one study recorded 89 varieties of coral fish around the island alone.
+
+What makes it special for divers is the combination of accessibility and quality. You don't need prior experience, you don't need to be a swimmer, and you don't need to travel to the Andamans or overseas. Netrani offers water visibility of 15 to 30 metres during peak season, warm water year-round, and a shallow reef structure that is forgiving for first-timers yet rich enough to keep certified divers coming back.
+
+For anyone in Bangalore, Mangalore, Goa, or elsewhere in South India, Murudeshwar is the closest place to experience genuine coral-reef diving.
+
+## Scuba Diving in Murudeshwar - Prices and Packages (2026)
+
+Here is what a dive typically costs. These are our current packages at Murudeshwar Scuba Dive:
+
+- [Rs. 1,999 Intro Scuba](/intro-scuba-diving) (Try Dive) — ~15 minutes underwater — Best for first-timers & non-swimmers
+- [Full Dive (Netrani) Rs. 3,500](/netrani-scuba-diving) — 30-40 minutes underwater — Best for the full reef experience
+- Non-Diver Boat Pass — Rs. 1,500 — For companions who want to snorkel & cruise
+
+Every diving package includes the boat ride to and from the dive site, all scuba equipment, a PADI-certified instructor guiding you one-on-one, and complimentary HD photos and videos of your dive shared the same day. The full dive also includes unlimited snorkelling, onboard fruits and snacks, and changing facilities on the boat.
+
+Group and bulk bookings get special rates - worth asking about if you're coming with family, friends, or a college group.
+
+## Best Time for Scuba Diving in Murudeshwar
+
+The diving [season](/blog/best-time-scuba-diving-murudeshwar) runs from October to May. During these months the sea is calm, the sky is clear, and underwater visibility is at its best.
+
+The Arabian Sea gets rough during the monsoon, so diving is closed from June to September for safety. If you're planning a trip, aim for the window between November and February when conditions are most stable and the water is at its clearest.
+
+Typical conditions in season:
+- Water visibility: 15-30 metres
+- Air temperature: 27-31°C
+- Water temperature: 26-30°C
+
+Early morning is the best slot of the day - boats depart between 8:00 and 9:00 AM from Murudeshwar beach, when the water is calmest and marine life is most active.
+
+## What You'll See Underwater at Netrani
+
+Netrani's reef is alive with colour. On a typical dive you can expect to see:
+- Reef fish - butterflyfish, triggerfish, parrotfish, and dense shoals moving over the coral
+- Coral gardens - hard and soft corals covering the reef walls
+- Eels and shrimp tucked into the rocks
+- Occasional big visitors - the deeper waters around Netrani have been visited by whale sharks and, on rare occasions, larger pelagics
+
+You don't need to go deep to see the best of it - most of the action happens on the shallow reef, which is exactly where beginner dives take place.
+
+## Can Non-Swimmers and Beginners Scuba Dive in Murudeshwar?
+
+Yes - and this is the question we hear most. You do not need to know how to swim to try [scuba diving for non-swimmers](/blog/scuba-diving-murudeshwar-non-swimmers) in Murudeshwar.
+
+Every intro dive is guided one-on-one by a certified instructor who stays with you the entire time. You breathe through the regulator, the instructor controls your buoyancy and depth, and you simply relax and take in the reef. Non-swimmers do the same dive as everyone else, just with closer support.
+
+The only real requirements are being reasonably comfortable in water and meeting the basic health and age rules below. First-timers often find the intro dive far easier than they expected - the hardest part is trusting the equipment for the first two minutes.
+
+## Safety, Age, and Health Requirements
+
+Diving here is safe when the [safety and health rules](/blog/murudeshwar-scuba-diving-safety) are followed. Before your dive:
+- Minimum age: 10 years
+- Medical fitness: A short screening is done before diving. Anyone with asthma, heart conditions, recent surgery, or who is pregnant must consult the dive team first and may be advised not to dive.
+- No alcohol before diving, and avoid flying within 18-24 hours after a dive
+- Follow your instructor - equalise your ears as you descend, breathe steadily, and never hold your breath
+
+All instructors are PADI-certified, and equipment is checked before every trip. If you have any medical concern, tell the team in advance rather than on the boat.
+
+## How to Reach Murudeshwar
+
+Murudeshwar is well connected along the Konkan coast:
+- By train: Murudeshwar railway station is on the Konkan Railway line, with direct trains from Mangalore, Mumbai, and Goa. It's a short auto ride to the beach.
+- By road: Well connected by NH-66. Around 12-13 hours from Bangalore, 3 hours from Mangalore, and reachable from Goa.
+- By air: The nearest airports are Mangalore (~140 km) and Hubli. From there, continue by road or train.
+
+The dive centre operates from Temple Main Road, Murudeshwar, close to the beach where boats depart. For detailed directions, check our complete guide on [how to reach Murudeshwar](/how-to-reach-murudeshwar).
+
+## What to Expect on Your Dive Day
+
+Plan to arrive early - the centre operates from 8 AM to 3 PM, and boats leave in the morning between 8:00 and 9:00 AM. Here's the flow of a typical dive:
+- Check-in and briefing - you meet your instructor, fill the medical form, and learn the basic hand signals and breathing.
+- Boat ride to Netrani - roughly a 45-60 minute cruise across open water; keep an eye out for dolphins.
+- Gear up and descend - your instructor fits your equipment and guides you into the water on the reef.
+- The dive - 15 minutes for the intro dive, 30-40 minutes for the full dive.
+- Snorkelling and back - surface, snorkel over the reef, then cruise back with your photos and videos delivered the same day.
+
+Bring a change of clothes, a towel, sunscreen, and a light snack. Everything else is provided.
+
+## How to Book Your Scuba Dive in Murudeshwar
+
+Booking is simple. Slots fill up fast on weekends and holidays during peak season (November-February), so it's best to reserve a day or two ahead.
+
+To book, visit our [scuba diving booking page](/contact) or call / WhatsApp +91 78299 75777 or email murudeshwar.scuba.dive@gmail.com. Let us know your preferred date, the number of divers, and whether anyone is a non-swimmer so we can plan the right support.
+
+Whether it's your first breath underwater or your hundredth dive, Netrani Island is waiting.
+
+👉 **Ready to Dive?**
+[Explore Netrani Scuba Diving Packages](https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com)
+
+## Frequently Asked Questions
+
+**Q: How much does scuba diving in Murudeshwar cost?**
+A: An intro (try) dive starts at Rs. 1,999 and a full Netrani dive is Rs. 3,500. A non-diver boat pass is Rs. 1,500. All packages include the boat ride, equipment, a certified instructor, and free HD photos and videos.
+
+**Q: What is the best time for scuba diving in Murudeshwar?**
+A: October to May, with November to February being the most reliable for calm seas and clear water. Diving is closed during the monsoon from June to September.
+
+**Q: Can non-swimmers scuba dive at Netrani Island?**
+A: Yes. Non-swimmers can do the intro dive with one-on-one instructor guidance. Swimming ability is not required.
+
+**Q: What is the minimum age for scuba diving in Murudeshwar?**
+A: The minimum age is 10 years. A short medical screening is done before every dive.
+
+**Q: How far is Netrani Island from Murudeshwar?**
+A: Netrani Island is about 19 km offshore, roughly a 45-60 minute boat ride from Murudeshwar beach.
+
+**Q: What will I see while diving at Netrani?**
+A: Comprehensive coral reefs and a wide range of reef fish - butterflyfish, parrotfish, triggerfish, eels - with visibility of 15-30 metres in season. Larger marine life like whale sharks appear occasionally in deeper water.
+    `
+  },
   {
     slug: "gandhada-gudi-netrani-scuba-diving-puneeth-rajkumar",
     title: "Gandhada Gudi, Netrani & the Underwater World of Karnataka: Where Puneeth Rajkumar Met the Sea",

@@ -84,14 +84,15 @@ export default async function BlogPostPage({ params }: PageProps) {
   // Helper to parse inline markdown (bold, italic, links)
   const parseInlineMarkdown = (text: string) => {
     // Match markdown links [label](url), bold **text**, and italic *text*
-    const regex = /(\[.*?\]\(.*?\)|\*\*.*?\*\*|\*.*?\*)/g;
+    const regex = /(\[[^\]]+\]\([^)]+\)|\*\*.*?\*\*|\*.*?\*)/g;
     const parts = text.split(regex);
 
     return parts.map((part, idx) => {
       if (part.startsWith("[") && part.includes("](") && part.endsWith(")")) {
-        const match = part.match(/^\[(.*?)\]\((.*?)\)$/);
-        if (match) {
-          const [, label, url] = match;
+        const lastBracketIndex = part.indexOf("](");
+        if (lastBracketIndex !== -1) {
+          const label = part.slice(1, lastBracketIndex);
+          const url = part.slice(lastBracketIndex + 2, -1);
           const isExternal = url.startsWith("http");
           return (
             <Link
@@ -184,9 +185,58 @@ export default async function BlogPostPage({ params }: PageProps) {
         return;
       }
 
+      // Markdown Image ![alt|caption](url) or ![alt](url)
+      if (trimmed.startsWith("![")) {
+        flushList();
+        const lastBracketIndex = trimmed.indexOf("](");
+        if (lastBracketIndex !== -1 && trimmed.endsWith(")")) {
+          const altAndCaption = trimmed.slice(2, lastBracketIndex);
+          const src = trimmed.slice(lastBracketIndex + 2, -1);
+          let alt = altAndCaption;
+          let caption = "";
+          if (altAndCaption.includes("|")) {
+            [alt, caption] = altAndCaption.split("|");
+          }
+          elements.push(
+            <figure key={idx} className="my-8 rounded-3xl overflow-hidden border border-[#00D4FF]/30 bg-[#00111F]/80 shadow-2xl relative">
+              <div className="relative w-full h-[320px] sm:h-[400px] md:h-[450px]">
+                <Image
+                  src={src}
+                  alt={alt}
+                  fill
+                  className="object-cover transition-transform duration-500 hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
+                />
+              </div>
+              {caption && (
+                <figcaption className="p-4 bg-gradient-to-r from-[#002B5B] to-[#00111F] border-t border-white/10 text-xs sm:text-sm text-cyan-200/90 font-medium italic text-center font-display">
+                  {caption}
+                </figcaption>
+              )}
+            </figure>
+          );
+          return;
+        }
+      }
+
       // Unordered list item
       if (trimmed.startsWith("* ") || trimmed.startsWith("- ")) {
         currentList.push({ text: trimmed.slice(2), idx });
+        return;
+      }
+
+      // Ordered list item (e.g. 1. Check-in & briefing)
+      const olMatch = trimmed.match(/^(\d+)\.\s+(.*)/);
+      if (olMatch) {
+        flushList();
+        elements.push(
+          <div key={idx} className="my-3 flex items-start gap-4 text-gray-300 text-base md:text-lg leading-relaxed">
+            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-[#002B5B] text-[#00D4FF] border border-[#00D4FF]/40 font-bold font-display text-xs shrink-0 mt-0.5">
+              {olMatch[1]}
+            </span>
+            <div className="flex-1 pt-0.5">{parseInlineMarkdown(olMatch[2])}</div>
+          </div>
+        );
         return;
       }
 
@@ -225,7 +275,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               {quoteText}
             </blockquote>
             <p className="mt-4 text-xs uppercase tracking-[0.25em] text-[#00D4FF] font-semibold">
-              — Gandhada Gudi (2022) &amp; Netrani Island
+              — Netrani Island Scuba Diving Guide
             </p>
           </div>
         );
@@ -349,6 +399,21 @@ export default async function BlogPostPage({ params }: PageProps) {
       "priceRange": "₹1,999 - ₹3,500",
     },
   ];
+
+  if (post.faq && post.faq.length > 0) {
+    jsonLd.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": post.faq.map((item) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.answer,
+        },
+      })),
+    } as any);
+  }
 
   return (
     <main className="min-h-screen bg-[#00111F] text-white selection:bg-[#00D4FF] selection:text-black font-sans overflow-x-hidden pt-20 md:pt-24">
