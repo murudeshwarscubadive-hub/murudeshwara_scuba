@@ -190,6 +190,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/scuba-diving-murudeshwar" className="hover:text-[#00D4FF] transition-colors">
+                  Scuba Diving Murudeshwar
+                </Link>
+              </li>
+              <li>
                 <Link href="/intro-scuba-diving" className="hover:text-[#00D4FF] transition-colors">
                   Intro Scuba (Try Dive)
                 </Link>
