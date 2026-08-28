@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import FAQAccordion from "./FAQAccordion";
 import "./scuba.css";
+import pageData from "./scuba-diving-data.json";
 
 export const metadata: Metadata = {
   title: "Netrani Scuba Diving Price ₹3,500 | Murudeshwar Booking",
@@ -51,105 +52,10 @@ export const metadata: Metadata = {
 };
 
 export default function ScubaDivingMurudeshwar() {
-  const faqItems = [
-    {
-      question: "What is the Netrani Island scuba diving price from Murudeshwar?",
-      answer:
-        "A current public Murudeshwar operator example starts a beginner plan at ₹3,499 and lists another plan at ₹4,499. Use ₹3,500-₹4,500 as a comparison range, not a universal tariff; boat ride, meals, media, dive time and other inclusions differ by operator and plan.",
-    },
-    {
-      question: "Do I need to know swimming for scuba diving in Murudeshwar?",
-      answer:
-        "A previous scuba certification is not required for PADI Discover Scuba Diving, but a blanket 'no swimming needed' promise is misleading. Participants must meet the operator's health and water-comfort requirements, complete the briefing and skills, and follow the instructor. Ask for an individual assessment before paying.",
-    },
-    {
-      question: "Is scuba diving at Netrani Island safe?",
-      answer:
-        "Scuba is an adventure activity with real risks, so it should not be described as universally 'very safe.' Verify the assigned operator and instructor credentials, medical screening, equipment checks, supervision ratio, oxygen and emergency plan, weather decision, and written cancellation terms. PADI currently lists Scuba Spirit in Murudeshwar; that listing does not verify every local operator or every booking made through this page.",
-    },
-    {
-      question: "What is the scuba diving price per person in Murudeshwar?",
-      answer:
-        "For most beginners, the scuba diving price per person in Murudeshwar (Netrani Island DSD) starts from ₹3,500. The final price depends on season, operator, and inclusions like photos/videos.",
-    },
-    {
-      question: "How do I book scuba diving in Murudeshwar?",
-      answer:
-        "Share your date, group size, ages and water comfort on WhatsApp or phone. Before paying, require the assigned operator, eligibility process, slot, reporting point, full price, inclusions, payment recipient and cancellation terms in writing.",
-    },
-    {
-      question: "What is included in the Netrani Island scuba diving price?",
-      answer:
-        "Package inclusions are not universal. Confirm in writing whether the quoted price covers the boat, briefing and skills session, equipment, instructor support, dive duration policy, photos or videos, food, taxes, transfers and any marine or harbour charges.",
-    },
-    {
-      question: "What should I confirm before paying for Netrani scuba diving?",
-      answer:
-        "Confirm the final per-person price, boat ride inclusion, equipment, instructor support, photos/videos, reporting point, age or health eligibility, weather policy, and whether the operator is suitable for beginners or non-swimmers.",
-    },
-    {
-      question: "How long is the scuba diving trip to Netrani Island?",
-      answer:
-        "Plan for a substantial part of the day, but there is no verified universal 7:30 AM-4:30 PM timetable or 1.5-hour boat duration. Reporting time, sailing time and return vary by operator, departure point, sea conditions and group operations; use the written schedule for your date.",
-    },
-    {
-      question: "What is the best time for Netrani Island scuba diving?",
-      answer:
-        "October to May is a useful broad planning window, but no universal operator calendar or visibility guarantee was found. Monsoon access may be restricted, and the operator or captain must confirm whether the trip can run safely on the day.",
-    },
-    {
-      question: "What should I carry for scuba diving in Murudeshwar?",
-      answer:
-        "Carry a change of clothes, towel, sunscreen, water bottle, ID, and any personal medicines. Avoid heavy meals right before the dive and follow the instructor briefing.",
-    },
-    {
-      question: "Is there an age limit for Netrani scuba diving?",
-      answer:
-        "PADI lists 10 as the minimum age for Discover Scuba Diving. The assigned operator may apply stricter rules, and a child still needs guardian consent, medical screening, suitable conditions and the ability to complete required skills. Confirm the exact programme before paying.",
-    },
-    {
-      question: "Can I scuba dive if I wear glasses?",
-      answer:
-        "Yes. You can usually scuba dive with contact lenses, or you can request a prescription mask in advance (subject to availability). Confirm options while booking.",
-    },
-    {
-      question: "Is pickup included for scuba diving bookings?",
-      answer:
-        "Pickup depends on the selected operator, your stay and the written package. First obtain the exact meeting-point pin and reporting time, then compare the operator's pickup or a separately priced local taxi.",
-    },
-    {
-      question: "What is the contact number for Murudeshwar scuba diving booking?",
-      answer:
-        "For Murudeshwar scuba diving booking support, call or WhatsApp +91 78299 75777. Share your date, number of people, swimming comfort, and whether you need boat-only, snorkeling, or scuba.",
-    },
-    {
-      question: "What happens if Netrani scuba diving is cancelled due to weather?",
-      answer:
-        "Netrani scuba diving depends on sea and weather conditions. If the operator pauses trips for safety, we help you check the next suitable slot, reschedule where possible, or choose an alternate Murudeshwar plan. Refund or adjustment terms depend on the confirmed operator policy, so ask before paying.",
-    },
-  ];
+  const faqItems = pageData.faqItems;
 
   const schemas = [
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#breadcrumb",
-      "name": "Breadcrumbs",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://www.murudeshwarscubadive.in",
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Scuba Diving",
-          "item": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-        },
-      ],
-    },
+    pageData.breadcrumbList,
     {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -170,219 +76,21 @@ export default function ScubaDivingMurudeshwar() {
         "@id": `https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#faq-q${idx + 1}`,
       })),
     },
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#webpage",
-      "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-      "name": "Scuba Diving in Murudeshwar | Price, Booking and Netrani Guide",
-      "description":
-        "Scuba diving in Murudeshwar at Netrani with price guidance, booking help, timing, and dive-day planning for beginners and non-swimmers.",
-      "inLanguage": "en-IN",
-      "isPartOf": {
-        "@id": "https://www.murudeshwarscubadive.in/#website",
-      },
-      "publisher": {
-        "@id": "https://www.murudeshwarscubadive.in/#organization",
-      },
-      "primaryImageOfPage": {
-        "@type": "ImageObject",
-        "url": "https://www.murudeshwarscubadive.in/images/netrani-diver.png",
-      },
-      "datePublished": "2024-01-01",
-      "dateModified": "2026-08-09",
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "additionalType": "https://schema.org/SportsActivityLocation",
-      "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#scuba",
-      "name": "Book Murudeshwar Scuba Diving (Netrani Island)",
-      "description":
-        "Scuba diving in Murudeshwar at Netrani Island with beginner-friendly guidance, local coordination, and clear price support.",
-      "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-      "telephone": "+917829975777",
-      "image": "https://www.murudeshwarscubadive.in/images/netrani-diver.png",
-      "logo": "https://www.murudeshwarscubadive.in/favicon-32x32.png",
-      "email": "murudeshwar.scuba.dive@gmail.com",
-      "priceRange": "₹3,500 - ₹4,500",
-      "currenciesAccepted": "INR",
-      "paymentAccepted": "Cash, UPI",
-      "slogan": "Trusted local booking support for Netrani Island scuba slots",
-      "parentOrganization": {
-        "@id": "https://www.murudeshwarscubadive.in/#organization",
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Sea View Road, Near Temple",
-        "addressLocality": "Murudeshwar",
-        "addressRegion": "Karnataka",
-        "postalCode": "581350",
-        "addressCountry": "IN",
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 14.0942,
-        "longitude": 74.484,
-      },
-      "areaServed": [
-        {
-          "@type": "City",
-          "name": "Murudeshwar",
-        },
-        {
-          "@type": "City",
-          "name": "Bhatkal",
-        },
-        {
-          "@type": "City",
-          "name": "Gokarna",
-        },
-        {
-          "@type": "City",
-          "name": "Honnavar",
-        },
-      ],
-      "openingHoursSpecification": [
-        {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          "opens": "07:00",
-          "closes": "17:00",
-        },
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+917829975777",
-          "contactType": "booking",
-          "availableLanguage": ["en", "hi", "kn"],
-        },
-      ],
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      "serviceType": "Scuba Diving",
-      "name": "Netrani Island Scuba Diving (Discover Scuba Diving - DSD)",
-      "description":
-        "Local booking and coordination support for beginner-friendly scuba diving in Murudeshwar at Netrani Island with equipment, briefing, instructor support, and underwater photos/videos.",
-      "provider": {
-        "@type": "LocalBusiness",
-        "@id": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#scuba",
-      },
-      "areaServed": {
-        "@type": "City",
-        "name": "Murudeshwar",
-      },
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Netrani Boat Ride Only",
-          "price": "1200",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-          "validFrom": "2026-08-09",
-          "description": "Boat ride option for companions who want the offshore Netrani trip without a scuba session.",
-        },
-        {
-          "@type": "Offer",
-          "name": "Netrani Snorkeling",
-          "price": "1500",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-          "validFrom": "2026-08-09",
-          "description":
-            "Surface-level snorkeling option for families, companions, and lower-commitment water activity plans.",
-        },
-        {
-          "@type": "Offer",
-          "name": "Discover Scuba Diving (Beginner / Non-swimmer friendly)",
-          "price": "3500",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-          "validFrom": "2026-08-09",
-          "description":
-            "Full-day experience with boat ride, training, equipment, guided dive, and underwater photos/videos (varies by package).",
-        },
-        {
-          "@type": "Offer",
-          "name": "Fun Dive / PADI Track",
-          "price": "4000",
-          "priceCurrency": "INR",
-          "availability": "https://schema.org/InStock",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-          "validFrom": "2026-08-09",
-          "description":
-            "Certified-diver fun dive and PADI-track options depending on certification level, date, and sea conditions.",
-        },
-      ],
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "HowTo",
-      "name": "How to book scuba diving in Murudeshwar at Netrani Island",
-      "description": "Simple booking steps for beginners: confirm price, slots, meeting point, and day plan.",
-      "totalTime": "PT9H",
-      "supply": [
-        {
-          "@type": "HowToSupply",
-          "name": "Valid ID proof",
-        },
-      ],
-      "tool": [
-        {
-          "@type": "HowToTool",
-          "name": "Swimwear / quick-dry clothes",
-        },
-        {
-          "@type": "HowToTool",
-          "name": "Towel",
-        },
-      ],
-      "step": [
-        {
-          "@type": "HowToStep",
-          "name": "Message to confirm slots",
-          "text":
-            "Send a WhatsApp message with your date, number of people, and whether anyone is a non-swimmer. We will confirm availability and inclusions.",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#book",
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Arrive at the meeting point",
-          "text":
-            "Reach the assigned Murudeshwar meeting point at the reporting time stated in your written confirmation.",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#meeting-point",
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Briefing and training",
-          "text": "Complete safety briefing, equipment check, and shallow-water practice with the instructor.",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#safety",
-        },
-        {
-          "@type": "HowToStep",
-          "name": "Boat ride and guided dive",
-          "text": "Take the boat to Netrani Island and do the guided dive with instructor support.",
-          "url": "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar#schedule",
-        },
-      ],
-    },
+    pageData.webPage,
+    pageData.localBusiness,
+    pageData.service,
+    pageData.product,
+    pageData.howTo,
   ];
 
   return (
     <main className="service-page netrani-theme">
-      {schemas.map((schema, idx) => (
-        <script
-          key={idx}
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-        />
-      ))}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(schemas).replace(/</g, "\\u003c"),
+        }}
+      />
       <section className="service-hero service-hero--offset netrani-hero">
         <div className="service-container">
           <div className="service-hero__inner">
@@ -525,55 +233,24 @@ export default function ScubaDivingMurudeshwar() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>Live price and package</td>
-                      <td>₹3,500-₹4,500 beginner scuba range, boat ride and exact media inclusion</td>
-                      <td>Prevents paying for a cheaper plan that excludes photos, videos, or support</td>
-                    </tr>
-                    <tr>
-                      <td>Operator fit</td>
-                      <td>Assigned centre, instructor credentials, supervision and water-skill checks</td>
-                      <td>Matches first-timers with the right dive team instead of only the lowest rate</td>
-                    </tr>
-                    <tr>
-                      <td>Booking steps</td>
-                      <td>WhatsApp confirmation, reporting time, meeting point and local payment terms</td>
-                      <td>Keeps the dive day clear before you travel to Murudeshwar</td>
-                    </tr>
-                    <tr>
-                      <td>Weather and sea policy</td>
-                      <td>Reschedule, alternate slot, refund or adjustment rule for that operator</td>
-                      <td>Netrani trips depend on sea conditions and safety decisions</td>
-                    </tr>
-                    <tr>
-                      <td>Independent review check</td>
-                      <td>Recent, independently verifiable feedback for the assigned operator</td>
-                      <td>Adds confidence for families, non-swimmers and first-time divers</td>
-                    </tr>
+                    {pageData.bookingProofChecklist.map((item, idx) => (
+                      <tr key={idx}>
+                        <td>{item.proofPoint}</td>
+                        <td>{item.confirm}</td>
+                        <td>{item.why}</td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
               <div className="netrani-proof-grid" aria-label="Netrani scuba booking steps">
-                <div className="netrani-proof">
-                  <i className="ri-checkbox-circle-line" aria-hidden="true"></i>
-                  <strong>Step 1</strong>
-                  <span>Share date, group size, age range and swimming comfort</span>
-                </div>
-                <div className="netrani-proof">
-                  <i className="ri-checkbox-circle-line" aria-hidden="true"></i>
-                  <strong>Step 2</strong>
-                  <span>Confirm price, inclusions, operator fit and media deliverables</span>
-                </div>
-                <div className="netrani-proof">
-                  <i className="ri-checkbox-circle-line" aria-hidden="true"></i>
-                  <strong>Step 3</strong>
-                  <span>Receive reporting point, timing and weather/reschedule note</span>
-                </div>
-                <div className="netrani-proof">
-                  <i className="ri-checkbox-circle-line" aria-hidden="true"></i>
-                  <strong>Step 4</strong>
-                  <span>Reach the meeting point and complete briefing before the boat ride</span>
-                </div>
+                {pageData.bookingSteps.map((step, idx) => (
+                  <div key={idx} className="netrani-proof">
+                    <i className="ri-checkbox-circle-line" aria-hidden="true"></i>
+                    <strong>{step.step}</strong>
+                    <span>{step.text}</span>
+                  </div>
+                ))}
               </div>
               <div className="service-hero__actions">
                 <a
@@ -604,51 +281,23 @@ export default function ScubaDivingMurudeshwar() {
             </p>
           </header>
           <div className="netrani-thumbnail-grid" aria-label="Netrani scuba dive day preview">
-            <figure className="netrani-thumbnail-card">
-              <img
-                alt="Netrani scuba briefing on the dive boat before departure from Murudeshwar"
-                loading="lazy"
-                width={1200}
-                height={675}
-                className="netrani-thumbnail-card__img"
-                style={{ color: "transparent" }}
-                src="/images/blog/scuba-instructor-hand-signal.jpg"
-              />
-              <figcaption className="netrani-thumbnail-card__body">
-                <strong>Briefing first</strong>
-                <span>Boat-side briefing, hand signals, and gear checks before the dive.</span>
-              </figcaption>
-            </figure>
-            <figure className="netrani-thumbnail-card">
-              <img
-                alt="Beginner-friendly scuba support for a non-swimmer at Netrani Island"
-                loading="lazy"
-                width={1200}
-                height={675}
-                className="netrani-thumbnail-card__img"
-                style={{ color: "transparent" }}
-                src="/images/blog/snorkelling-fish-netrani.jpg"
-              />
-              <figcaption className="netrani-thumbnail-card__body">
-                <strong>Beginner support</strong>
-                <span>Close instructor support after participant eligibility and skills checks.</span>
-              </figcaption>
-            </figure>
-            <figure className="netrani-thumbnail-card">
-              <img
-                alt="Scuba gear and package planning on a Murudeshwar dive boat"
-                loading="lazy"
-                width={1200}
-                height={675}
-                className="netrani-thumbnail-card__img"
-                style={{ color: "transparent" }}
-                src="/images/netrani-scuba-cover.png"
-              />
-              <figcaption className="netrani-thumbnail-card__body">
-                <strong>Gear clarity</strong>
-                <span>Clean equipment layout and a simple checklist for the dive day.</span>
-              </figcaption>
-            </figure>
+            {pageData.diveDayPreviews.map((preview, idx) => (
+              <figure key={idx} className="netrani-thumbnail-card">
+                <img
+                  alt={preview.alt}
+                  loading="lazy"
+                  width={1200}
+                  height={675}
+                  className="netrani-thumbnail-card__img"
+                  style={{ color: "transparent" }}
+                  src={preview.img}
+                />
+                <figcaption className="netrani-thumbnail-card__body">
+                  <strong>{preview.title}</strong>
+                  <span>{preview.desc}</span>
+                </figcaption>
+              </figure>
+            ))}
           </div>
         </div>
       </section>
@@ -667,38 +316,18 @@ export default function ScubaDivingMurudeshwar() {
                     in writing. Pay only after those details and the cancellation policy are clear.
                   </p>
                   <div className="netrani-proof-grid" aria-label="Book Murudeshwar scuba proof">
-                    <div className="netrani-proof">
-                      <i className="ri-whatsapp-line" aria-hidden="true"></i>
-                      <strong>Written slot confirmation</strong>
-                      <span>Date, group size, package, reporting time, and inclusions confirmed before travel.</span>
-                    </div>
-                    <div className="netrani-proof">
-                      <i className="ri-shield-check-line" aria-hidden="true"></i>
-                      <strong>Operator identity check</strong>
-                      <span>
-                        Ask for the centre name and credentials that apply to your actual slot; a general PADI logo or
-                        third-party listing is not enough.
-                      </span>
-                    </div>
-                    <div className="netrani-proof">
-                      <i className="ri-money-rupee-circle-line" aria-hidden="true"></i>
-                      <strong>Clear payment flow</strong>
-                      <span>
-                        No vague poster price. Confirm what is included, then pay as per the confirmed dive-center
-                        terms.
-                      </span>
-                    </div>
-                    <div className="netrani-proof">
-                      <i className="ri-cloud-windy-line" aria-hidden="true"></i>
-                      <strong>Weather-aware planning</strong>
-                      <span>If the sea is not suitable, we help check reschedule options or a backup Murudeshwar plan.</span>
-                    </div>
+                    {pageData.whyBookReasoning.map((item, idx) => (
+                      <div key={idx} className="netrani-proof">
+                        <i className={item.icon} aria-hidden="true"></i>
+                        <strong>{item.title}</strong>
+                        <span>{item.desc}</span>
+                      </div>
+                    ))}
                   </div>
                   <div className="netrani-booking-flow" aria-label="Scuba booking flow">
-                    <span>1. WhatsApp your date</span>
-                    <span>2. Confirm package and inclusions</span>
-                    <span>3. Reach the meeting point</span>
-                    <span>4. Dive with instructor support</span>
+                    {pageData.whyBookFlow.map((flowStep, idx) => (
+                      <span key={idx}>{flowStep}</span>
+                    ))}
                   </div>
                 </div>
                 <figure className="netrani-split__media netrani-split__figure">
@@ -731,42 +360,20 @@ export default function ScubaDivingMurudeshwar() {
                 These graphics are retained as <strong>editorial examples</strong> of useful booking conversations and actual scuba explorations around Netrani. Use them to see what to ask about price, eligibility, weather and media delivery; request independently verifiable recent reviews for the assigned operator if those matter to your decision.
               </p>
               <div className="netrani-testimonial-grid" aria-label="Illustrative scuba booking conversation scenarios">
-                <figure className="netrani-testimonial-shot">
-                  <img
-                    alt="Illustrative booking scenario and actual scuba exploration photo 1"
-                    loading="lazy"
-                    width={1080}
-                    height={1620}
-                    className="netrani-testimonial-shot__img"
-                    style={{ color: "transparent" }}
-                    src="/images/gallery/gallery-4.webp"
-                  />
-                  <figcaption>Example questions about booking and dive-day guidance</figcaption>
-                </figure>
-                <figure className="netrani-testimonial-shot">
-                  <img
-                    alt="Illustrative booking scenario and actual scuba exploration photo 2"
-                    loading="lazy"
-                    width={1080}
-                    height={1620}
-                    className="netrani-testimonial-shot__img"
-                    style={{ color: "transparent" }}
-                    src="/images/gallery/gallery-5.webp"
-                  />
-                  <figcaption>Example questions about price and weather terms</figcaption>
-                </figure>
-                <figure className="netrani-testimonial-shot">
-                  <img
-                    alt="Illustrative booking scenario and actual scuba exploration photo 3"
-                    loading="lazy"
-                    width={1080}
-                    height={1620}
-                    className="netrani-testimonial-shot__img"
-                    style={{ color: "transparent" }}
-                    src="/images/gallery/gallery-6.webp"
-                  />
-                  <figcaption>Example questions about eligibility and media delivery</figcaption>
-                </figure>
+                {pageData.bookingScenarios.map((scenario, idx) => (
+                  <figure key={idx} className="netrani-testimonial-shot">
+                    <img
+                      alt={scenario.alt}
+                      loading="lazy"
+                      width={1080}
+                      height={1620}
+                      className="netrani-testimonial-shot__img"
+                      style={{ color: "transparent" }}
+                      src={scenario.img}
+                    />
+                    <figcaption>{scenario.caption}</figcaption>
+                  </figure>
+                ))}
               </div>
             </div>
           </div>
@@ -785,143 +392,37 @@ export default function ScubaDivingMurudeshwar() {
               </p>
             </div>
             <div className="pricing-section__grid">
-              <article className="pricing-card">
-                <div className="pricing-card__top">
-                  <span className="pricing-card__badge">Relaxed</span>
-                  <h3 className="pricing-card__title">Boat Ride Only</h3>
-                  <div className="pricing-card__price-wrap">
-                    <p className="pricing-card__price">₹1,200 - ₹1,500</p>
-                    <p className="pricing-card__price-note">No dive session</p>
+              {pageData.pricingPlans.map((plan, idx) => (
+                <article key={idx} className={`pricing-card ${plan.featured ? "pricing-card--featured" : ""}`}>
+                  <div className="pricing-card__top">
+                    <span className="pricing-card__badge">{plan.badge}</span>
+                    <h3 className="pricing-card__title">{plan.title}</h3>
+                    <div className="pricing-card__price-wrap">
+                      <p className="pricing-card__price">{plan.price}</p>
+                      <p className="pricing-card__price-note">{plan.priceNote}</p>
+                    </div>
+                    <p className="pricing-card__description">{plan.desc}</p>
                   </div>
-                  <p className="pricing-card__description">
-                    A planning option for companions considering an offshore boat outing around Netrani without scuba. Landing on the island is prohibited; confirm whether boat-only passengers are accepted.
-                  </p>
-                </div>
-                <ul className="pricing-card__features">
-                  <li className="pricing-card__feature">
-                    <span>Offshore ride only</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>No scuba briefing needed</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>Good for mixed groups</span>
-                  </li>
-                </ul>
-                <div className="pricing-card__footer">
-                  <a
-                    href="https://wa.me/917829975777?text=Hi!%20Please%20share%20boat-only%20Netrani%20trip%20details."
-                    className="pricing-card__cta"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ask Boat Option
-                  </a>
-                </div>
-              </article>
-              <article className="pricing-card">
-                <div className="pricing-card__top">
-                  <span className="pricing-card__badge">Easy Start</span>
-                  <h3 className="pricing-card__title">Snorkeling</h3>
-                  <div className="pricing-card__price-wrap">
-                    <p className="pricing-card__price">₹1,500 - ₹2,000</p>
-                    <p className="pricing-card__price-note">Lower-commitment water option</p>
+                  <ul className="pricing-card__features">
+                    {plan.features.map((feature, fIdx) => (
+                      <li key={fIdx} className="pricing-card__feature">
+                        <span>{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="pricing-card__footer">
+                    <a
+                      href={plan.ctaLink}
+                      className="pricing-card__cta"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {plan.ctaText}
+                    </a>
+                    {plan.ctaSubtext && <p className="pricing-card__cta-subtext">{plan.ctaSubtext}</p>}
                   </div>
-                  <p className="pricing-card__description">
-                    A planning option for eligible non-divers who want a surface activity. Confirm swimming or water-comfort requirements and supervision.
-                  </p>
-                </div>
-                <ul className="pricing-card__features">
-                  <li className="pricing-card__feature">
-                    <span>Surface-level activity</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>Life jacket support</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>Lower spend than scuba</span>
-                  </li>
-                </ul>
-                <div className="pricing-card__footer">
-                  <a
-                    href="https://wa.me/917829975777?text=Hi!%20Please%20share%20Netrani%20snorkeling%20timings%20and%20price."
-                    className="pricing-card__cta"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Check Snorkeling
-                  </a>
-                </div>
-              </article>
-              <article className="pricing-card pricing-card--featured">
-                <div className="pricing-card__top">
-                  <span className="pricing-card__badge">Most Popular</span>
-                  <h3 className="pricing-card__title">Discover Scuba</h3>
-                  <div className="pricing-card__price-wrap">
-                    <p className="pricing-card__price">₹3,500 - ₹4,500</p>
-                    <p className="pricing-card__price-note">Most booked first-timer package</p>
-                  </div>
-                  <p className="pricing-card__description">
-                    The standard beginner plan for Murudeshwar visitors who want the full Netrani experience.
-                  </p>
-                </div>
-                <ul className="pricing-card__features">
-                  <li className="pricing-card__feature">
-                    <span>Confirm boat + gear + training</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>Confirm supervision and skills</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>Confirm media deliverables</span>
-                  </li>
-                </ul>
-                <div className="pricing-card__footer">
-                  <a
-                    href="https://wa.me/917829975777?text=I%20want%20to%20book%20Scuba%20Diving"
-                    className="pricing-card__cta"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Check Scuba Slot
-                  </a>
-                  <p className="pricing-card__cta-subtext">For eligible beginners after health and water-comfort checks.</p>
-                </div>
-              </article>
-              <article className="pricing-card">
-                <div className="pricing-card__top">
-                  <span className="pricing-card__badge">Advanced</span>
-                  <h3 className="pricing-card__title">Fun Dive / PADI Track</h3>
-                  <div className="pricing-card__price-wrap">
-                    <p className="pricing-card__price">₹4,000 - ₹25,000+</p>
-                    <p className="pricing-card__price-note">Certified dives to full courses</p>
-                  </div>
-                  <p className="pricing-card__description">
-                    Best when you already know your certification level or want a multi-day dive path.
-                  </p>
-                </div>
-                <ul className="pricing-card__features">
-                  <li className="pricing-card__feature">
-                    <span>1-tank and 2-tank dives</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>PADI course options</span>
-                  </li>
-                  <li className="pricing-card__feature">
-                    <span>Certification-dependent</span>
-                  </li>
-                </ul>
-                <div className="pricing-card__footer">
-                  <a
-                    href="https://wa.me/917829975777?text=Hi!%20Please%20share%20fun-dive%20and%20PADI%20course%20options%20for%20Netrani."
-                    className="pricing-card__cta"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ask Advanced Options
-                  </a>
-                </div>
-              </article>
+                </article>
+              ))}
             </div>
             <p className="pricing-section__note">
               Only the roughly ₹3,500 beginner starting point was matched to a current public operator example. Other
@@ -945,21 +446,11 @@ export default function ScubaDivingMurudeshwar() {
                     packages guide.
                   </p>
                   <div className="netrani-facts" role="list" aria-label="Scuba diving quick facts">
-                    <div className="netrani-fact" role="listitem">
-                      <strong>Starting price:</strong> ₹3,500 per person
-                    </div>
-                    <div className="netrani-fact" role="listitem">
-                      <strong>Trip type:</strong> Allow much of the day; get the operator's written schedule
-                    </div>
-                    <div className="netrani-fact" role="listitem">
-                      <strong>Boat ride:</strong> Duration varies by departure, vessel and sea conditions
-                    </div>
-                    <div className="netrani-fact" role="listitem">
-                      <strong>Swimming needed:</strong> Ask for an individual water-comfort and skills assessment
-                    </div>
-                    <div className="netrani-fact" role="listitem">
-                      <strong>Best season:</strong> Typically Oct to May (monsoon may be limited)
-                    </div>
+                    {pageData.quickFacts.map((fact, idx) => (
+                      <div key={idx} className="netrani-fact" role="listitem">
+                        <strong>{fact.label}:</strong> {fact.value}
+                      </div>
+                    ))}
                   </div>
                 </div>
                 <div className="netrani-split__media" aria-label="Netrani Island scuba diving photo">
@@ -975,26 +466,9 @@ export default function ScubaDivingMurudeshwar() {
               </div>
               <nav className="netrani-toc" aria-label="On this page">
                 <span className="netrani-toc__label">On this page:</span>
-                <a href="#booking-proof">Booking proof</a>
-                <a href="#why-book">Why book</a>
-                <a href="#guide">Complete guide</a>
-                <a href="#how-it-works">How it works</a>
-                <a href="#prices">Prices</a>
-                <a href="#cost-breakdown">Cost breakdown</a>
-                <a href="#package">Package</a>
-                <a href="#schedule">Day plan</a>
-                <a href="#safety">Safety and eligibility</a>
-                <a href="#meeting-point">Meeting point</a>
-                <a href="#packages">Packages</a>
-                <a href="#compare-booking">Compare booking</a>
-                <a href="#non-swimmers">Non-swimmers</a>
-                <a href="#best-time">Best time</a>
-                <a href="#what-to-carry">What to carry</a>
-                <a href="#stay">Where to stay</a>
-                <a href="#itinerary">Trip plan</a>
-                <a href="#faq">FAQ</a>
-                <a href="#testimonials">Booking examples</a>
-                <a href="#book">Book now</a>
+                {pageData.tocLinks.map((link, idx) => (
+                  <a key={idx} href={link.href}>{link.label}</a>
+                ))}
               </nav>
               <p className="section__description">
                 Need a deeper package comparison after checking the price range here? Read{" "}
@@ -1469,22 +943,12 @@ export default function ScubaDivingMurudeshwar() {
                 .
               </p>
               <div className="service-stats">
-                <div className="service-stat netrani-stat">
-                  <span className="service-stat__value">Variable</span>
-                  <span className="service-stat__label">Daily visibility</span>
-                </div>
-                <div className="service-stat netrani-stat">
-                  <span className="service-stat__value">No promise</span>
-                  <span className="service-stat__label">Species sightings</span>
-                </div>
-                <div className="service-stat netrani-stat">
-                  <span className="service-stat__value">Assess</span>
-                  <span className="service-stat__label">Water comfort &amp; skills</span>
-                </div>
-                <div className="service-stat netrani-stat">
-                  <span className="service-stat__value">Confirm</span>
-                  <span className="service-stat__label">Photo/video inclusion</span>
-                </div>
+                {pageData.whyNetraniStats.map((stat, idx) => (
+                  <div key={idx} className="service-stat netrani-stat">
+                    <span className="service-stat__value">{stat.value}</span>
+                    <span className="service-stat__label">{stat.label}</span>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
@@ -1514,22 +978,12 @@ export default function ScubaDivingMurudeshwar() {
             </div>
             <div className="service-card__body">
               <ul className="service-feature-list">
-                <li className="service-feature netrani-feature">
-                  <i className="ri-ship-line" aria-hidden="true"></i>
-                  <span>Confirm the offshore boat route around Netrani (about 19 km)</span>
-                </li>
-                <li className="service-feature netrani-feature">
-                  <i className="ri-camera-lens-line" aria-hidden="true"></i>
-                  <span>Confirm underwater photo/video quantity and delivery</span>
-                </li>
-                <li className="service-feature netrani-feature">
-                  <i className="ri-restaurant-line" aria-hidden="true"></i>
-                  <span>Confirm food and drinking-water inclusion</span>
-                </li>
-                <li className="service-feature netrani-feature">
-                  <i className="ri-shield-check-line" aria-hidden="true"></i>
-                  <span>Ask for the assigned centre and instructor credentials</span>
-                </li>
+                {pageData.dsdPackageFeatures.map((feature, idx) => (
+                  <li key={idx} className="service-feature netrani-feature">
+                    <i className={feature.icon} aria-hidden="true"></i>
+                    <span>{feature.text}</span>
+                  </li>
+                ))}
               </ul>
               <div className="service-stack text-center mt-6">
                 <a href="tel:+917829975777" className="btn-3d netrani-btn-blue service-btn-center">
@@ -1622,30 +1076,16 @@ export default function ScubaDivingMurudeshwar() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>
-                        <strong>Book Murudeshwar local support</strong>
-                      </td>
-                      <td>Travellers who want price, slot, pickup, and inclusion clarity</td>
-                      <td>Package type, reporting time, media, payment terms, weather plan</td>
-                      <td>Written details reduce ambiguity but do not remove activity risk</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>Direct dive center</strong>
-                      </td>
-                      <td>Divers who already know the operator and package</td>
-                      <td>Certification status, inclusions, refund/reschedule rule</td>
-                      <td>You may still need separate stay/taxi coordination</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <strong>Marketplace or review listing</strong>
-                      </td>
-                      <td>Researching operators and reviews before deciding</td>
-                      <td>Recent reviews, actual operator contact, final package price</td>
-                      <td>Listing quality may not equal current slot availability</td>
-                    </tr>
+                    {pageData.bookingComparison.map((item, idx) => (
+                      <tr key={idx}>
+                        <td>
+                          <strong>{item.route}</strong>
+                        </td>
+                        <td>{item.bestFor}</td>
+                        <td>{item.verify}</td>
+                        <td>{item.risk}</td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>
@@ -1678,21 +1118,11 @@ export default function ScubaDivingMurudeshwar() {
           <div className="service-card">
             <div className="service-card__body">
               <ol className="service-ol">
-                <li>
-                  <strong>Reporting</strong> at the time and meeting point stated by your operator
-                </li>
-                <li>
-                  <strong>Boat ride</strong> to Netrani Island (Pigeon Island)
-                </li>
-                <li>
-                  <strong>Training</strong> and shallow-water practice with instructor
-                </li>
-                <li>
-                  <strong>Guided dive</strong> (time varies by conditions and package)
-                </li>
-                <li>
-                  <strong>Return</strong> at the operator's condition-dependent estimate
-                </li>
+                {pageData.scheduleSteps.map((step, idx) => (
+                  <li key={idx}>
+                    <strong>{step.title}</strong> {step.text}
+                  </li>
+                ))}
               </ol>
               <p className="service-note">
                 The sequence is useful, but no universal reporting time, boat duration or return time was independently
@@ -1768,33 +1198,14 @@ export default function ScubaDivingMurudeshwar() {
           <div className="service-card">
             <div className="service-card__body">
               <ul className="service-feature-list">
-                <li className="service-feature netrani-feature">
-                  <i className="ri-user-smile-line" aria-hidden="true"></i>
-                  <span>
-                    <strong>Beginner-friendly:</strong> Discover Scuba Diving (DSD) with instructor support.
-                  </span>
-                </li>
-                <li className="service-feature netrani-feature">
-                  <i className="ri-heart-pulse-line" aria-hidden="true"></i>
-                  <span>
-                    <strong>Medical conditions:</strong> If you have asthma, recent surgery, pregnancy, medication
-                    questions, or heart/lung issues, complete the medical form and seek a physician's clearance when
-                    required; booking support cannot approve fitness to dive.
-                  </span>
-                </li>
-                <li className="service-feature netrani-feature">
-                  <i className="ri-parent-line" aria-hidden="true"></i>
-                  <span>
-                    <strong>Kids:</strong> PADI's DSD minimum age is 10. The operator may be stricter, and guardian
-                    consent, medical screening, skills and suitable conditions still apply.
-                  </span>
-                </li>
-                <li className="service-feature netrani-feature">
-                  <i className="ri-cloud-windy-line" aria-hidden="true"></i>
-                  <span>
-                    <strong>Sea conditions:</strong> Trips depend on weather and visibility. Safety comes first.
-                  </span>
-                </li>
+                {pageData.safetyChecklist.map((item, idx) => (
+                  <li key={idx} className="service-feature netrani-feature">
+                    <i className={item.icon} aria-hidden="true"></i>
+                    <span>
+                      <strong>{item.title}</strong> {item.desc}
+                    </span>
+                  </li>
+                ))}
               </ul>
               <p className="service-note mt-4">
                 Want the full beginner explanation? Read{" "}
@@ -1823,26 +1234,11 @@ export default function ScubaDivingMurudeshwar() {
                 beginners, and whether they make sensible decisions when sea conditions change.
               </p>
               <ul className="service-ol font-semibold text-gray-400 space-y-2 mt-2">
-                <li>
-                  <strong className="text-white">Clear inclusions:</strong> You get a written confirmation of what is
-                  included in your package.
-                </li>
-                <li>
-                  <strong className="text-white">Beginner-first briefing:</strong> The team is patient and explains
-                  without rushing.
-                </li>
-                <li>
-                  <strong className="text-white">Equipment checks:</strong> They check mask fit and regulator comfort
-                  before starting.
-                </li>
-                <li>
-                  <strong className="text-white">Responsible decisions:</strong> They do not promise a “guaranteed”
-                  underwater time regardless of conditions.
-                </li>
-                <li>
-                  <strong className="text-white">Comfort over speed:</strong> They allow extra time for breathing
-                  practice for non-swimmers.
-                </li>
+                {pageData.operatorChecklist.map((item, idx) => (
+                  <li key={idx}>
+                    <strong className="text-white">{item.title}</strong> {item.desc}
+                  </li>
+                ))}
               </ul>
               <p className="service-lede service-lede--spaced">
                 Use these basics to question any operator proposed for your group. We can help compare options, but you
@@ -1898,26 +1294,12 @@ export default function ScubaDivingMurudeshwar() {
                   <div className="service-card__body">
                     <h3 className="section__title netrani-h2">Carry</h3>
                     <ul className="service-feature-list">
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-t-shirt-2-line" aria-hidden="true"></i>
-                        <span>Swimwear or quick-dry clothes</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-drop-line" aria-hidden="true"></i>
-                        <span>Towel and a change of clothes</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-sun-line" aria-hidden="true"></i>
-                        <span>Sunscreen and cap (boat ride)</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-id-card-line" aria-hidden="true"></i>
-                        <span>Valid ID proof</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-medicine-bottle-line" aria-hidden="true"></i>
-                        <span>Personal medicines (if any)</span>
-                      </li>
+                      {pageData.packingList.carry.map((item, idx) => (
+                        <li key={idx} className="service-feature netrani-feature">
+                          <i className={item.icon} aria-hidden="true"></i>
+                          <span>{item.text}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -1925,22 +1307,12 @@ export default function ScubaDivingMurudeshwar() {
                   <div className="service-card__body">
                     <h3 className="section__title netrani-h2">Avoid</h3>
                     <ul className="service-feature-list">
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-restaurant-2-line" aria-hidden="true"></i>
-                        <span>Very heavy meals right before the dive</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-goblet-line" aria-hidden="true"></i>
-                        <span>Alcohol the night before</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-timer-line" aria-hidden="true"></i>
-                        <span>Late reporting (harbour timings are strict)</span>
-                      </li>
-                      <li className="service-feature netrani-feature">
-                        <i className="ri-alert-line" aria-hidden="true"></i>
-                        <span>Ignoring the safety briefing</span>
-                      </li>
+                      {pageData.packingList.avoid.map((item, idx) => (
+                        <li key={idx} className="service-feature netrani-feature">
+                          <i className={item.icon} aria-hidden="true"></i>
+                          <span>{item.text}</span>
+                        </li>
+                      ))}
                     </ul>
                   </div>
                 </div>
@@ -2081,54 +1453,8 @@ export default function ScubaDivingMurudeshwar() {
         </div>
       </section>
 
-      <section className="service-section netrani-soft" id="people-also-ask">
-        <div className="service-container">
-          <header className="mb-12 text-center">
-            <span className="section__subtitle">Answers</span>
-            <h2 className="section__title">People also ask (FAQ)</h2>
-            <p className="section__description">
-              These are the most common Google-style questions. Tap a question to jump to the FAQ section for the full
-              answer.
-            </p>
-          </header>
-          <div className="service-card">
-            <div className="service-card__body">
-              <ul className="netrani-jump-list" aria-label="Jump to FAQ questions">
-                <li>
-                  <a href="#faq">What is the Netrani Island scuba diving price from Murudeshwar?</a>
-                </li>
-                <li>
-                  <a href="#faq">What is the scuba diving price per person in Murudeshwar?</a>
-                </li>
-                <li>
-                  <a href="#faq">How do I book scuba diving in Murudeshwar?</a>
-                </li>
-                <li>
-                  <a href="#faq">What is included in the Netrani Island scuba diving price?</a>
-                </li>
-                <li>
-                  <a href="#faq">Do I need to know swimming for scuba diving in Murudeshwar?</a>
-                </li>
-                <li>
-                  <a href="#faq">What is the best time for Netrani Island scuba diving?</a>
-                </li>
-                <li>
-                  <a href="#faq">How long is the scuba diving trip to Netrani Island?</a>
-                </li>
-                <li>
-                  <a href="#faq">Is scuba diving at Netrani Island safe?</a>
-                </li>
-                <li>
-                  <a href="#faq">What should I carry for scuba diving in Murudeshwar?</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="netrani-faq relative overflow-hidden bg-white py-20" id="faq">
-        <div className="absolute left-0 top-0 h-[1px] w-full bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
+      <section className="service-section netrani-soft netrani-faq relative overflow-hidden" id="faq">
+        <div className="absolute left-0 top-0 h-[1px] w-full bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
         <div className="service-container">
           <div className="mb-12 text-center">
             <span className="section__subtitle">FAQ</span>
@@ -2148,45 +1474,14 @@ export default function ScubaDivingMurudeshwar() {
               <span className="section__subtitle">Sources checked</span>
               <h2 className="section__title netrani-h2">What is verified—and what still needs a live check</h2>
               <ul className="service-ol font-semibold text-gray-400 space-y-2 mt-2">
-                <li>
-                  <a href="https://blog.padi.com/discover-scuba-diving-faqs/" target="_blank" rel="noopener noreferrer">
-                    PADI's Discover Scuba Diving FAQ
-                  </a>{" "}
-                  supports the minimum age of 10, water-comfort requirement and medical questionnaire. It does not
-                  approve a specific Netrani participant or operator.
-                </li>
-                <li>
-                  <a href="https://www.padi.com/dive-center/india/scuba-spirit/" target="_blank" rel="noopener noreferrer">
-                    PADI's Murudeshwar centre directory
-                  </a>{" "}
-                  lists Scuba Spirit. It does not prove that every package sold locally is operated by that centre.
-                </li>
-                <li>
-                  <a href="https://dolphindive.net/" target="_blank" rel="noopener noreferrer">
-                    Dolphin Dive's current public page
-                  </a>{" "}
-                  shows ₹3,499 and ₹4,499 examples with different inclusions. It supports the “from ₹3,500” comparison
-                  point, not a universal market tariff.
-                </li>
-                <li>
-                  <a href="https://karnatakatourism.org/en/destinations/gokarna" target="_blank" rel="noopener noreferrer">
-                    Karnataka Tourism's coastal destination guidance
-                  </a>{" "}
-                  notes restricted landing at Netrani and possible monsoon access restrictions. Exact visibility,
-                  sailing time, species sightings and the day's departure remain unverified until the assigned operator
-                  confirms conditions.
-                </li>
-                <li>
-                  <a
-                    href="https://blog.padi.com/7-things-you-should-never-do-immediately-after-diving/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    PADI's flying-after-diving guidance
-                  </a>{" "}
-                  explains the minimum surface intervals; the actual dive profile and dive professional's advice still
-                  control your plan.
-                </li>
+                {pageData.sourcesChecked.map((source, idx) => (
+                  <li key={idx}>
+                    <a href={source.href} target="_blank" rel="noopener noreferrer">
+                      {source.linkText}
+                    </a>{" "}
+                    {source.text}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -2203,252 +1498,42 @@ export default function ScubaDivingMurudeshwar() {
             </p>
           </header>
           <div className="service-links netrani-links">
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Netrani Dive Site Guide"
-                href="/blog/scuba-diving-murudeshwar-netrani-island-guide"
-              >
-                <img
-                  alt="Scuba diving in Murudeshwar guide"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/blog/hero-scuba-diver-netrani-reef.jpg"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-compass-3-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/scuba-diving-murudeshwar-netrani-island-guide">Netrani Dive Site Guide</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
+            {pageData.guides.map((guide, idx) => (
+              <div key={idx} className="service-link-card netrani-link-card">
+                <Link
+                  className="netrani-link-card__media"
+                  aria-label={guide.alt}
+                  href={guide.href}
+                >
+                  <img
+                    alt={guide.alt}
+                    loading="lazy"
+                    width={1200}
+                    height={675}
+                    className="netrani-link-card__img"
+                    style={{ color: "transparent" }}
+                    src={guide.img}
+                  />
+                </Link>
+                <div className="netrani-link-card__head">
+                  <span className="netrani-link-card__icon" aria-hidden="true">
+                    <i className={guide.icon}></i>
+                  </span>
+                  <h3>
+                    <Link href={guide.href}>{guide.title}</Link>
+                  </h3>
+                  <span className="netrani-link-card__arrow" aria-hidden="true">
+                    <i className="ri-arrow-right-line"></i>
+                  </span>
+                </div>
+                <p>{guide.desc}</p>
               </div>
-              <p>Dive-site conditions, visibility, marine life, and first-dive expectations.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Scuba Diving for Non-Swimmers"
-                href="/blog/scuba-diving-murudeshwar-non-swimmers"
-              >
-                <img
-                  alt="Scuba diving for non-swimmers guide"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/blog/netrani-coral-reef-fish.jpg"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-lifebuoy-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/scuba-diving-murudeshwar-non-swimmers">Scuba Diving for Non-Swimmers</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>Non-swimmer safety steps, instructor support, and beginner confidence tips.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Netrani Scuba Package Comparison"
-                href="/blog/scuba-diving-packages-murudeshwar"
-              >
-                <img
-                  alt="Murudeshwar scuba diving packages"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/netrani-scuba-cover.png"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-price-tag-3-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/scuba-diving-packages-murudeshwar">Netrani Scuba Package Comparison</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>Scuba package comparison by inclusions, media, group type, and budget.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Netrani Island Complete Guide"
-                href="/blog/netrani-island-guide"
-              >
-                <img
-                  alt="Netrani Island complete guide"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/blog/snorkelling-fish-netrani.jpg"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-map-2-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/netrani-island-guide">Netrani Island Complete Guide</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>Netrani Island timings, distance, season, and boat-day planning.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Scuba Operator Guide"
-                href="/blog/murudeshwar-scuba-diving-operator"
-              >
-                <img
-                  alt="Where to stay for scuba diving in Murudeshwar"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/gallery/gallery-1.webp"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-shield-user-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/murudeshwar-scuba-diving-operator">Scuba Operator Guide</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>How to choose the right scuba diving operator and verify PADI credentials.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Best Time to Visit Murudeshwar"
-                href="/blog/best-time-scuba-diving-murudeshwar"
-              >
-                <img
-                  alt="Best time to visit Murudeshwar weather guide"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/blog/netrani-coral-reef-fish.jpg"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-sun-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/best-time-scuba-diving-murudeshwar">Best Time to Visit Murudeshwar</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>Month-wise planning patterns with daily weather and sea checks.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Murudeshwar Water Sports &amp; Activities"
-                href="/blog/water-sports-murudeshwar"
-              >
-                <img
-                  alt="Murudeshwar water sports and activities"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/blog/snorkelling-fish-netrani.jpg"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-sailboat-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/water-sports-murudeshwar">
-                    Murudeshwar Water Sports &amp; Activities
-                  </Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>Other water activities to combine with scuba.</p>
-            </div>
-
-            <div className="service-link-card netrani-link-card">
-              <Link
-                className="netrani-link-card__media"
-                aria-label="Scuba Diving Booking Guide"
-                href="/blog/scuba-diving-booking-murudeshwar"
-              >
-                <img
-                  alt="Murudeshwar scuba diving booking guide"
-                  loading="lazy"
-                  width={1200}
-                  height={675}
-                  className="netrani-link-card__img"
-                  style={{ color: "transparent" }}
-                  src="/images/group-divers.png"
-                />
-              </Link>
-              <div className="netrani-link-card__head">
-                <span className="netrani-link-card__icon" aria-hidden="true">
-                  <i className="ri-bookmark-3-line"></i>
-                </span>
-                <h3>
-                  <Link href="/blog/scuba-diving-booking-murudeshwar">Scuba Diving Booking Guide</Link>
-                </h3>
-                <span className="netrani-link-card__arrow" aria-hidden="true">
-                  <i className="ri-arrow-right-line"></i>
-                </span>
-              </div>
-              <p>Simple booking steps, slots, online confirmation, and payment tips.</p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      
+
 
       <section className="service-cta" id="book">
         <div className="service-container">

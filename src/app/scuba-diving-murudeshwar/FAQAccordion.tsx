@@ -15,11 +15,11 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
   };
 
   return (
-    <div className="bg-white rounded-2xl p-6 md:p-8 shadow-[0_8px_30px_rgba(0,0,0,0.04)] border border-gray-100">
+    <div className="glass-panel rounded-2xl p-6 md:p-8 shadow-2xl">
       {items.map((item, index) => {
         const isOpen = openIndex === index;
         return (
-          <div key={index} className="border-b border-gray-100 last:border-0">
+          <div key={index} className="border-b border-white/10 last:border-0">
             <button
               onClick={() => toggle(index)}
               className="w-full py-6 flex items-center justify-between text-left group"
@@ -28,8 +28,8 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
               type="button"
             >
               <span
-                className={`text-lg font-medium transition-colors duration-300 ${
-                  isOpen ? "text-[var(--netrani-blue)]" : "text-gray-800"
+                className={`text-lg font-semibold transition-colors duration-300 ${
+                  isOpen ? "text-[#00D4FF]" : "text-slate-100 group-hover:text-[#00D4FF]"
                 }`}
               >
                 {item.question}
@@ -37,8 +37,8 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
               <span
                 className={`flex-shrink-0 ml-6 w-8 h-8 flex items-center justify-center rounded-full transition-all duration-300 ${
                   isOpen
-                    ? "bg-[var(--netrani-blue)] text-white rotate-180"
-                    : "bg-gray-100 text-gray-500 group-hover:bg-gray-200"
+                    ? "bg-[#00D4FF] text-[#00111F] rotate-180 font-bold"
+                    : "bg-white/5 text-slate-400 group-hover:bg-white/10 group-hover:text-white"
                 }`}
               >
                 {isOpen ? (
@@ -49,7 +49,7 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="2"
+                    strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="lucide lucide-minus"
@@ -65,7 +65,7 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    strokeWidth="2"
+                    strokeWidth="2.5"
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     className="lucide lucide-plus"
@@ -83,19 +83,19 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
               }`}
             >
               <div className="overflow-hidden">
-                <p className="text-gray-600 leading-relaxed">{item.answer}</p>
+                <p className="text-slate-300 leading-relaxed text-sm md:text-base">{item.answer}</p>
               </div>
             </div>
           </div>
         );
       })}
       <div className="mt-10 text-center">
-        <p className="text-gray-600 mb-4">Still have questions? We are here to help.</p>
+        <p className="text-slate-400 mb-4">Still have questions? We are here to help.</p>
         <a
           href="https://wa.me/917829975777?text=I%20want%20to%20book%20Scuba%20Diving"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-[var(--netrani-blue)] font-bold hover:underline"
+          className="inline-flex items-center gap-2 text-[#00D4FF] font-bold hover:underline hover:text-white transition-colors"
         >
           Chat with us on WhatsApp
         </a>
