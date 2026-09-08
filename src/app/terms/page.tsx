@@ -70,7 +70,7 @@ export default function Terms() {
             Terms &amp; Conditions
           </h1>
           <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
-            Our booking details, cancellation policy, refund process, and weather policies.
+            Clear guidelines covering reservation deposits, cancellation timeframes, weather policies, and medical safety requirements.
           </p>
         </div>
       </section>
@@ -82,33 +82,33 @@ export default function Terms() {
           <div className="space-y-4">
             <h2 className="text-xl font-bold text-white uppercase font-display tracking-wider border-b border-white/5 pb-2">1. Booking &amp; Slot Blocks</h2>
             <p>
-              To confirm a scuba diving slot at Netrani Island, a booking advance of <strong className="text-white font-semibold">₹500 per person</strong> is required. The balance amount must be settled at the reporting office on the day of the dive before boarding the boat.
+              To confirm and hold a scuba diving reservation at Netrani Island, an advance deposit of <strong className="text-white font-semibold">₹500 per person</strong> is required. The remaining package balance is settled during morning check-in at our Murudeshwar dive desk before boarding the boat.
             </p>
           </div>
 
           <div className="space-y-4">
             <h2 className="text-xl font-bold text-white uppercase font-display tracking-wider border-b border-white/5 pb-2">2. Cancellation &amp; Refunds</h2>
             <ul className="space-y-2 list-disc pl-5 text-gray-300 font-medium">
-              <li>Cancellations made <strong className="text-white font-semibold">48 hours or more</strong> before the scheduled dive day are eligible for a <strong className="text-white font-semibold">100% refund</strong> of the booking advance.</li>
-              <li>Cancellations made within <strong className="text-white font-semibold">48 hours</strong> of the scheduled dive day are non-refundable.</li>
-              <li>No-shows on the morning of the scheduled dive will forfeit the booking advance.</li>
+              <li>Cancellations made <strong className="text-white font-semibold">48 hours or more</strong> prior to the scheduled dive date receive a <strong className="text-white font-semibold">100% full refund</strong> of the booking advance.</li>
+              <li>Cancellations made within <strong className="text-white font-semibold">48 hours</strong> of the scheduled dive date are non-refundable.</li>
+              <li>No-shows on the morning of the scheduled excursion forfeit the booking advance deposit.</li>
             </ul>
           </div>
 
           <div className="space-y-4">
             <h2 className="text-xl font-bold text-white uppercase font-display tracking-wider border-b border-white/5 pb-2">3. Weather-Related Policies</h2>
             <p>
-              Netrani Island is in the deep sea. The local coast guard or harbor patrol regulates all boat movements. In case of unexpected storms, rough seas, high winds, or security alerts, we will cancel the trip for guest safety. 
+              Netrani Island is located in the open Arabian Sea. All boat departures operate strictly subject to coastal maritime clearances and wave conditions. If unexpected weather events, high sea swells, or maritime safety advisories lead to trip cancellation, guest safety is our unconditional priority.
             </p>
             <p>
-              In such cases, you will receive a <strong className="text-white font-semibold">100% refund</strong> of your advance payment or can choose to reschedule to any upcoming date.
+              Under any weather-related trip cancellation, guests receive a <strong className="text-white font-semibold">100% full refund</strong> of their deposit or may choose a complimentary reschedule to any future date.
             </p>
           </div>
 
           <div className="space-y-4">
             <h2 className="text-xl font-bold text-white uppercase font-display tracking-wider border-b border-white/5 pb-2">4. Medical Guidelines</h2>
             <p>
-              Guests must ensure they do not suffer from any conditions that prevent diving (such as uncontrolled high blood pressure, active asthma, pregnancy, or recent surgeries). Instructors reserve the right to deny diving to anyone deemed medically unfit for their own safety.
+              Participants must confirm they do not suffer from medical conditions incompatible with scuba diving (such as severe asthma requiring active inhaler therapy, heart ailments, epilepsy, pregnancy, or recent major surgery). Certified instructors reserve the right to recommend surface snorkeling or deny sub-surface diving to anyone assessed as medically vulnerable.
             </p>
           </div>
         </div>

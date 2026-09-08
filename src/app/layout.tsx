@@ -18,9 +18,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Murudeshwar Scuba Diving: Netrani Island Dive Packages & Booking",
+  title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
   description:
-    "Book Murudeshwar scuba diving with Netrani Island packages from ₹1,999. Compare price, timings, age limits, underwater photos, and direct operator booking.",
+    "Explore scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent package pricing from ₹1,999, beginner training, and free HD photos.",
   keywords: [
     "Murudeshwar scuba diving",
     "Murudeshwara scuba dive",
@@ -55,9 +55,9 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Murudeshwar Scuba Diving: Netrani Island Dive Packages & Booking",
+    title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
     description:
-      "Book Murudeshwar scuba diving with Netrani Island packages from ₹1,999. Compare price, timings, age rules, photos, and direct booking.",
+      "Explore scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent package pricing from ₹1,999, beginner training, and free HD photos.",
     url: "https://www.murudeshwarscubadive.in",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
         url: "/hero.webp",
         width: 1200,
         height: 630,
-        alt: "Scuba diving in Murudeshwar at Netrani Island with direct booking options",
+        alt: "Scuba diving in Murudeshwar at Netrani Island with certified instructors",
       },
     ],
     locale: "en_IN",
@@ -73,9 +73,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Murudeshwar Scuba Diving Price, Timings & Booking",
+    title: "Murudeshwar Scuba Diving Packages & Netrani Island Booking",
     description:
-      "Compare Murudeshwar scuba diving packages from ₹1,999 with age rules, timings, photos, and direct operator booking.",
+      "Discover scuba diving in Murudeshwar with Netrani Island packages from ₹1,999. Certified instructors, complete gear, and free HD photos.",
     images: ["/hero.webp"],
   },
   icons: {

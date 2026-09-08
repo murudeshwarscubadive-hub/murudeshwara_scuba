@@ -46,19 +46,19 @@ export default function Team() {
     {
       name: "Captain Raghu",
       role: "Lead Boat Captain",
-      desc: "Raghu has over 15 years of experience navigating the waters between Murudeshwar beach and Netrani Island. He handles our custom speedboats with absolute precision.",
+      desc: "With over 15 years of coastal maritime navigation between Murudeshwar beach and Netrani Island, Captain Raghu handles ocean crossings with deep local knowledge of Arabian Sea swells, weather patterns, and safe anchorage.",
       image: "/images/gallery/gallery-7.jpg",
     },
     {
       name: "Vikram Shenoy",
       role: "PADI Master Scuba Diver Trainer",
-      desc: "Vikram has logged over 3,000 dives and specializes in teaching deep specialties and emergency response. He ensures that our training standard remains top class.",
+      desc: "With more than 3,000 logged dives, Vikram oversees instructor training, emergency first response protocols, and equipment inspection to ensure every dive adheres to global safety standards.",
       image: "/images/gallery/gallery-8.jpg",
     },
     {
       name: "Pooja Hegde",
       role: "PADI Scuba Instructor",
-      desc: "Pooja has been guiding first-time and beginner divers at Netrani for over 5 seasons. Her calm briefing style makes nervous first-timers feel completely at ease.",
+      desc: "Guiding first-time and beginner divers at Netrani across 5 active seasons, Pooja's patient orientation and reassuring underwater guidance help even hesitant non-swimmers dive with total confidence.",
       image: "/images/gallery/gallery-9.jpg",
     },
   ];
@@ -125,8 +125,7 @@ export default function Team() {
             Meet Our Team
           </h1>
           <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
-            The certified PADI instructors, divemasters, and crew members making
-            every dive safe and memorable.
+            The certified dive instructors, licensed divemasters, and experienced maritime crew dedicated to making every dive at Netrani Island safe, comfortable, and memorable.
           </p>
         </div>
       </section>

@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     canonical: "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
   },
   openGraph: {
-    title: "Netrani Scuba Diving Price ₹3,500 | Book Murudeshwar",
+    title: "Netrani Scuba Diving Price ₹3,500 | Murudeshwar Scuba Dive",
     description:
       "Check Netrani scuba diving from Murudeshwar from ₹3,500 with inclusion, operator, eligibility, booking and weather-policy checks.",
     url: "https://www.murudeshwarscubadive.in/scuba-diving-murudeshwar",
-    siteName: "Book Murudeshwar",
+    siteName: "Murudeshwar Scuba Dive",
     locale: "en_IN",
     images: [
       {
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Netrani Scuba Diving Price ₹3,500 | Book Murudeshwar",
+    title: "Netrani Scuba Diving Price ₹3,500 | Murudeshwar Scuba Dive",
     description:
       "Netrani scuba from ₹3,500 with inclusion, operator, eligibility, booking and weather-policy checks.",
     images: ["/images/netrani-diver.png"],

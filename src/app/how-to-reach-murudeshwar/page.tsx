@@ -49,7 +49,7 @@ export default function HowToReach() {
   const travelModes = [
     {
       title: "By Train",
-      desc: "Murudeshwar has its own railway station (MRDW). Express trains running on the Konkan Railway route connect it to Mumbai, Goa, Mangalore, and Bangalore. The station is only 3 km from the main temple and beach area.",
+      desc: "Murudeshwar Railway Station (station code: MRDW) is well-connected on the Konkan Railway network. Regular express and passenger trains link Murudeshwar directly to Bengaluru, Mangaluru, Goa (Madgaon), Mumbai, and Karwar. The railway station is situated just 3 km from Murudeshwar beach and temple, with auto-rickshaws readily available.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ export default function HowToReach() {
     },
     {
       title: "By Road / Bus",
-      desc: "Murudeshwar is located just off National Highway 66 (NH 66). Frequent overnight KSRTC buses and private sleepers operate directly from Bangalore, Mangalore, Pune, and Mumbai. The bus drop point is usually the Murudeshwar highway bypass cross, from where auto rickshaws are easily available.",
+      desc: "Murudeshwar lies directly on National Highway 66 (NH 66). Overnight state (KSRTC) and private sleeper buses operate daily from Bengaluru (9–10 hours), Mangaluru (3 hours), Mysuru, Hubballi, and Pune/Mumbai. Buses drop passengers at Murudeshwar Highway Cross, where frequent auto-rickshaws connect to the beachfront in under 5 minutes.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ export default function HowToReach() {
     },
     {
       title: "By Air",
-      desc: "Mangalore International Airport (IXE) is the nearest airport, located about 165 km away. Goan airports (Mopa/Dabolim) are approximately 200 km north. Cabs are easily bookable from these airports directly to Murudeshwar.",
+      desc: "Mangaluru International Airport (IXE) is the closest airport, situated approximately 160 km south via NH 66. Goa International Airports (Dabolim and Mopa) are roughly 200 km to the north. Taxis, rental vehicles, and connected express trains make transit from either airport straightforward.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -164,8 +164,7 @@ export default function HowToReach() {
             How to Reach Murudeshwar
           </h1>
           <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
-            Find the best transport options, direct directions, train schedules,
-            and highway information for your scuba trip.
+            Plan your travel smoothly with train schedules, highway driving tips, interstate bus connections, and morning dive reporting details.
           </p>
         </div>
       </section>
@@ -199,10 +198,7 @@ export default function HowToReach() {
               Reporting Point Location
             </h2>
             <p className="text-gray-300 leading-relaxed font-medium text-sm md:text-base">
-              Once you confirm your booking, you must report to our main desk on
-              Temple Main Road near Murudeshwar beach. Ample car and bike
-              parking spaces are available in the public temple parking lot,
-              which is just a 2-minute walk from our office.
+              Upon booking confirmation, report directly to our dive desk on Temple Main Road near Murudeshwar Beach. Spacious public vehicle parking for four-wheelers, tempo travelers, and two-wheelers is available in the main temple parking area, just a 2-minute walk from our facility.
             </p>
             <div className="bg-black/30 border border-white/10 rounded-2xl p-6 flex flex-col sm:flex-row justify-between items-center gap-6">
               <div>

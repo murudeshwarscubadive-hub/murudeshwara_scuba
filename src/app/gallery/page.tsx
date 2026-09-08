@@ -48,72 +48,72 @@ export default function Gallery() {
   const images = [
     {
       src: "/images/gallery/gallery-1.webp",
-      alt: "Female diver in green t-shirt making a heart shape with hands underwater",
+      alt: "Certified diver sharing a heart hand gesture beside Netrani reef",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-2.webp",
-      alt: "Male diver in blue shirt taking an underwater selfie with a fist bump",
+      alt: "First-time scuba diver celebrating an underwater milestone near Netrani corals",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-3.webp",
-      alt: "Female diver meditating in lotus position underwater",
+      alt: "Practicing calm breathing and neutral buoyancy beside rocky coral walls",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-4.webp",
-      alt: "Large pufferfish swimming near underwater rock formations",
+      alt: "Porcupine pufferfish swimming alongside rocky reef formations",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-5.webp",
-      alt: "Two divers making a triangle shape with their hands",
+      alt: "Dive buddies signaling teamwork during an open-water dive",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-6.webp",
-      alt: "Three divers underwater posing with OK and victory signs",
+      alt: "Scuba divers displaying OK and victory signals underwater",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-7.jpg",
-      alt: "Man with sunglasses and woman smiling for a selfie on the boat",
+      alt: "Guests enjoying the sun canopy and sea breeze aboard the dive boat",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/gallery-8.jpg",
-      alt: "Two men with sunglasses taking a selfie on the boat deck",
+      alt: "Travelers taking in scenic coastline views during the boat voyage",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/aquaride-1.jpg",
-      alt: "Aerial view of the heart-shaped Netrani Island in the blue sea",
+      alt: "Aerial view of Netrani Island surrounded by deep cobalt waters",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/aquaride-2.jpg",
-      alt: "Large rusted shipwreck listing to one side in the ocean",
+      alt: "Historical offshore shipwreck formation near the Netrani dive perimeter",
       location: "Netrani Island",
     },
     {
       src: "/images/gallery/aquaride-4.jpg",
-      alt: "Aqua Ride tourist boat filled with passengers at sea",
+      alt: "Dive expedition boat carrying travelers across the Arabian Sea",
       location: "Netrani Island",
     },
     {
       src: "/images/netrani-diver.png",
-      alt: "Close-up of diver underwater with full gear",
+      alt: "Close-up portrait of diver in full scuba gear descending through clear waters",
       location: "Netrani Island",
     },
     {
       src: "/images/group-divers.png",
-      alt: "Group of people in diving suits ready on boat",
+      alt: "Buddy team receiving final pre-dive gear checks on the boat deck",
       location: "Netrani Island",
     },
     {
       src: "/images/deep-dive.png",
-      alt: "Diver descending into dark blue deep water",
+      alt: "Diver exploring deep marine pinnacles and clear Arabian Sea visibility",
       location: "Netrani Island",
     },
   ];
@@ -187,8 +187,7 @@ export default function Gallery() {
           Netrani Underwater Gallery
         </h1>
         <p className="text-gray-400 max-w-2xl mx-auto text-base md:text-lg font-medium leading-relaxed">
-          See what awaits you beneath the waves. Real photos from our daily
-          dives at Netrani Island, Murudeshwar.
+          Explore real captures from our morning expeditions at Netrani Island—including vibrant coral reef ecosystems, colorful marine life, and first-time diver milestones.
         </p>
       </section>
 
@@ -241,11 +240,10 @@ export default function Gallery() {
         <div className="absolute top-0 right-0 w-80 h-80 bg-blue-900/5 rounded-full blur-[100px] pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-6 text-center space-y-8 relative z-10">
           <h2 className="text-3xl md:text-5xl font-black font-display uppercase tracking-tight text-white leading-tight">
-            Want to be in these photos?
+            Ready to Capture Your Own Dive Moments?
           </h2>
           <p className="text-base md:text-lg text-gray-300 leading-relaxed font-medium max-w-2xl mx-auto">
-            We include free underwater photos and videos with every scuba
-            package. Book your dive today and take home the memories.
+            Complimentary high-definition underwater photography and action video clips are included with every dive package. Reserve your spot today and take home real memories.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
             <a
