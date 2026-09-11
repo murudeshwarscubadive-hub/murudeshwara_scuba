@@ -1482,7 +1482,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-2xl border border-white/10 md:col-span-2 md:row-span-2">
               <Image
                 alt="First-time scuba diver experiencing Netrani Island coral reef with certified dive guide"
-                src="/images/gallery/gallery-1.webp"
+                src="/images/murudeshwara/netrani_island_scuba_diving.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
@@ -1500,7 +1500,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
                 alt="Scuba diver recording underwater memories during a guided Netrani Island dive"
-                src="/images/gallery/gallery-2.webp"
+                src="/images/murudeshwara/murudeshwar_scuba_diving.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
@@ -1518,7 +1518,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
                 alt="Diver practicing calm buoyancy and breathing among Netrani reef fish"
-                src="/images/gallery/gallery-3.webp"
+                src="/images/murudeshwara/netrani_island_coral_reef.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
@@ -1536,7 +1536,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
                 alt="Pufferfish swimming near rocky coral formations at Netrani Island, Murudeshwar"
-                src="/images/gallery/gallery-4.webp"
+                src="/images/murudeshwara/netrani_island_marine_life.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
@@ -1554,7 +1554,7 @@ export default function Home() {
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
                 alt="Dive buddies sharing underwater hand signals during a guided dive session"
-                src="/images/gallery/gallery-5.webp"
+                src="/images/murudeshwara/murudeshwar_diving_experience.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
