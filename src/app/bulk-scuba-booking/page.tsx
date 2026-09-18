@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bulk & Group Scuba Bookings: College Trips & Corporate Offers",
+  title: "Group & Bulk Scuba Diving in Murudeshwar: College & Corporate Packages",
   description:
-    "Planning a group trip to Murudeshwar? Get custom discounted rates for college tours, corporate groups, and family outings of 10+ people.",
+    "Organizing a group dive trip to Netrani Island? Custom discounted packages, dedicated boat charters, and seamless logistics for groups of 10+ divers.",
   keywords: [
     "bulk scuba booking murudeshwar",
     "group scuba diving murudeshwara",
@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     canonical: "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
   },
   openGraph: {
-    title: "Bulk & Group Scuba Bookings: College Trips & Corporate Offers",
+    title: "Group & Bulk Scuba Diving in Murudeshwar: College & Corporate Packages",
     description:
-      "Planning a group trip to Murudeshwar? Get custom discounted rates for college tours, corporate groups, and family outings of 10+ people.",
+      "Organizing a group dive trip to Netrani Island? Custom discounted packages, dedicated boat charters, and seamless logistics for groups of 10+ divers.",
     url: "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         url: "/images/group-divers.png",
         width: 1200,
         height: 630,
-        alt: "Group scuba diving bookings at Murudeshwar",
+        alt: "Group and corporate scuba diving expeditions at Netrani Island, Murudeshwar",
       },
     ],
     locale: "en_IN",
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bulk & Group Scuba Bookings Murudeshwar",
+    title: "Group & Bulk Scuba Bookings Murudeshwar",
     description:
-      "Get custom discounted rates for group bookings, college tours, and corporate packages in Murudeshwar.",
+      "Custom discounted rates, dedicated boat charters, and personalized group packages for Netrani Island scuba diving.",
     images: ["/images/group-divers.png"],
   },
 };
@@ -46,16 +46,16 @@ export const metadata: Metadata = {
 export default function BulkBooking() {
   const corporateBenefits = [
     {
-      title: "Custom Discounted Rates",
-      desc: "Get exclusive package pricing for groups of 10 or more people. The larger the group, the better the pricing we can structure.",
+      title: "Tiered Group Rates",
+      desc: "Special transparent pricing structures for college batches, family reunions, and corporate teams with 10 or more participants.",
     },
     {
-      title: "Flexible Scheduling",
-      desc: "Block entire boats for your team. We align our departure slots and dive rotations around your travel itinerary.",
+      title: "Exclusive Boat Charters",
+      desc: "Charter an entire dive boat exclusively for your group, aligning departure schedules and dive rotations around your travel itinerary.",
     },
     {
-      title: "Team Building Activities",
-      desc: "Combine scuba diving with group snorkeling, beach activities, and post-dive local sightseeing arrangements.",
+      title: "Coordinated Ocean Excursions",
+      desc: "Seamlessly blend scuba diving rotations with group surface snorkeling, action video coverage, and local sightseeing guidance.",
     },
   ];
 
@@ -65,8 +65,8 @@ export default function BulkBooking() {
       "@type": "WebPage",
       "@id": "https://www.murudeshwarscubadive.in/bulk-scuba-booking/#webpage",
       "url": "https://www.murudeshwarscubadive.in/bulk-scuba-booking",
-      "name": "Bulk & Group Scuba Bookings: College Trips & Corporate Offers",
-      "description": "Planning a group trip to Murudeshwar? Get custom discounted rates for college tours, corporate groups, and family outings of 10+ people."
+      "name": "Group & Bulk Scuba Diving in Murudeshwar: College & Corporate Packages",
+      "description": "Organizing a group dive trip to Netrani Island? Custom discounted packages, dedicated boat charters, and seamless logistics for groups of 10+ divers."
     },
     {
       "@context": "https://schema.org",
@@ -107,8 +107,7 @@ export default function BulkBooking() {
             Group &amp; Bulk Bookings
           </h1>
           <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
-            Custom packages, dedicated boat schedules, and exclusive discount rates for
-            groups of 10+ travelers.
+            Custom itineraries, private boat charter options, and tiered group rates for college tours, corporate retreats, and large family gatherings.
           </p>
         </div>
       </section>
@@ -136,12 +135,10 @@ export default function BulkBooking() {
           <div className="bg-gradient-to-br from-[#002B5B] to-[#00111F] border border-white/10 rounded-3xl p-8 md:p-12 text-center space-y-6 shadow-2xl relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-[#00D4FF]/5 rounded-full blur-[80px] pointer-events-none"></div>
             <h2 className="text-2xl md:text-3xl font-black uppercase text-white font-display tracking-tight border-b border-white/5 pb-3">
-              Get A Custom Quote Today
+              Request A Custom Group Quote
             </h2>
             <p className="text-gray-300 leading-relaxed font-medium text-sm md:text-base max-w-xl mx-auto">
-              Ready to plan your group excursion? Connect with our group coordinator
-              directly via phone or WhatsApp. We will share customizable options
-              and boat-seat allocations in under 10 minutes.
+              Planning a trip with 10 or more people? Connect directly with our group coordinator via phone or WhatsApp to lock in private boat availability, customized dive rotations, and group pricing.
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4 text-xs font-bold uppercase tracking-widest font-display">
               <a

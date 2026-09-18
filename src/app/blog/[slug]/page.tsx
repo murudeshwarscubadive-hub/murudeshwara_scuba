@@ -130,6 +130,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     const elements: React.ReactNode[] = [];
 
     let currentList: { text: string; idx: number }[] = [];
+    let currentTable: string[] = [];
 
     const flushList = () => {
       if (currentList.length > 0) {
@@ -147,8 +148,138 @@ export default async function BlogPostPage({ params }: PageProps) {
       }
     };
 
+    const flushTable = () => {
+      if (currentTable.length === 0) return;
+
+      const isSeparator = /^\|?(\s*:?-+:?\s*\|)+(\s*:?-+:?\s*)?\|?$/.test(
+        currentTable[1] || ""
+      );
+
+      if (currentTable.length >= 2 && isSeparator) {
+        const splitRow = (rowStr: string): string[] => {
+          let str = rowStr.trim();
+          if (str.startsWith("|")) str = str.slice(1);
+          if (str.endsWith("|")) str = str.slice(0, -1);
+          return str.split("|").map((c) => c.trim());
+        };
+
+        const headers = splitRow(currentTable[0]);
+        const separatorCells = splitRow(currentTable[1]);
+        const alignments = separatorCells.map((sep) => {
+          const s = sep.trim();
+          if (s.startsWith(":") && s.endsWith(":")) return "center";
+          if (s.endsWith(":")) return "right";
+          return "left";
+        });
+
+        const rows = currentTable.slice(2).map((rowStr) => {
+          const cells = splitRow(rowStr);
+          while (cells.length < headers.length) {
+            cells.push("");
+          }
+          return cells;
+        });
+
+        const getAlignClass = (align: string) => {
+          if (align === "center") return "text-center";
+          if (align === "right") return "text-right";
+          return "text-left";
+        };
+
+        elements.push(
+          <div
+            key={`table-${elements.length}`}
+            className="my-8 md:my-10 w-full overflow-hidden rounded-2xl md:rounded-3xl border border-[#00D4FF]/25 bg-gradient-to-b from-[#002B5B]/35 via-[#001426]/80 to-[#00111F] shadow-[0_12px_40px_rgba(0,0,0,0.6)] backdrop-blur-md"
+          >
+            <div className="h-1 w-full bg-gradient-to-r from-transparent via-[#00D4FF] to-transparent opacity-80" />
+
+            {/* Mobile horizontal scroll hint */}
+            <div className="md:hidden px-4 py-2.5 text-[11px] text-[#00D4FF]/90 border-b border-white/10 bg-white/[0.03] flex items-center justify-between font-mono">
+              <span className="flex items-center gap-1.5">
+                <svg className="w-3.5 h-3.5 inline-block text-[#00D4FF]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                </svg>
+                Swipe horizontally to view full table
+              </span>
+              <span className="text-[#00D4FF] font-bold">↔</span>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse text-left min-w-[620px]">
+                <thead>
+                  <tr className="border-b border-white/15 bg-white/[0.06] text-xs sm:text-sm font-bold uppercase tracking-wider text-[#00D4FF] font-display">
+                    {headers.map((th, hIdx) => {
+                      const align = alignments[hIdx] || "left";
+                      return (
+                        <th
+                          key={hIdx}
+                          className={`py-4 sm:py-4.5 px-5 sm:px-6 font-black ${getAlignClass(align)} ${
+                            hIdx !== 0 ? "border-l border-white/10" : ""
+                          }`}
+                        >
+                          {parseInlineMarkdown(th)}
+                        </th>
+                      );
+                    })}
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/10 text-sm md:text-base text-gray-200">
+                  {rows.map((row, rIdx) => (
+                    <tr
+                      key={rIdx}
+                      className={`transition-colors duration-150 hover:bg-white/[0.04] ${
+                        rIdx % 2 === 1 ? "bg-white/[0.015]" : ""
+                      }`}
+                    >
+                      {row.map((cell, cIdx) => {
+                        const align = alignments[cIdx] || "left";
+                        return (
+                          <td
+                            key={cIdx}
+                            className={`py-4 sm:py-4.5 px-5 sm:px-6 leading-relaxed ${getAlignClass(align)} ${
+                              cIdx !== 0 ? "border-l border-white/10" : ""
+                            } ${cIdx === 0 ? "font-semibold text-white whitespace-nowrap" : "text-gray-300"}`}
+                          >
+                            {parseInlineMarkdown(cell)}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        );
+      } else {
+        // Fallback: render raw lines if it wasn't a valid table
+        currentTable.forEach((line, tIdx) => {
+          elements.push(
+            <p
+              key={`fallback-${elements.length}-${tIdx}`}
+              className="text-gray-300 leading-relaxed mb-6 text-base md:text-lg font-normal"
+            >
+              {parseInlineMarkdown(line)}
+            </p>
+          );
+        });
+      }
+
+      currentTable = [];
+    };
+
     lines.forEach((rawLine, idx) => {
       const trimmed = rawLine.trim();
+
+      // Markdown Table row
+      if (trimmed.startsWith("|")) {
+        flushList();
+        currentTable.push(trimmed);
+        return;
+      }
+
+      // Flush table when encountering any non-table line
+      flushTable();
 
       // Heading 1 (ignored inside body if single H1 is already in Hero)
       if (trimmed.startsWith("# ")) {
@@ -323,6 +454,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     });
 
     flushList();
+    flushTable();
     return elements;
   };
 

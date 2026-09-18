@@ -99,8 +99,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-base md:text-lg text-gray-400 max-w-2xl mx-auto font-medium leading-relaxed">
-            Ready to dive? Get in touch for instant booking confirmation. We
-            respond within 5 minutes during business hours!
+            Have questions about sea conditions, morning boat departures, or reserving your Netrani Island dive? Reach our Murudeshwar dive desk directly.
           </p>
         </div>
       </section>
@@ -134,7 +133,7 @@ export default function Contact() {
             <p className="text-black text-2xl font-black mb-1 font-display">
               +91 78299 75777
             </p>
-            <p className="text-black/75 text-sm font-semibold uppercase tracking-wider">Instant slot confirmation</p>
+            <p className="text-black/75 text-sm font-semibold uppercase tracking-wider">Direct desk &amp; slot booking</p>
             <span className="mt-6 bg-black text-white font-bold py-3 px-8 rounded-full text-xs uppercase tracking-widest transition-colors font-display shadow-lg">
               Call Now →
             </span>
@@ -168,7 +167,7 @@ export default function Contact() {
             <p className="text-white text-2xl font-black mb-1 font-display">
               +91 74063 29777
             </p>
-            <p className="text-gray-400 text-sm font-medium">Send photos &amp; questions</p>
+            <p className="text-gray-400 text-sm font-medium">Quick responses &amp; itinerary assistance</p>
             <span className="mt-6 bg-white text-emerald-600 font-bold py-3 px-8 rounded-full text-xs uppercase tracking-widest transition-colors font-display shadow-lg">
               Message Now →
             </span>
@@ -201,7 +200,7 @@ export default function Contact() {
             <p className="text-white text-2xl font-black mb-1 font-display">
               murudeshwar.scuba.dive@gmail.com
             </p>
-            <p className="text-gray-400 text-sm font-medium">For detailed inquiries</p>
+            <p className="text-gray-400 text-sm font-medium">Group proposals &amp; formal booking inquiries</p>
             <span className="mt-6 border border-white/20 text-white font-bold py-3 px-8 rounded-full text-xs uppercase tracking-widest transition-colors font-display">
               Send Email →
             </span>
@@ -230,7 +229,7 @@ export default function Contact() {
             <h2 className="text-xl font-bold text-white mb-2 uppercase tracking-widest font-display">Location</h2>
             <p className="text-gray-300 font-semibold text-lg">Temple Main Road</p>
             <p className="text-gray-300 font-semibold text-lg">Murudeshwar, Karnataka 581350</p>
-            <p className="text-gray-500 text-xs mt-2 uppercase tracking-wider font-bold">Near Murudeshwar Temple</p>
+            <p className="text-gray-500 text-xs mt-2 uppercase tracking-wider font-bold">Near Murudeshwar Temple &amp; Beach</p>
             <Link
               href="/how-to-reach-murudeshwar"
               className="mt-6 text-[#00D4FF] text-xs font-bold uppercase tracking-widest hover:text-white transition-colors font-display"
@@ -291,7 +290,7 @@ export default function Contact() {
             </div>
           </div>
           <p className="text-center text-gray-500 text-xs font-semibold uppercase tracking-wider mt-10">
-            Diving closed during monsoon (June - September)
+            Diving operations pause during monsoon season (June through September) per maritime authority guidelines
           </p>
         </div>
       </section>

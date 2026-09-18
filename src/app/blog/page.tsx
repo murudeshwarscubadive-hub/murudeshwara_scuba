@@ -142,9 +142,7 @@ export default function BlogListing() {
               </span>
             </h1>
             <p className="text-base md:text-lg text-gray-400 leading-relaxed max-w-2xl mx-auto font-medium">
-              Your ultimate guide to diving in Murudeshwar. Discover Netrani
-              Island, plan your underwater adventures, and uncover the secrets
-              of the Arabian Sea.
+              Your authoritative resource for diving at Netrani Island and Murudeshwar. Discover sea conditions, plan trip logistics, and explore Arabian Sea marine life.
             </p>
           </div>
         </div>

@@ -33,7 +33,7 @@ export default function Footer() {
               Stay Updated
             </h3>
             <p className="text-gray-400 mb-6 font-medium text-sm md:text-base">
-              Get updates on <strong className="text-white">Netrani diving</strong> conditions and special offers.
+              Get seasonal updates on <strong className="text-white">Netrani diving</strong> conditions, sea visibility, and advance booking slots.
             </p>
             <form
               action="mailto:murudeshwar.scuba.dive@gmail.com?subject=Scuba%20Diving%20Inquiry%20/%20Join%20Us"
@@ -74,10 +74,10 @@ export default function Footer() {
               </span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed font-medium">
-              We run the best <strong className="text-white">scuba in Murudeshwar</strong>. We are a PADI Dive Resort. From beginner <strong className="text-white">murudeshwar beach scuba diving</strong> trips to pro courses, we do it all.
+              Experience guided <strong className="text-white">scuba diving in Murudeshwar</strong> with certified instructors. From introductory <strong className="text-white">Murudeshwar beach scuba diving</strong> trips to full Netrani Island coral reef excursions, we offer safe, memorable underwater adventures.
             </p>
             <p className="text-gray-500 text-xs font-semibold uppercase tracking-wider">
-              <strong>Murudeshwar scuba diving timings</strong>: 8 AM - 3 PM daily.
+              <strong>Murudeshwar scuba diving timings</strong>: 8:00 AM – 3:00 PM daily (October to May).
             </p>
           </div>
 
@@ -187,6 +187,11 @@ export default function Footer() {
               <li>
                 <Link href="/netrani-scuba-diving" className="hover:text-[#00D4FF] transition-colors">
                   Netrani Scuba Package
+                </Link>
+              </li>
+              <li>
+                <Link href="/scuba-diving-murudeshwar" className="hover:text-[#00D4FF] transition-colors">
+                  Scuba Diving Murudeshwar
                 </Link>
               </li>
               <li>
@@ -401,7 +406,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="pt-8 mt-8 border-t border-white/5 text-center text-xs text-gray-500 font-semibold uppercase tracking-wider">
-          <p>© {new Date().getFullYear()} Murudeshwar Scuba Dive. All Rights Reserved. Netrani Adventures Murudeshwara Karnataka</p>
+          <p>© {new Date().getFullYear()} Murudeshwar Scuba Dive. All Rights Reserved. Netrani Scuba Diving &amp; Marine Adventures, Murudeshwar, Karnataka.</p>
         </div>
       </div>
     </footer>

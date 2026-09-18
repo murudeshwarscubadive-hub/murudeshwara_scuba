@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Beginner Scuba Diving in Murudeshwar: Intro Try Dive ₹1,999",
+  title: "Beginner Scuba Diving in Murudeshwar: Intro Try Dive (₹1,999)",
   description:
-    "Try beginner scuba diving at Netrani Island, Murudeshwar for just ₹1,999. Ideal package for beginners and non-swimmers with 1:1 PADI instructor & free photos.",
+    "Experience beginner scuba diving at Netrani Island, Murudeshwar for ₹1,999. Ideal entry-level dive for beginners and non-swimmers with 1:1 certified instructor & free HD media.",
   keywords: [
     "Beginner scuba diving in Murudeshwar",
     "Scuba diving for non swimmers",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     canonical: "https://www.murudeshwarscubadive.in/intro-scuba-diving",
   },
   openGraph: {
-    title: "Beginner Scuba Diving in Murudeshwar: Intro Try Dive ₹1,999",
+    title: "Beginner Scuba Diving in Murudeshwar: Intro Try Dive (₹1,999)",
     description:
-      "Try beginner scuba diving at Netrani Island, Murudeshwar for just ₹1,999. Easiest package for beginners and non-swimmers with instructor support & free photos.",
+      "Experience beginner scuba diving at Netrani Island, Murudeshwar for ₹1,999. Ideal entry-level dive for beginners and non-swimmers with 1:1 certified instructor & free HD media.",
     url: "https://www.murudeshwarscubadive.in/intro-scuba-diving",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "/images/group-divers.png",
         width: 1200,
         height: 630,
-        alt: "Intro Scuba Diving for Beginners at Netrani Island Murudeshwar",
+        alt: "First-time divers enjoying an introductory scuba dive at Netrani Island, Murudeshwar",
       },
     ],
     locale: "en_IN",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Intro Scuba Try Dive Murudeshwar: Price & Info",
     description:
-      "Beginner-friendly scuba diving try package at Netrani Island, Murudeshwar starting at ₹1,999 with guidance and photos.",
+      "Beginner-friendly scuba diving try package at Netrani Island, Murudeshwar starting at ₹1,999 with 1:1 guidance and free HD media.",
     images: ["/images/group-divers.png"],
   },
 };
@@ -54,8 +54,8 @@ export const metadata: Metadata = {
 export default function IntroScubaDiving() {
   const whyChoose = [
     {
-      title: "Smart Price",
-      desc: "₹1,999 per person. It is the easiest entry-level scuba package for families, student groups, and first-time divers.",
+      title: "Accessible Pricing",
+      desc: "At ₹1,999 per person, this entry-level package allows first-time divers, students, and families to experience the Netrani reef without committing to a full excursion.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -76,8 +76,8 @@ export default function IntroScubaDiving() {
       ),
     },
     {
-      title: "Less Scary",
-      desc: "A 15-minute guided dive is easier for nervous first-timers and guests who want a short, comfortable first attempt.",
+      title: "Comfortable & Reassuring",
+      desc: "A gentle 10–15 minute guided dive at 5–8m depth is designed specifically to help nervous beginners and non-swimmers feel calm and confident underwater.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -102,8 +102,8 @@ export default function IntroScubaDiving() {
       ),
     },
     {
-      title: "Same Boat",
-      desc: "You still get the Netrani boat ride, the same sea route, and the same island setting as the full package.",
+      title: "Identical Island Trip",
+      desc: "You travel on the exact same boat route to Netrani Island, soak in the scenic coastal views, and explore the same crystal-clear Arabian Sea waters.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -127,8 +127,8 @@ export default function IntroScubaDiving() {
       ),
     },
     {
-      title: "Free Photos",
-      desc: "We include photos for everyone. Yes, even for the Intro Dive.",
+      title: "Complimentary HD Media",
+      desc: "High-resolution photos and underwater action videos are recorded and shared directly to your mobile at no additional charge.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -153,95 +153,95 @@ export default function IntroScubaDiving() {
   const compare = [
     { name: "Cost", intro: "₹1,999", full: "₹3,500", highlight: true },
     { name: "Time Underwater", intro: "10-15 Mins", full: "30-40 Mins" },
-    { name: "Depth", intro: "5-8 Meters", full: "12 Meters" },
+    { name: "Depth", intro: "5-8 Meters", full: "Up to 12 Meters" },
     { name: "Boat Ride", intro: "Included", full: "Included" },
-    { name: "Photos", intro: "Included", full: "Included" },
+    { name: "Photos & Videos", intro: "Included", full: "Included" },
   ];
 
   const inclusions = [
-    "Boat trip to Netrani",
-    "15-minute guided dive",
-    "Instructor included",
-    "Photos & Videos included",
-    "Snorkeling included",
-    "All gears provided",
+    "Round-trip boat cruise to Netrani Island",
+    "10–15 min 1:1 guided reef dive (5–8m depth)",
+    "Dedicated certified instructor by your side",
+    "Free HD underwater photos & video clips",
+    "Surface snorkeling gear & life vest",
+    "Complete sanitized scuba gear & wetsuit",
   ];
 
   const faqs = [
     {
-      q: "Can I upgrade later?",
-      a: "Yes. Start with the Intro package. If sea conditions, slot flow, and instructor availability allow it, you can pay the difference and move to the full Netrani dive.",
+      q: "Can I upgrade to the Full Netrani package later?",
+      a: "Yes. If sea conditions and instructor scheduling allow on the day, you can comfortably upgrade to the 30–40 minute Full Netrani Dive by paying the remaining fare difference at our desk.",
     },
     {
-      q: "Safe for non-swimmers?",
-      a: "Yes. Non-swimmers can do the Intro Dive because the instructor controls the dive, supports your gear, and guides you throughout the underwater time.",
+      q: "Is this package safe for non-swimmers and first-timers?",
+      a: "Yes. Non-swimmers can complete the Intro Dive with absolute confidence. Your personal certified instructor manages your buoyancy, depth, and movement throughout the dive while your BCD jacket provides natural flotation.",
     },
     {
-      q: "Group discounts?",
-      a: "Yes. College groups, families, and teams with 10 or more people can call or WhatsApp for group slot planning and package options.",
+      q: "Are group discounts available for families and student groups?",
+      a: "Yes. For college groups, corporate outings, and family gatherings with 10 or more participants, we provide custom scheduling and group packages. Reach out via phone or WhatsApp to coordinate.",
     },
     {
-      q: "Total time?",
-      a: "Plan it as a full-day sea trip. The usual window is morning reporting, Netrani boat travel, dive rotation, and return to shore by afternoon.",
+      q: "What is the total duration of the trip?",
+      a: "The activity is structured as a comprehensive morning sea expedition. Reporting begins around 8:00 AM, followed by the boat cruise to Netrani, guided dive turns, surface snorkeling, and a return to Murudeshwar beach by early afternoon.",
     },
     {
       q: "How deep will I go during the Intro Try Dive?",
-      a: "The Intro Try Dive takes you to a comfortable depth of 5 to 8 metres. This depth offers abundant sunlight, vibrant corals, and active fish life without intense pressure.",
+      a: "The Intro Try Dive reaches a comfortable depth of 5 to 8 metres. At this level, natural sunlight penetrates clearly, illuminating vibrant coral heads and schooling reef fish with minimal water pressure.",
     },
     {
-      q: "What if I feel panic or discomfort underwater?",
-      a: "Your instructor is holding you 1-on-1 throughout the dive. If you feel uneasy, simply show the 'Up' thumb signal and your instructor will gently float you to the calm surface within seconds.",
+      q: "What if I feel nervous or want to surface during the dive?",
+      a: "Your instructor is holding your harness 1-on-1 throughout the session. If you feel any discomfort or simply want to pause, give the thumbs-up hand signal and your instructor will gently guide you to the calm surface within seconds.",
     },
     {
-      q: "How do I equalize my ears underwater?",
-      a: "As you descend, gently pinch your nose and blow out through your nose with your mouth closed (the Valsalva maneuver). This effortlessly pops your ears and equalizes pressure.",
+      q: "How do I equalize ear pressure underwater?",
+      a: "During the shallow-water briefing, your instructor teaches you the simple Valsalva technique: gently pinch your nostrils closed and exhale softly through your nose. This equalizes your middle ears smoothly as you descend.",
     },
     {
-      q: "Is there a safe place to store my luggage and valuables?",
-      a: "Yes. You can leave heavy luggage in our secure reporting office on shore, or place your day bags in the dry storage compartments on board the dive boat.",
+      q: "Is there a safe place to store luggage and valuables?",
+      a: "Yes. You can store heavy bags in our secure shore reporting facility, or keep your personal day items in dry compartments provided aboard our dive boat.",
     },
     {
-      q: "What are the medical restrictions for the Intro Dive?",
-      a: "Participants must be in good health. Individuals with active asthma requiring inhalers, heart conditions, epilepsy, recent major surgeries, or pregnant women cannot dive for safety reasons.",
+      q: "What are the medical considerations for the Intro Dive?",
+      a: "Participants should be in normal health. Conditions such as untreated heart issues, severe asthma requiring continuous medication, epilepsy, recent major surgeries, or pregnancy preclude scuba diving for safety.",
     },
   ];
 
   const guides = [
     {
-      title: "Scuba Price Guide (2026)",
-      desc: "Updated Murudeshwar scuba price per person, cost factors, and what the official price includes.",
+      title: "Netrani Scuba Rates & Cost Breakdown (2026)",
+      desc: "Transparent breakdown of Murudeshwar scuba diving fees, gear rentals, and package inclusions.",
       href: "/blog/murudeshwar-scuba-diving-price-cost",
-      label: "Price Guide",
+      label: "Rate Breakdown",
     },
     {
-      title: "Age Limit + Medical Rules",
-      desc: "Minimum age, fitness tips, and who can safely dive at Netrani.",
+      title: "Diver Eligibility & Medical Standards",
+      desc: "Clear age eligibility, medical criteria, and health recommendations for diving at Netrani Island.",
       href: "/blog/scuba-diving-age-limit",
-      label: "Eligibility",
+      label: "Participation Rules",
     },
     {
-      title: "Best Time for Scuba Diving",
-      desc: "Month-by-month Murudeshwar and Netrani Island season guide with visibility and monsoon closure dates.",
+      title: "Peak Diving Months & Sea Visibility",
+      desc: "Seasonal weather and sea visibility breakdown for Murudeshwar, with monsoon closure timelines.",
       href: "/blog/best-time-scuba-diving-murudeshwar",
-      label: "Season Guide",
+      label: "Seasonal Calendar",
     },
     {
-      title: "Scuba Diving Timings",
-      desc: "Reporting time, Netrani boat schedule, dive window, and return-to-shore timing in one guide.",
+      title: "Excursion Schedule & Boat Timings",
+      desc: "Reporting times, boat departure slots, dive rotation schedules, and return timings.",
       href: "/blog/scuba-diving-timings",
-      label: "Timing Guide",
+      label: "Daily Timetable",
     },
     {
-      title: "Bangalore to Murudeshwar",
-      desc: "Overnight bus/train plan and the easiest travel route.",
+      title: "Bangalore to Murudeshwar Travel Plan",
+      desc: "Optimal road, bus, and train travel routes for weekend scuba excursions from Bangalore.",
       href: "/blog/murudeshwar-scuba-diving-from-bangalore",
-      label: "Travel Plan",
+      label: "Route Advice",
     },
     {
-      title: "How to Reach Murudeshwar",
-      desc: "Map, parking tips, and the boat boarding point.",
+      title: "How to Reach Murudeshwar Beach",
+      desc: "Step-by-step travel directions via Konkan Railway, NH 66, and nearest coastal airports.",
       href: "/how-to-reach-murudeshwar",
-      label: "Directions",
+      label: "Transit Map",
     },
   ];
 
@@ -326,7 +326,7 @@ export default function IntroScubaDiving() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/group-divers.png"
-            alt="Intro Scuba Diving for Beginners at Netrani Island Murudeshwar"
+            alt="First-time divers enjoying an introductory scuba dive at Netrani Island, Murudeshwar"
             fill
             priority
             className="object-cover opacity-35"
@@ -336,7 +336,7 @@ export default function IntroScubaDiving() {
         </div>
         <div className="absolute inset-0 flex flex-col justify-end pb-12 px-6 max-w-[1200px] mx-auto relative z-10 space-y-4">
           <span className="text-black bg-[#00D4FF] w-fit px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-widest font-display shadow-[0_0_15px_rgba(0,212,255,0.3)]">
-            Best Value
+            First-Time Diver Special
           </span>
           <h1 className="text-4xl md:text-6xl font-black text-white font-display uppercase tracking-tight leading-tight max-w-4xl">
             Intro Scuba (Try Dive)
@@ -349,9 +349,7 @@ export default function IntroScubaDiving() {
             </span>
           </div>
           <p className="text-gray-300 max-w-xl text-base md:text-lg font-medium leading-relaxed">
-            A beginner-friendly <strong className="text-white">scuba diving in Murudeshwar</strong>{" "}
-            package with boat ride, instructor support, photos, and a short
-            guided dive at Netrani Island.
+            The ideal beginner-friendly <strong className="text-white">scuba diving in Murudeshwar</strong> package. Includes scenic Netrani Island boat transit, dedicated 1:1 certified instructor guidance, shallow reef exploration, and complimentary HD media.
           </p>
         </div>
       </section>
@@ -363,18 +361,13 @@ export default function IntroScubaDiving() {
           <h2 className="text-2xl md:text-3xl font-black font-display uppercase tracking-tight text-white border-b border-white/5 pb-3">About Intro Scuba</h2>
           <div className="prose prose-invert max-w-none text-gray-300 text-base md:text-lg leading-relaxed space-y-6 font-medium">
             <p>
-              <strong className="text-white font-semibold">Intro Scuba</strong> is for first-time divers, non-swimmers,
-              families, and travellers who want a safe first experience without
-              choosing the longer full-dive package.
+              The <strong className="text-white font-semibold">Intro Scuba (Try Dive)</strong> is specifically designed for first-time adventurers, non-swimmers, families, and travelers who want to explore Netrani Island&apos;s marine beauty without committing to a longer, deeper dive on day one.
             </p>
             <p>
-              You get the Netrani Island boat ride, scuba gear, instructor
-              briefing, and underwater photos. The dive is shorter at around 15
-              minutes and shallower at 5-8 metres.
+              You experience the complete coastal sea journey—including the 19-kilometer boat crossing across the Arabian Sea, comprehensive equipment briefing, and certified gear rental. Your underwater session provides 10 to 15 minutes of bottom time at an easy, sun-drenched depth of 5 to 8 meters, where healthy coral gardens and curious fish thrive.
             </p>
             <p>
-              It is the simplest way to try Netrani scuba before deciding whether
-              you want a longer full-dive experience later.
+              With your personal instructor holding your harness throughout the dive, you can breathe calmly, enjoy the feeling of weightlessness, and take your first memorable steps into the underwater world.
             </p>
           </div>
         </section>
@@ -497,17 +490,17 @@ export default function IntroScubaDiving() {
         <section className="mt-12 p-8 md:p-12 bg-gradient-to-br from-[#002B5B] to-[#00111F] border border-white/10 rounded-3xl text-center space-y-6 shadow-2xl relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#00D4FF]/5 rounded-full blur-[80px] pointer-events-none"></div>
           <h2 className="text-3xl md:text-5xl font-black uppercase text-white font-display tracking-tight">
-            Book Intro Dive
+            Start Your Diving Journey
           </h2>
           <p className="text-base md:text-lg text-gray-300 max-w-xl mx-auto font-medium leading-relaxed">
-            Secure your spot for just ₹1,999.
+            Experience the magic of Netrani Island for just ₹1,999. Reserve your morning slot with an advance deposit of ₹500 per diver.
           </p>
           <div>
             <a
               href="tel:+917829975777"
               className="inline-flex items-center gap-3 bg-[#00D4FF] text-black text-xs font-bold py-4 px-10 rounded-full hover:bg-[#80e9ff] transition-all hover:scale-105 uppercase tracking-widest font-display shadow-[0_0_20px_rgba(0,212,255,0.2)]"
             >
-              Call to Book
+              Call to Book Now
             </a>
           </div>
           <p className="text-gray-500 text-xs uppercase tracking-wider font-semibold">
@@ -536,14 +529,14 @@ export default function IntroScubaDiving() {
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
               </svg>
               <span className="text-[#00D4FF] font-bold text-[10px] uppercase tracking-widest font-display">
-                Quick Guides
+                Knowledge Base
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight font-display">
-              Plan Your Dive Like A Local
+              Murudeshwar Scuba Guides &amp; Travel Advice
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-              Fast answers for <strong className="text-white">price</strong>, <strong className="text-white">age limit</strong>, <strong className="text-white">timings</strong>, package choice, boating, and route-specific travel planning. These guides are updated for 2026.
+              Authoritative local resources providing verified answers on <strong className="text-white">package prices</strong>, <strong className="text-white">age eligibility</strong>, <strong className="text-white">boat schedules</strong>, travel routes, and underwater safety for your 2026 trip.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

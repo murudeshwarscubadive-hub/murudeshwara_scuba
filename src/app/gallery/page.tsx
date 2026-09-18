@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Murudeshwar Scuba Dive",
     images: [
       {
-        url: "/images/gallery/gallery-1.webp",
+        url: "/images/murudeshwara/netrani_island_scuba_diving.webp",
         width: 1200,
         height: 630,
         alt: "Netrani Island scuba diving underwater photos",
@@ -40,81 +40,81 @@ export const metadata: Metadata = {
     title: "Netrani Underwater Gallery Murudeshwar",
     description:
       "Browse real underwater photos and videos from our daily scuba diving trips at Netrani Island, Murudeshwar.",
-    images: ["/images/gallery/gallery-1.webp"],
+    images: ["/images/murudeshwara/netrani_island_scuba_diving.webp"],
   },
 };
 
 export default function Gallery() {
   const images = [
     {
-      src: "/images/gallery/gallery-1.webp",
-      alt: "Female diver in green t-shirt making a heart shape with hands underwater",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/murudeshwar_scuba_diving.webp",
+      alt: "Scuba diver exploring vibrant coral reef formations at Netrani Island, Murudeshwar",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/gallery-2.webp",
-      alt: "Male diver in blue shirt taking an underwater selfie with a fist bump",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_scuba_diving.webp",
+      alt: "PADI certified dive instructor guiding a first-time scuba diver near Netrani coral reefs",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/gallery-3.webp",
-      alt: "Female diver meditating in lotus position underwater",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/murudeshwar_diving_experience.webp",
+      alt: "Scuba divers enjoying an underwater diving experience in the clear waters of Netrani Island",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/gallery-4.webp",
-      alt: "Large pufferfish swimming near underwater rock formations",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_coral_reef.webp",
+      alt: "Healthy tropical coral reef ecosystem teeming with coastal marine life around Netrani Island",
+      location: "Netrani Coral Reef",
     },
     {
-      src: "/images/gallery/gallery-5.webp",
-      alt: "Two divers making a triangle shape with their hands",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/murudeshwar_scuba_diver.webp",
+      alt: "Certified scuba diver navigating clear turquoise Arabian Sea waters in Murudeshwar",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/gallery-6.webp",
-      alt: "Three divers underwater posing with OK and victory signs",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_marine_life.webp",
+      alt: "Reef fishes and diverse Arabian Sea marine life thriving at Netrani Island sanctuary",
+      location: "Marine Life Sanctuary",
     },
     {
-      src: "/images/gallery/gallery-7.jpg",
-      alt: "Man with sunglasses and woman smiling for a selfie on the boat",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/murudeshwar_underwater_diving.webp",
+      alt: "Deep underwater exploration and clear ocean visibility during a Murudeshwar dive trip",
+      location: "Murudeshwar Scuba Dive",
     },
     {
-      src: "/images/gallery/gallery-8.jpg",
-      alt: "Two men with sunglasses taking a selfie on the boat deck",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_underwater_diving.webp",
+      alt: "Diver maintaining neutral buoyancy while gliding over underwater rocky pinnacles",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/aquaride-1.jpg",
-      alt: "Aerial view of the heart-shaped Netrani Island in the blue sea",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_diving_experience.webp",
+      alt: "First-hand scuba diving experience and 1:1 guided session at Netrani Island",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/aquaride-2.jpg",
-      alt: "Large rusted shipwreck listing to one side in the ocean",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_sea_diving.webp",
+      alt: "Open-water sea diving expedition with tropical reef fish in Netrani Island waters",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/gallery/aquaride-4.jpg",
-      alt: "Aqua Ride tourist boat filled with passengers at sea",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_island_underwater_photography.webp",
+      alt: "Free HD underwater photography capturing scuba divers in action at Netrani Island",
+      location: "Underwater Photography",
     },
     {
-      src: "/images/netrani-diver.png",
-      alt: "Close-up of diver underwater with full gear",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/netrani_scuba_diver_underwater.webp",
+      alt: "Close-up of a scuba diver exploring rich coral beds and marine flora off Murudeshwar",
+      location: "Netrani Island, Murudeshwar",
     },
     {
-      src: "/images/group-divers.png",
-      alt: "Group of people in diving suits ready on boat",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/scuba_diving_near_murudeshwar.webp",
+      alt: "Scuba diving excursion near Murudeshwar and Netrani Island with high visibility",
+      location: "Murudeshwar Coastal Waters",
     },
     {
-      src: "/images/deep-dive.png",
-      alt: "Diver descending into dark blue deep water",
-      location: "Netrani Island",
+      src: "/images/murudeshwara/GP013752.webp",
+      alt: "Action camera capture of scuba diver exploring the underwater world of Netrani Island",
+      location: "Netrani Island, Murudeshwar",
     },
   ];
 
@@ -187,8 +187,7 @@ export default function Gallery() {
           Netrani Underwater Gallery
         </h1>
         <p className="text-gray-400 max-w-2xl mx-auto text-base md:text-lg font-medium leading-relaxed">
-          See what awaits you beneath the waves. Real photos from our daily
-          dives at Netrani Island, Murudeshwar.
+          Explore real captures from our morning expeditions at Netrani Island—including vibrant coral reef ecosystems, colorful marine life, and first-time diver milestones.
         </p>
       </section>
 
@@ -241,11 +240,10 @@ export default function Gallery() {
         <div className="absolute top-0 right-0 w-80 h-80 bg-blue-900/5 rounded-full blur-[100px] pointer-events-none"></div>
         <div className="max-w-4xl mx-auto px-6 text-center space-y-8 relative z-10">
           <h2 className="text-3xl md:text-5xl font-black font-display uppercase tracking-tight text-white leading-tight">
-            Want to be in these photos?
+            Ready to Capture Your Own Dive Moments?
           </h2>
           <p className="text-base md:text-lg text-gray-300 leading-relaxed font-medium max-w-2xl mx-auto">
-            We include free underwater photos and videos with every scuba
-            package. Book your dive today and take home the memories.
+            Complimentary high-definition underwater photography and action video clips are included with every dive package. Reserve your spot today and take home real memories.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4">
             <a

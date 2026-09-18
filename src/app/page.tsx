@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Murudeshwar Scuba Diving: Netrani Island Dive Packages & Booking",
+  title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
   description:
-    "Book Murudeshwar scuba diving with Netrani Island packages from ₹1,999. Compare price, timings, age limits, photos, and direct operator booking.",
+    "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹1,999, beginner guidance, and free HD photos.",
   keywords: [
     "Murudeshwar scuba diving",
     "Murudeshwara scuba dive",
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     canonical: "https://www.murudeshwarscubadive.in",
   },
   openGraph: {
-    title: "Murudeshwar Scuba Diving: Netrani Island Dive Packages & Booking",
+    title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
     description:
-      "Book Murudeshwar scuba diving with Netrani Island packages from ₹1,999. Compare price, timings, age rules, photos, and direct booking.",
+      "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹1,999, beginner guidance, and free HD photos.",
     url: "https://www.murudeshwarscubadive.in",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: "/hero.webp",
         width: 1200,
         height: 630,
-        alt: "Scuba diving in Murudeshwar at Netrani Island with direct booking options",
+        alt: "Scuba diving in Murudeshwar at Netrani Island with certified instructors",
       },
     ],
     locale: "en_IN",
@@ -56,9 +56,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Murudeshwar Scuba Diving Price, Timings & Booking",
+    title: "Murudeshwar Scuba Diving Packages & Netrani Island Booking",
     description:
-      "Compare Murudeshwar scuba diving packages from ₹1,999 with age rules, timings, photos, and direct operator booking.",
+      "Discover scuba diving in Murudeshwar with Netrani Island packages from ₹1,999. Certified instructors, complete gear, and free HD photos.",
     images: ["/hero.webp"],
   },
 };
@@ -66,98 +66,98 @@ export const metadata: Metadata = {
 export default function Home() {
   const faqs = [
     {
-      q: "What is the Murudeshwar scuba diving price per person?",
-      a: "The Murudeshwar scuba diving cost starts at ₹1,999 for the Intro Try Dive and ₹3,500 for the full Netrani Island experience. This scuba diving price includes boat charges, equipment rental, PADI instructor fees, and free HD photos/videos.",
+      q: "How much does scuba diving cost at Netrani Island per person?",
+      a: "Murudeshwar scuba diving prices start at ₹1,999 for the Intro Try Dive (10–15 minutes underwater) and ₹3,500 for the Full Netrani Island Dive (30–40 minutes underwater). Both packages include the scenic boat cruise to Netrani Island, full gear rental, personal 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
       link: "/blog/murudeshwar-scuba-diving-price-cost",
-      linkText: "Read Full Price Guide ->",
+      linkText: "View Complete Pricing Guide ->",
     },
     {
-      q: "When is the best time to visit for scuba diving in Murudeshwar?",
-      a: "The best time for scuba diving in Murudeshwar is from October to May. During this Murudeshwar scuba diving season, water visibility at Netrani Island is clearer in season (15-30 metres). Note: Diving is closed during the monsoon (June to September).",
+      q: "Which months offer the clearest underwater visibility in Murudeshwar?",
+      a: "The ideal season for scuba diving in Murudeshwar is from October through May. During these months, the Arabian Sea is calm and water visibility around Netrani Island typically ranges between 15 and 30 metres. Scuba diving operations remain closed during the annual monsoon period from June to September for safety.",
       link: "/blog/best-time-scuba-diving-murudeshwar",
-      linkText: "See Best-Time Guide ->",
+      linkText: "Inspect Seasonal Visibility Guide ->",
     },
     {
-      q: "Is there an age limit for scuba diving in India?",
-      a: "Yes, the scuba diving age limit is 10 years and above for most courses. However, for the \"Intro Try Dive\" at Netrani, anyone above 10 years who is medically fit can participate. There is no strict scuba diving maximum age as long as you are healthy.",
+      q: "What are the minimum age criteria and health prerequisites for diving?",
+      a: "Participants must be at least 10 years of age to dive. There is no upper age limit as long as you are medically fit. Guests with active asthma requiring regular inhalers, heart conditions, recent major surgery, or pregnancy should refrain from tank diving for safety reasons.",
       link: "/blog/scuba-diving-age-limit",
-      linkText: "Read Age Limit Guide ->",
+      linkText: "Review Age & Health Guide ->",
     },
     {
-      q: "Can non-swimmers do scuba diving in Murudeshwar?",
-      a: "Yes. Non-swimmers can do scuba diving in Murudeshwar by starting with the Intro Try Dive. A certified instructor stays with you from the briefing through the guided underwater session, which makes it the easiest package for first-time visitors.",
+      q: "Can individuals who cannot swim still experience scuba diving in Murudeshwar?",
+      a: "Yes, absolutely. Non-swimmers can comfortably participate in both the Intro Try Dive and the Full Netrani Dive. You wear a buoyancy control jacket (BCD) that keeps you effortlessly floating on the surface, and your personal certified instructor holds onto you underwater throughout the entire dive.",
       link: "/blog/scuba-diving-murudeshwar-non-swimmers",
-      linkText: "Read Non-Swimmers Guide ->",
+      linkText: "Read Non-Swimmer Diving Guide ->",
     },
     {
-      q: "What are the Netrani Island scuba diving timings?",
-      a: "Boats for Netrani Island scuba diving depart daily between 8:00 AM and 9:00 AM from Murudeshwar beach. The trip typically lasts until 3:00 PM. We recommend booking your slot in advance, especially on weekends, as tickets sell out fast.",
+      q: "What is the daily schedule and boat departure time for Netrani Island?",
+      a: "Boats depart daily between 8:00 AM and 9:00 AM from Murudeshwar beach. The boat journey to Netrani Island takes approximately 60 to 75 minutes. After dive rotations and surface snorkeling, the boat returns to Murudeshwar by 2:30 PM to 3:30 PM. Advance reservation is recommended.",
       link: "/blog/scuba-diving-timings",
-      linkText: "View Timings Guide ->",
+      linkText: "Check Daily Schedule Guide ->",
     },
     {
-      q: "Is Netrani the best choice for first-time divers near Murudeshwar?",
-      a: "Netrani Island is often preferred for cleaner visibility, richer reef life, and dedicated scuba operators. Conditions vary by season, but for Murudeshwar-focused diving trips, Netrani is usually the strongest option.",
+      q: "Why is Netrani Island considered Karnataka's premier scuba diving destination?",
+      a: "Netrani Island (also known as Pigeon Island) is a protected coral reef sanctuary located 19 km off Murudeshwar. Its crystal-clear waters and thriving marine ecosystem—home to butterflyfish, parrotfish, moray eels, stingrays, and sea turtles—make it the premier scuba diving destination in Karnataka.",
       link: "/blog/best-scuba-diving-netrani-island",
-      linkText: "Compare Dive Spots ->",
+      linkText: "Compare Coastal Dive Sites ->",
     },
     {
-      q: "How do I verify the reviews and contact number?",
-      a: "You can check recent Murudeshwar scuba diving reviews online to see what guests say. For booking and queries, our direct contact number is +91 78299 75777. Call us to confirm ticket availability.",
+      q: "How can I connect with your direct Murudeshwar dive coordinators?",
+      a: "You can reach our Murudeshwar booking desk directly at +91 78299 75777 or message us on WhatsApp. Our coordinators are local divers who provide immediate slot confirmations, boat reporting locations, and live sea condition reports.",
       link: "/blog/murudeshwar-scuba-diving-photos-videos",
-      linkText: "See Real Photos & Videos ->",
+      linkText: "View Live Photos & Videos ->",
     },
     {
-      q: "How do I reach Murudeshwar from Bangalore or Mangalore?",
-      a: "Most guests travel overnight by bus or train to reach Murudeshwar early morning for the boat. Self-drive routes via NH 66 are also common. If you're planning a weekend trip, an overnight stay makes the dive day stress-free.",
+      q: "What is the best way to travel to Murudeshwar from Bangalore or Mangalore?",
+      a: "Murudeshwar is well connected via NH 66 and the Konkan Railway network. Overnight KSRTC and private sleeper buses operate daily from Bangalore (approx. 9–10 hours). Regular express trains stop at Murudeshwar Railway Station (MRDW), which is only 3 km from the beach. Mangalore Airport is 165 km to the south.",
       link: "/blog/murudeshwar-scuba-diving-from-bangalore",
-      linkText: "Read Bangalore Travel Plan ->",
+      linkText: "Read Bangalore Route Itinerary ->",
     },
     {
-      q: "Is it \"Murudeshwar\" or \"Murdeshwar\" scuba diving?",
-      a: "Both spellings refer to the same place! The correct spelling is Murudeshwar (ಮುರುಡೇಶ್ವರ), but it is commonly written as Murdeshwar, Murdeshvar, or Murudeshwara. No matter how you spell it, the scuba diving experience at Netrani Island remains the same — world-class diving from ₹1,999.",
+      q: "Why are there different spelling variants like Murdeshwar or Murudeshwara?",
+      a: "Both spellings refer to the same coastal town in Uttara Kannada, Karnataka (ಮುರುಡೇಶ್ವರ), also written as Murdeshwar, Murdeshvar, or Murudeshwara. Regardless of spelling variations in search, the boat departure point and Netrani Island diving experience are identical.",
       link: "/how-to-reach-murudeshwar",
-      linkText: "How to Reach Murudeshwar ->",
+      linkText: "Read Direction & Route Guide ->",
     },
     {
       q: "How far in advance should I book my scuba diving slot in Murudeshwar?",
-      a: "We recommend booking at least 3 to 5 days in advance, especially for weekend trips or peak season (October to January). Reserving with a nominal ₹500 advance deposit locks your boat seat and ensures 1:1 instructor allocation.",
+      a: "We recommend reserving your slot 3 to 5 days ahead, particularly for weekends and holiday periods between October and January. A nominal advance deposit of ₹500 per person reserves your boat seat and guarantees your dedicated 1:1 instructor assignment.",
       link: "/blog/scuba-diving-booking-murudeshwar",
       linkText: "Read Booking & Deposit Guide ->",
     },
     {
       q: "What should I wear and pack for the Netrani Island boat trip?",
-      a: "Wear comfortable swimwear or quick-dry shorts/t-shirts under your clothes. Bring a dry towel, a fresh change of clothes, sunglasses, sunscreen, and a waterproof bag for your phone. We provide clean neoprene wetsuits, dive masks, fins, and all scuba equipment.",
+      a: "Pack comfortable swimwear or quick-drying t-shirt and shorts, a dry towel, a fresh change of clothes, sunglasses, sunscreen, and a waterproof bag for your smartphone. We provide clean neoprene wetsuits, dive masks, fins, and all certified scuba apparatus.",
       link: "/blog/beginner-scuba-diving-guide",
       linkText: "See Beginner Packing Checklist ->",
     },
     {
       q: "What happens if the sea is rough or the weather is bad?",
-      a: "Safety is our absolute priority. We operate in direct coordination with the Indian Coast Guard. If weather conditions or sea swells are deemed unsafe, trips are cancelled and you receive a 100% full refund or free rescheduling to any date of your choice.",
+      a: "Guest safety is strictly prioritized in alignment with Indian Coast Guard advisories. If rough sea conditions or weather warnings prompt a trip cancellation, you receive a 100% full refund of your booking deposit or free rescheduling to any future date of your choice.",
       link: "/blog/murudeshwar-scuba-diving-safety",
       linkText: "Check Safety & Weather Policies ->",
     },
     {
       q: "Can family members or friends who don't want to dive join the boat?",
-      a: "Yes! Non-diving companions, family members, or children can book a Non-Diver Boat Pass (₹1,500). They enjoy the scenic 19 km boat cruise to Netrani Island, safety life jackets, and surface snorkeling gear to explore the reef.",
+      a: "Yes! Non-diving companions, family members, or children can book a Non-Diver Boat Pass (₹1,500). They enjoy the scenic 19 km Arabian Sea cruise to Netrani Island, safety life jackets, and surface snorkeling gear over the shallow reef.",
       link: "/blog/murudeshwar-boating-price",
       linkText: "View Boating & Companion Prices ->",
     },
     {
       q: "Are underwater photos and videos included in the package price?",
-      a: "Yes, complimentary HD photos and video clips recorded with action cameras are included free in both the ₹1,999 Intro Dive and ₹3,500 Full Netrani Dive. Media files are transferred directly to your mobile phone or shared via private cloud link on the same day.",
+      a: "Yes. High-definition underwater photos and action video clips captured by your instructor are included free of charge with both the ₹1,999 Intro Dive and ₹3,500 Full Netrani Dive. Media files are transferred directly to your mobile phone or shared via private cloud link on the same day.",
       link: "/blog/murudeshwar-scuba-diving-photos-videos",
       linkText: "Learn About Underwater Media ->",
     },
     {
       q: "Can I fly or travel to high altitudes immediately after scuba diving?",
-      a: "Following international PADI safety standards, divers should wait at least 12 to 18 hours after a single introductory dive and 24 hours after multiple dives before boarding a commercial airplane or traveling to high-altitude hill stations (above 1,000 ft).",
+      a: "In accordance with standard international PADI safety guidelines, divers should wait at least 12 to 18 hours after a single introductory dive and 24 hours after multiple dives before boarding an airplane or traveling to high-altitude hill stations (above 1,000 feet).",
       link: "/blog/scuba-diving-timings",
       linkText: "Read Safety Timings & Rest Guide ->",
     },
     {
       q: "Can I scuba dive if I wear spectacles or contact lenses?",
-      a: "You cannot wear standard spectacles inside a scuba mask. However, soft contact lenses are completely safe and comfortable to wear while diving. If you have mild vision correction, the underwater refraction naturally magnifies objects by about 33%, allowing you to see clearly even without lenses.",
+      a: "Standard spectacles cannot be worn inside a scuba mask because the frame breaks the watertight silicone seal. However, soft contact lenses are completely safe and comfortable to wear while diving. Underwater refraction also naturally magnifies objects by about 33%, allowing divers with mild correction to see distinctly without lenses.",
       link: "/blog/scuba-diving-age-limit",
       linkText: "Read Medical & Vision Guidelines ->",
     },
@@ -301,7 +301,7 @@ export default function Home() {
         }}
       />
       {/* Hero Section */}
-      <div className="relative w-full h-[100dvh] overflow-hidden bg-[#00111F]">
+      <div className="relative w-full min-h-[100dvh] bg-[#00111F] overflow-hidden flex flex-col justify-between">
         {/* Immersive Video/Image Background */}
         <div className="absolute inset-0 z-0">
           <div className="hidden md:block absolute inset-0">
@@ -344,86 +344,100 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 w-full h-full flex flex-col justify-between px-6 md:px-12 max-w-[1600px] mx-auto pt-28 pb-12 md:justify-center md:pt-0 md:pb-24">
-          <div className="max-w-4xl space-y-6 md:space-y-8">
+        <div className="relative z-10 w-full flex-1 flex flex-col justify-center px-6 md:px-12 max-w-[1600px] mx-auto pt-32 pb-24 md:pt-36 md:pb-28 lg:pt-36 lg:pb-28">
+          <div className="max-w-4xl space-y-4 md:space-y-5 lg:space-y-5">
             <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full text-[10px] md:text-xs font-semibold uppercase tracking-[0.25em] text-[#00D4FF] backdrop-blur-md">
               <span className="w-1.5 h-1.5 rounded-full bg-[#00D4FF] animate-pulse"></span>
-              Netrani Island scuba diving | Murudeshwar, Karnataka
+              Premier Netrani Coral Reef Adventures • Murudeshwar, Karnataka
             </div>
-            <h1 className="text-[11vw] leading-[0.9] sm:text-6xl lg:text-[6rem] font-black text-white uppercase tracking-tighter font-display drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)]">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5rem] font-black text-white uppercase tracking-tight font-display drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)] leading-[0.92]">
               Scuba Diving in <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-100 to-gray-400">Murudeshwar</span>
             </h1>
-            <p className="text-gray-300 text-sm md:text-lg font-medium leading-relaxed max-w-2xl drop-shadow-md">
-              Book <strong className="text-white font-semibold">scuba diving in Murudeshwar</strong> with clear{" "}
-              <strong className="text-white font-semibold">Netrani Island package prices</strong>, morning{" "}
-              <strong className="text-white font-semibold">boat timings</strong>, age rules, photos, and direct
-              operator support before you pay any booking amount.
+            <p className="text-gray-300 text-sm md:text-base lg:text-[1.05rem] font-medium leading-relaxed max-w-2xl drop-shadow-md">
+              <strong className="text-white font-semibold">Scuba diving in Murudeshwar</strong> offers an unforgettable journey into the Arabian Sea at Netrani Island. Experience guided coral reef diving with{" "}
+              <strong className="text-white font-semibold">1:1 certified instructor assistance</strong>, transparent{" "}
+              <strong className="text-white font-semibold">package pricing</strong>, sanitized gear, and complimentary underwater photos &amp; videos.
             </p>
-            <div className="flex flex-wrap gap-2.5 max-w-2xl">
-              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
-                Price from ₹1,999
+            <div className="flex flex-wrap gap-2 md:gap-2.5 max-w-2xl">
+              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
+                Transparent Pricing from ₹1,999
               </span>
-              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
-                Boat slots 8:00 AM - 9:00 AM
+              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
+                Morning Boat Slots 8:00–9:00 AM
               </span>
-              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
-                Age 10+
+              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
+                Open to Ages 10 &amp; Above
               </span>
-              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.03] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
-                Non-swimmers welcome
+              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
+                Beginners &amp; Non-Swimmers Fully Guided
               </span>
             </div>
-            <div className="flex flex-wrap gap-3 text-[10px] md:text-xs font-bold uppercase tracking-widest pt-2">
-              <Link
-                className="rounded-full border border-white/15 bg-white/5 px-5 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105"
-                href="/blog/murudeshwar-scuba-diving-price-cost"
-              >
-                Open Price Guide
-              </Link>
-              <Link
-                className="rounded-full border border-white/15 bg-white/5 px-5 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105"
-                href="/blog/scuba-diving-timings"
-              >
-                Open Timing Guide
-              </Link>
-              <Link
-                className="rounded-full border border-white/15 bg-white/5 px-5 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105"
-                href="/blog/scuba-diving-age-limit"
-              >
-                Check Age Limit
-              </Link>
-              <Link
-                className="rounded-full border border-white/15 bg-white/5 px-5 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105"
-                href="/team"
-              >
-                Meet the Team
-              </Link>
-            </div>
-            <div className="hidden md:block pt-4">
+            <div className="flex flex-wrap items-center gap-2.5 md:gap-3 text-[10px] md:text-xs font-bold uppercase tracking-wider md:tracking-widest pt-1 md:pt-2">
               <a
                 href="tel:+917829975777"
-                className="inline-flex items-center gap-2 bg-[#00D4FF] text-black text-xs font-bold py-4 px-10 rounded-full hover:bg-[#80e9ff] transition-all hover:scale-105 uppercase tracking-widest shadow-[0_0_30px_rgba(0,212,255,0.3)]"
+                data-cta="call"
+                data-cta-label="hero_primary_call"
+                className="inline-flex items-center gap-2 bg-[#00D4FF] text-black text-xs font-bold py-3 px-7 md:px-8 rounded-full hover:bg-[#80e9ff] transition-all hover:scale-105 uppercase tracking-widest shadow-[0_0_25px_rgba(0,212,255,0.35)] shrink-0"
               >
-                Call to Book
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="w-3.5 h-3.5"
+                  aria-hidden="true"
+                >
+                  <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                </svg>
+                Call to Reserve Slots
               </a>
+              <Link
+                className="rounded-full border border-white/15 bg-white/5 px-4 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105 backdrop-blur-sm"
+                href="/blog/murudeshwar-scuba-diving-price-cost"
+              >
+                Explore Rates &amp; Pricing
+              </Link>
+              <Link
+                className="rounded-full border border-white/15 bg-white/5 px-4 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105 backdrop-blur-sm"
+                href="/blog/scuba-diving-timings"
+              >
+                Daily Boat Schedules
+              </Link>
+              <Link
+                className="rounded-full border border-white/15 bg-white/5 px-4 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105 backdrop-blur-sm"
+                href="/blog/scuba-diving-age-limit"
+              >
+                Eligibility &amp; Age Guide
+              </Link>
+              <Link
+                className="rounded-full border border-white/15 bg-white/5 px-4 py-3 text-white transition-all hover:bg-white hover:text-black hover:scale-105 backdrop-blur-sm"
+                href="/team"
+              >
+                Our Certified Instructors
+              </Link>
             </div>
           </div>
 
           {/* Mobile Swipe Section */}
-          <div className="md:hidden w-full pb-4">
+          <div className="md:hidden w-full pt-6 pb-2">
             <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-4 no-scrollbar -mx-6 px-6">
               <div className="snap-center shrink-0 w-[85vw] bg-white/[0.02] backdrop-blur-md border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-2xl">
                 <div>
                   <h3 className="text-[#00D4FF] font-bold uppercase tracking-wider text-[10px] mb-1">
-                    Top Choice
+                    Signature Package
                   </h3>
                   <h2 className="text-xl font-black text-white uppercase leading-tight mb-2 font-display">
-                    Murudeshwar Scuba <br />
-                    Full Dive
+                    Netrani Island <br />
+                    Deep Dive
                   </h2>
                   <p className="text-gray-400 text-xs mb-4 leading-relaxed">
-                    Full Netrani package with 30-40 minutes underwater.
+                    Full Netrani excursion with 30-40 minutes of guided underwater exploration.
                   </p>
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="text-2xl font-bold text-white font-display">
@@ -445,14 +459,14 @@ export default function Home() {
               <div className="snap-center shrink-0 w-[85vw] bg-white/[0.02] backdrop-blur-md border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-2xl">
                 <div>
                   <h3 className="text-blue-300 font-bold uppercase tracking-wider text-[10px] mb-1">
-                    First Timers
+                    Beginner Friendly
                   </h3>
                   <h2 className="text-xl font-black text-white uppercase leading-tight mb-2 font-display">
-                    Intro Scuba <br />
-                    Try Dive
+                    Ocean Try <br />
+                    Dive Session
                   </h2>
                   <p className="text-gray-400 text-xs mb-4 leading-relaxed">
-                    Beginner-friendly 15-minute guided dive.
+                    Comfortable 10-15 minute shallow reef dive guided 1:1 by certified instructors.
                   </p>
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="text-2xl font-bold text-white font-display">
@@ -479,8 +493,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-28 left-1/2 -translate-x-1/2 z-10 hidden md:flex flex-col items-center gap-2">
+        {/* Scroll Indicator (Positioned elegantly to avoid button collision) */}
+        <div className="absolute bottom-28 right-12 z-10 hidden 2xl:flex flex-col items-center gap-2 pointer-events-none opacity-60 hover:opacity-100 transition-opacity">
           <span className="text-[9px] uppercase tracking-[0.3em] text-white/50">Scroll</span>
           <div className="w-[18px] h-[32px] rounded-full border border-white/30 flex justify-center pt-2">
             <div className="w-[4px] h-[7px] rounded-full bg-[#00D4FF] animate-bounce"></div>
@@ -492,7 +506,7 @@ export default function Home() {
           <div className="max-w-[1600px] mx-auto px-6 md:px-12 h-20 md:h-24 flex items-center justify-between gap-4">
             <div>
               <h3 className="text-white text-base md:text-lg font-bold tracking-wide font-display">
-                Netrani Island Boat Dives &amp; Courses
+                Guided Netrani Island Diving &amp; Marine Excursions
               </h3>
             </div>
             <div className="flex items-center gap-8 justify-end">
@@ -511,7 +525,7 @@ export default function Home() {
                 href="tel:+917829975777"
                 className="inline-flex items-center gap-2 border border-white/20 text-white text-xs font-bold py-2.5 px-6 rounded-full hover:bg-white hover:text-black transition-all hover:scale-105 uppercase tracking-widest font-display"
               >
-                Call for Availability
+                Check Daily Slots
               </a>
             </div>
           </div>
@@ -574,10 +588,10 @@ export default function Home() {
         <div className="max-w-[1600px] mx-auto relative z-10">
           <div className="text-center max-w-3xl mx-auto mb-20 space-y-4">
             <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight font-display">
-              Murudeshwar Scuba Diving Prices &amp; Packages
+              Netrani Scuba Diving Packages &amp; Pricing
             </h2>
             <p className="text-gray-400 text-sm md:text-base leading-relaxed font-medium">
-              Compare the <strong className="text-white">Murudeshwar scuba diving price per person</strong>, see what each package includes, and choose the Netrani trip that matches your comfort level. Boat, guide, and basic dive gear are included. Netrani diving is usually closed during monsoon from June to September.
+              Explore our transparent scuba options tailored for both first-timers and active ocean explorers. Every package guarantees your 19 km boat crossing to Netrani Island, dedicated one-on-one certified instructor supervision, sterilized international-standard gear, and complimentary high-definition underwater footage. Season operates October through May (closed during monsoon).
             </p>
           </div>
 
@@ -596,44 +610,44 @@ export default function Home() {
               <div className="p-8 md:p-10 relative z-10 -mt-12 flex-grow flex flex-col bg-[#00111F]/90">
                 <div className="bg-[#00D4FF]/10 backdrop-blur-md border border-[#00D4FF]/20 rounded-lg py-1 px-3 inline-block mb-5 self-start">
                   <span className="text-[10px] font-bold text-[#00D4FF] uppercase tracking-widest">
-                    Most Popular
+                    Signature Experience
                   </span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-black text-white uppercase mb-5 leading-tight font-display">
-                  Murudeshwar Scuba <br /> Full Dive
+                  Netrani Island <br /> Deep Reef Dive
                 </h3>
                 <ul className="space-y-4 mb-8 text-gray-300 text-sm font-medium flex-grow">
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
                     <span>
-                      Boat ride to <strong className="text-white">Netrani Island</strong>
+                      19 km scenic offshore boat cruise to <strong className="text-white">Netrani Island</strong>
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
                     <span>
-                      <strong className="text-white">Unlimited</strong> Snorkeling time
+                      30 to 40 minutes of deep reef bottom time (up to 12m)
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
-                    <span>Instructor just for you (1:1)</span>
+                    <span>One-on-one certified PADI / SSI divemaster by your side</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
-                    <span>Photos &amp; Videos (Free)</span>
+                    <span>Professional HD underwater video &amp; portrait photography</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
-                    <span>Fruits and Snacks on boat</span>
+                    <span>Bonus surface snorkeling with life vests and masks</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
-                    <span>All gear included</span>
+                    <span>Fresh fruits, refreshments, and bottled water on board</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-[#00D4FF] text-lg font-bold">✓</span>
-                    <span>Changing room on boat</span>
+                    <span>Sanitized international-standard diving suit, mask &amp; BCD gear</span>
                   </li>
                 </ul>
                 <div className="flex items-end gap-3 mb-8 mt-auto">
@@ -652,13 +666,13 @@ export default function Home() {
                     className="flex-1 flex items-center justify-center border border-white/20 text-white font-bold text-xs py-4 px-4 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest font-display text-center"
                     href="/netrani-scuba-diving"
                   >
-                    Full-Dive Details
+                    Deep Dive Details
                   </Link>
                   <a
                     href="tel:+917829975777"
                     className="flex-1 flex items-center justify-center gap-2 bg-[#00D4FF] text-black font-bold text-xs py-4 px-4 rounded-full hover:bg-[#80e9ff] transition-all uppercase tracking-widest font-display text-center shadow-[0_0_20px_rgba(0,212,255,0.2)]"
                   >
-                    Call to Book
+                    Book Deep Dive
                   </a>
                 </div>
               </div>
@@ -687,38 +701,38 @@ export default function Home() {
               <div className="p-8 md:p-10 relative z-10 -mt-12 flex-grow flex flex-col bg-[#00111F]/90">
                 <div className="bg-blue-500/10 backdrop-blur-md border border-blue-500/20 rounded-lg py-1 px-3 inline-block mb-5 self-start">
                   <span className="text-[10px] font-bold text-blue-300 uppercase tracking-widest">
-                    Best Start
+                    First-Timer Special
                   </span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-black text-white uppercase mb-5 leading-tight font-display">
-                  Intro Scuba <br /> Try Dive
+                  Beginner Ocean <br /> Discovery Dive
                 </h3>
                 <ul className="space-y-4 mb-8 text-gray-300 text-sm font-medium flex-grow">
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Good for Non-Swimmers</span>
+                    <span>Tailored specifically for non-swimmers and first-time divers</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>15 Minute Dive</span>
+                    <span>10 to 15 minutes shallow reef exploration (5 to 8m depth)</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 text-lg font-bold">✓</span>
                     <span>
-                      Boat ride to <strong className="text-white">Netrani Island</strong>
+                      Round-trip offshore vessel transport to <strong className="text-white">Netrani Island</strong>
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Safe with PADI Pros</span>
+                    <span>Constant 1:1 hand-held guidance by a certified instructor</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Photos &amp; Videos (Free)</span>
+                    <span>Free digital photos and underwater action clips</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Snorkeling Included</span>
+                    <span>Complimentary post-dive reef snorkeling session</span>
                   </li>
                 </ul>
                 <div className="flex items-end gap-3 mb-8 mt-auto">
@@ -737,13 +751,13 @@ export default function Home() {
                     className="flex-1 flex items-center justify-center border border-white/20 text-white font-bold text-xs py-4 px-4 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest font-display text-center"
                     href="/intro-scuba-diving"
                   >
-                    Intro-Dive Details
+                    Beginner Dive Details
                   </Link>
                   <a
                     href="tel:+917829975777"
                     className="flex-1 flex items-center justify-center gap-2 bg-[#00D4FF] text-black font-bold text-xs py-4 px-4 rounded-full hover:bg-[#80e9ff] transition-all uppercase tracking-widest font-display text-center shadow-[0_0_20px_rgba(0,212,255,0.2)]"
                   >
-                    Call to Book
+                    Book Beginner Dive
                   </a>
                 </div>
               </div>
@@ -775,14 +789,14 @@ export default function Home() {
                 <path d="m9 12 2 2 4-4"></path>
               </svg>
               <span className="text-[#00D4FF] font-bold text-[10px] uppercase tracking-widest font-display">
-                Booking Essentials
+                Trip Preparation
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight text-white font-display">
-              What Most Guests Check Before Booking
+              Essential Details Before You Reserve
             </h2>
             <p className="text-sm md:text-base text-gray-400 font-medium max-w-3xl mx-auto leading-relaxed">
-              If you are planning a Murudeshwar scuba trip, these are usually the first four questions: price, morning timing, age rules, and which package is easiest for beginners.
+              Planning a scuba trip to Murudeshwar is straightforward when you have clear facts. Review the essential points travelers confirm before reserving: package costs, morning departure times, physical fitness guidelines, and dedicated non-swimmer safety.
             </p>
           </div>
 
@@ -807,16 +821,16 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold uppercase text-white mb-3 font-display">
-                Price and What You Get
+                Package Pricing &amp; Inclusions
               </h3>
               <p className="text-sm leading-relaxed text-gray-400 mb-6 font-medium">
-                The intro dive starts at ₹1,999 and the longer Netrani full dive is ₹3,500. Boat ride, guide, gear, and photos/videos are part of the current package.
+                The Intro Try Dive starts at ₹1,999 per person, while the Full Netrani Dive is ₹3,500. Both options include the boat cruise, full gear rental, 1:1 instructor guidance, and complimentary HD media.
               </p>
               <Link
                 className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-white hover:text-black font-display"
                 href="/blog/murudeshwar-scuba-diving-price-cost"
               >
-                Read Price Details
+                Review Pricing Guide
               </Link>
             </div>
 
@@ -844,16 +858,16 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold uppercase text-white mb-3 font-display">
-                Morning Timing
+                Morning Departure Schedule
               </h3>
               <p className="text-sm leading-relaxed text-gray-400 mb-6 font-medium">
-                Most guests report early, and the main Netrani boat slot is usually between 8:00 AM and 9:00 AM. Return time changes slightly with sea conditions.
+                Daily dive boats depart between 8:00 AM and 9:00 AM from Murudeshwar beach. The round trip to Netrani Island and dive rotations return to shore by early afternoon.
               </p>
               <Link
                 className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-white hover:text-black font-display"
                 href="/blog/scuba-diving-timings"
               >
-                See Full Timings
+                View Complete Timetable
               </Link>
             </div>
 
@@ -877,16 +891,16 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold uppercase text-white mb-3 font-display">
-                Age and Medical Check
+                Age &amp; Medical Guidelines
               </h3>
               <p className="text-sm leading-relaxed text-gray-400 mb-6 font-medium">
-                The usual starting age is 10+. If someone in your group has asthma, recent surgery, heart issues, or pregnancy, check the guide before paying advance.
+                Participants must be at least 10 years old. General good health is required; guests with active asthma, heart conditions, or pregnancy should consult safety rules before booking.
               </p>
               <Link
                 className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-white hover:text-black font-display"
                 href="/blog/scuba-diving-age-limit"
               >
-                Review Age Rules
+                Review Health Guidelines
               </Link>
             </div>
 
@@ -912,16 +926,16 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold uppercase text-white mb-3 font-display">
-                Best for First Timers
+                Non-Swimmer Safety Protocol
               </h3>
               <p className="text-sm leading-relaxed text-gray-400 mb-6 font-medium">
-                If you do not swim, start with the guided intro package. If you want more underwater time and are comfortable with a longer boat day, compare the full dive.
+                Swimming skills are not required. A personal certified instructor guides you with a buoyancy vest (BCD), ensuring a calm and safe introduction to the underwater world.
               </p>
               <Link
                 className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-white hover:text-black font-display"
                 href="/intro-scuba-diving"
               >
-                View Intro Package
+                Explore Beginner Package
               </Link>
             </div>
           </div>
@@ -929,10 +943,10 @@ export default function Home() {
           <div className="rounded-3xl border border-white/10 bg-white/[0.01] p-8 md:p-12 max-w-5xl mx-auto shadow-2xl">
             <div className="max-w-3xl space-y-3">
               <h3 className="text-2xl md:text-3xl font-black uppercase tracking-tight text-white font-display">
-                Before You Pay Anyone, Check This
+                Three Steps to Verify Your Dive Booking
               </h3>
               <p className="text-sm md:text-base text-gray-400 leading-relaxed font-medium">
-                If you are comparing operators, verify the phone number, look at real dive photos, and make sure you know who is handling the trip before you pay advance.
+                Before paying any advance deposit, verify your operator's direct contact, review authentic underwater photography, and confirm instructor allocation for total peace of mind.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
@@ -956,16 +970,16 @@ export default function Home() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2 font-display">
-                  Call the Booking Desk
+                  Speak with our Harbor Coordinator
                 </h4>
                 <p className="text-xs leading-relaxed text-gray-400 mb-5 font-medium">
-                  Use the direct number to confirm availability, reporting point, and current sea conditions before you lock your slot.
+                  Contact our direct booking desk to confirm daily seat availability, reporting location, and real-time sea conditions.
                 </p>
                 <Link
                   className="text-xs font-bold uppercase tracking-widest text-[#00D4FF] hover:text-white transition-colors"
                   href="/contact"
                 >
-                  Open Contact Page
+                  Go to Contact Page
                 </Link>
               </div>
 
@@ -989,16 +1003,16 @@ export default function Home() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2 font-display">
-                  See Recent Dive Photos
+                  Inspect Authentic Underwater Media
                 </h4>
                 <p className="text-xs leading-relaxed text-gray-400 mb-5 font-medium">
-                  Check recent guest photos and videos if you want a clearer feel for water visibility, fish life, and what your trip may look like.
+                  Browse authentic underwater photos and video clips captured by our team at Netrani Island to see actual water clarity and marine life.
                 </p>
                 <Link
                   className="text-xs font-bold uppercase tracking-widest text-[#00D4FF] hover:text-white transition-colors"
                   href="/gallery"
                 >
-                  View Gallery
+                  Browse Media Gallery
                 </Link>
               </div>
 
@@ -1022,16 +1036,16 @@ export default function Home() {
                   </svg>
                 </div>
                 <h4 className="text-lg font-bold text-white mb-2 font-display">
-                  Know Who You Are Booking With
+                  Review Dive Team Credentials
                 </h4>
                 <p className="text-xs leading-relaxed text-gray-400 mb-5 font-medium">
-                  If you want names and roles behind the phone number, open the team page before you pay any advance.
+                  Learn about the certified instructors, divemasters, and experienced boat captains dedicated to your safety.
                 </p>
                 <Link
                   className="text-xs font-bold uppercase tracking-widest text-[#00D4FF] hover:text-white transition-colors"
                   href="/team"
                 >
-                  Visit Team Page
+                  Explore Team Profiles
                 </Link>
               </div>
             </div>
@@ -1062,14 +1076,14 @@ export default function Home() {
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
               </svg>
               <span className="text-[#00D4FF] font-bold text-[10px] uppercase tracking-widest font-display">
-                Quick Guides
+                Knowledge Base
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight font-display">
-              Plan Your Dive Like A Local
+              Murudeshwar Scuba Guides &amp; Travel Advice
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-              Fast answers for <strong className="text-white">price</strong>, <strong className="text-white">age limit</strong>, <strong className="text-white">timings</strong>, package choice, boating, and route-specific travel planning. These guides are updated for 2026.
+              Authoritative local resources providing verified answers on <strong className="text-white">package prices</strong>, <strong className="text-white">age eligibility</strong>, <strong className="text-white">boat schedules</strong>, travel routes, and underwater safety for your 2026 trip.
             </p>
           </div>
 
@@ -1098,14 +1112,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Price Guide
+                  Rate Breakdown
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Scuba Price Guide (2026)
+                Netrani Scuba Rates &amp; Cost Breakdown (2026)
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Updated Murudeshwar scuba price per person, cost factors, and what the official price includes.
+                Transparent breakdown of Murudeshwar scuba diving fees, gear rentals, and package inclusions.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1135,14 +1149,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Eligibility
+                  Participation Rules
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Age Limit + Medical Rules
+                Diver Eligibility &amp; Medical Standards
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Minimum age, fitness tips, and who can safely dive at Netrani.
+                Clear age eligibility, medical criteria, and health recommendations for diving at Netrani Island.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1175,14 +1189,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Season Guide
+                  Seasonal Calendar
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Best Time for Scuba Diving
+                Peak Diving Months &amp; Sea Visibility
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Month-by-month Murudeshwar and Netrani Island season guide with visibility and monsoon closure dates.
+                Seasonal weather and sea visibility breakdown for Murudeshwar, with monsoon closure timelines.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1213,14 +1227,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Timing Guide
+                  Daily Timetable
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Scuba Diving Timings
+                Excursion Schedule &amp; Boat Timings
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Reporting time, Netrani boat schedule, dive window, and return-to-shore timing in one guide.
+                Reporting times, boat departure slots, dive rotation schedules, and return timings.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1251,14 +1265,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Travel Plan
+                  Route Advice
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Bangalore to Murudeshwar
+                Bangalore to Murudeshwar Travel Plan
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Overnight bus/train plan and the easiest travel route.
+                Optimal road, bus, and train travel routes for weekend scuba excursions from Bangalore.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1289,14 +1303,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Directions
+                  Transit Map
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                How to Reach Murudeshwar
+                How to Reach Murudeshwar Beach
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Map, parking tips, and the boat boarding point.
+                Step-by-step travel directions via Konkan Railway, NH 66, and nearest coastal airports.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1327,14 +1341,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  First Timer
+                  Novice Tips
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Beginner's Guide 101
+                First-Time Diver Essentials 101
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                First time? Learn how we handle non-swimmers &amp; safety.
+                Essential advice for first-time divers, from equalizing ears to underwater hand signals.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1367,14 +1381,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Can’t Swim?
+                  Non-Swimmer Info
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Non-Swimmers Guide
+                Scuba Diving Guide for Non-Swimmers
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Can’t swim? See how instructor-guided dives work and which package is easiest to start with.
+                How buoyancy control jackets and 1:1 instructor assistance make diving accessible to non-swimmers.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1404,14 +1418,14 @@ export default function Home() {
                   </svg>
                 </span>
                 <span className="text-[10px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Safety First
+                  Risk &amp; Protocol
                 </span>
               </div>
               <h3 className="text-lg font-bold text-white mb-2 group-hover:text-[#00D4FF] transition-colors font-display">
-                Is It Safe? (Risks)
+                Marine Safety Standards &amp; Gear Protocols
               </h3>
               <p className="text-gray-400 text-xs leading-relaxed mb-4 font-medium">
-                Honest look at safety standards, oxygen, and protocols.
+                A transparent overview of safety procedures, sanitized gear, emergency oxygen, and Coast Guard protocols.
               </p>
               <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest font-display flex items-center gap-1 group-hover:gap-2 transition-all">
                 Read Guide <span>-&gt;</span>
@@ -1421,7 +1435,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Visual Proof Section */}
+      {/* Expedition Gallery Section */}
       <section className="py-24 md:py-32 bg-[#00111F] text-white relative overflow-hidden border-t border-white/5">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(0,91,150,0.04)_0%,transparent_75%)] pointer-events-none"></div>
         <div className="max-w-[1600px] mx-auto px-6 md:px-12">
@@ -1445,18 +1459,18 @@ export default function Home() {
                   <circle cx="12" cy="13" r="3"></circle>
                 </svg>
                 <span className="text-[10px] font-bold tracking-widest uppercase font-display">
-                  Visual Proof
+                  Expedition Moments
                 </span>
               </div>
               <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tight font-display text-white">
-                Life Underwater
+                Undersea Wonders at Netrani Island
               </h2>
             </div>
             <Link
               className="inline-flex items-center gap-2 border border-white/20 px-6 py-3 rounded-full hover:bg-white hover:text-black hover:border-transparent transition-all duration-300 font-bold tracking-wider text-xs uppercase font-display group"
               href="/gallery"
             >
-              View Full Gallery
+              Explore Dive Gallery
               <span className="text-[#00D4FF] group-hover:text-black transition-colors">
                 →
               </span>
@@ -1467,17 +1481,17 @@ export default function Home() {
             {/* Gallery item 1 */}
             <div className="relative group overflow-hidden rounded-2xl border border-white/10 md:col-span-2 md:row-span-2">
               <Image
-                alt="Female diver in green t-shirt making a heart shape with hands underwater"
-                src="/images/gallery/gallery-1.webp"
+                alt="First-time scuba diver experiencing Netrani Island coral reef with certified dive guide"
+                src="/images/murudeshwara/netrani_island_scuba_diving.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#00111F]/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-8">
                 <span className="text-[#00D4FF] text-xs font-bold uppercase tracking-widest mb-2 font-display">
-                  Netrani Island
+                  Netrani Island Reef
                 </span>
                 <p className="text-gray-300 text-sm max-w-md font-medium leading-relaxed">
-                  Female diver in green t-shirt making a heart shape with hands underwater
+                  First-time diver celebrating an unforgettable moment in crystal-clear Arabian Sea waters
                 </p>
               </div>
             </div>
@@ -1485,8 +1499,8 @@ export default function Home() {
             {/* Gallery item 2 */}
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
-                alt="Male diver in blue shirt taking an underwater selfie with a fist bump"
-                src="/images/gallery/gallery-2.webp"
+                alt="Scuba diver recording underwater memories during a guided Netrani Island dive"
+                src="/images/murudeshwara/murudeshwar_scuba_diving.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
@@ -1495,7 +1509,7 @@ export default function Home() {
                   Netrani Island
                 </span>
                 <p className="text-gray-300 text-xs font-medium leading-relaxed">
-                  Male diver in blue shirt taking an underwater selfie with a fist bump
+                  Under-surface action captured on HD underwater action cameras
                 </p>
               </div>
             </div>
@@ -1503,17 +1517,17 @@ export default function Home() {
             {/* Gallery item 3 */}
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
-                alt="Female diver meditating in lotus position underwater"
-                src="/images/gallery/gallery-3.webp"
+                alt="Diver practicing calm buoyancy and breathing among Netrani reef fish"
+                src="/images/murudeshwara/netrani_island_coral_reef.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#00111F]/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
                 <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest mb-1.5 font-display">
-                  Netrani Island
+                  Marine Sanctuary
                 </span>
                 <p className="text-gray-300 text-xs font-medium leading-relaxed">
-                  Female diver meditating in lotus position underwater
+                  Calm breathing and neutral buoyancy beside thriving coastal marine life
                 </p>
               </div>
             </div>
@@ -1521,17 +1535,17 @@ export default function Home() {
             {/* Gallery item 4 */}
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
-                alt="Large pufferfish swimming near underwater rock formations"
-                src="/images/gallery/gallery-4.webp"
+                alt="Pufferfish swimming near rocky coral formations at Netrani Island, Murudeshwar"
+                src="/images/murudeshwara/netrani_island_marine_life.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#00111F]/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
                 <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest mb-1.5 font-display">
-                  Netrani Island
+                  Reef Ecosystem
                 </span>
                 <p className="text-gray-300 text-xs font-medium leading-relaxed">
-                  Large pufferfish swimming near underwater rock formations
+                  Resident pufferfish and reef fauna frequenting shallow rock crevices
                 </p>
               </div>
             </div>
@@ -1539,17 +1553,17 @@ export default function Home() {
             {/* Gallery item 5 */}
             <div className="relative group overflow-hidden rounded-2xl border border-white/10">
               <Image
-                alt="Two divers making a triangle shape with their hands"
-                src="/images/gallery/gallery-5.webp"
+                alt="Dive buddies sharing underwater hand signals during a guided dive session"
+                src="/images/murudeshwara/murudeshwar_diving_experience.webp"
                 fill
                 className="object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#00111F]/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-all duration-500 flex flex-col justify-end p-6">
                 <span className="text-[#00D4FF] text-[10px] font-bold uppercase tracking-widest mb-1.5 font-display">
-                  Netrani Island
+                  Buddy Team Dive
                 </span>
                 <p className="text-gray-300 text-xs font-medium leading-relaxed">
-                  Two divers making a triangle shape with their hands
+                  Clear underwater communication and guided buddy-system exploration
                 </p>
               </div>
             </div>
@@ -1581,14 +1595,14 @@ export default function Home() {
                 <path d="M12 17h.01"></path>
               </svg>
               <span className="text-[#00D4FF] font-bold text-[10px] uppercase tracking-widest font-display">
-                Common Questions
+                Helpful Answers
               </span>
             </div>
             <h2 className="text-3xl md:text-5xl font-black text-white uppercase tracking-tight font-display">
-              Murudeshwar Scuba Guide
+              Frequently Asked Questions About Netrani Scuba
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-              Everything you need to know about <strong className="text-white">Netrani Island scuba diving</strong>, including <strong className="text-white">prices</strong>, <strong className="text-white">timings</strong>, and <strong className="text-white">booking</strong> details.
+              Key answers regarding boat departures, underwater safety, pricing structures, and traveler logistics for your Murudeshwar dive trip.
             </p>
           </div>
 
@@ -1639,11 +1653,11 @@ export default function Home() {
         <div className="max-w-[1400px] mx-6 md:mx-auto bg-gradient-to-br from-[#002B5B] to-[#00111F] border border-white/10 rounded-3xl p-8 md:p-16 flex flex-col lg:flex-row items-center justify-between relative overflow-hidden shadow-2xl">
           <div className="relative z-10 lg:w-1/2 pb-8 lg:pb-0 space-y-6">
             <h2 className="text-4xl md:text-6xl font-black text-white uppercase leading-[0.9] tracking-tighter font-display drop-shadow-xl">
-              Call &amp; <br />
-              Book Netrani
+              Ready to Explore <br />
+              Netrani Island?
             </h2>
             <p className="text-gray-300 text-sm md:text-base max-w-md leading-relaxed font-medium">
-              Need the exact <strong className="text-white">Murudeshwar scuba diving contact number</strong>, reporting point, or today's boat-slot status? Call the operator directly. If you prefer to verify details first, open the contact page or browse recent gallery proof before booking.
+              Reserve your scuba diving slot with a simple advance deposit of ₹500 per person. Have questions about sea conditions, boat timings, or custom group bookings? Our dive coordinator is available daily from 8:00 AM to 8:00 PM to help you plan.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <a
@@ -1656,7 +1670,7 @@ export default function Home() {
                 className="inline-flex items-center gap-2 border border-white/20 bg-white/5 text-white text-xs font-bold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest font-display"
                 href="/contact"
               >
-                Open Contact Page
+                Contact &amp; Directions
               </Link>
             </div>
           </div>
@@ -1699,7 +1713,7 @@ export default function Home() {
         <div className="px-5 py-3 flex items-center justify-between gap-3">
           <div className="flex flex-col leading-tight">
             <span className="text-[9px] font-bold uppercase tracking-[0.25em] text-[#00D4FF]">
-              Call to Book
+              Direct Booking Desk
             </span>
             <span className="text-xs font-bold text-gray-200">+91 78299 75777</span>
           </div>
