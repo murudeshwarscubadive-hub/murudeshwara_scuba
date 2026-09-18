@@ -51,6 +51,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "best-scuba-diving-in-murudeshwara",
     "murudeshwar-scuba-diving-first-timer-guide",
     "scuba-diving-murudeshwar-netrani-island-guide",
     "gandhada-gudi-netrani-scuba-diving-puneeth-rajkumar",
