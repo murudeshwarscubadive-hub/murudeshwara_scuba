@@ -51,6 +51,7 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
+    "scuba-diving-in-murudeshwar",
     "murudeshwar-scuba-diving-complete-guide-netrani-island",
     "best-scuba-diving-in-murudeshwara",
     "murudeshwar-scuba-diving-first-timer-guide",
