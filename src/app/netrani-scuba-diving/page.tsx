@@ -272,8 +272,8 @@ export default function NetraniScubaDiving() {
       a: "Yes. We supply complete, well-maintained equipment including neoprene wetsuits, silicone dive masks, BCD buoyancy jackets, balanced regulators, filled scuba cylinders, fins, and marine life jackets.",
     },
     {
-      q: "What is the difference between the Intro Try Dive (₹1,999) and the Full Netrani Dive (₹3,500)?",
-      a: "The Intro Try Dive offers a 10–15 minute introductory sub-surface experience up to 5–8m depth. The Full Netrani Dive gives you 30–40 minutes of bottom time reaching up to 12m depth, extensive reef exploration, surface snorkeling, and complimentary on-boat refreshments.",
+      q: "What is the difference between the Full Netrani Dive (₹3,500) and the Extended Deep Dive (₹4,500)?",
+      a: "The standard Netrani Dive gives you 30–40 minutes of bottom time reaching up to 12m depth. The Extended Deep Dive provides 45–55 minutes of underwater exploration time. Both packages include the 19 km boat cruise to Netrani Island, 1:1 certified instructor guidance, complete international gear, surface snorkeling, fresh refreshments, and complimentary HD photos and videos.",
     },
     {
       q: "Are underwater photos and videos really free with this package?",

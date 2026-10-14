@@ -15,7 +15,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/beginner-scuba-diving",
-        destination: "/intro-scuba-diving",
+        destination: "/#packages",
+        permanent: true,
+      },
+      {
+        source: "/intro-scuba-diving",
+        destination: "/#packages",
         permanent: true,
       },
       {

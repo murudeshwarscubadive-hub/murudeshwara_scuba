@@ -195,8 +195,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/intro-scuba-diving" className="hover:text-[#00D4FF] transition-colors">
-                  Intro Scuba (Try Dive)
+                <Link href="/#packages" className="hover:text-[#00D4FF] transition-colors">
+                  Extended Deep Dive (45-55 Min)
                 </Link>
               </li>
               <li>

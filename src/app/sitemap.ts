@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }> = [
     { route: "", priority: 1.0, changeFrequency: "daily" },
     { route: "/netrani-scuba-diving", priority: 0.95, changeFrequency: "weekly" },
-    { route: "/intro-scuba-diving", priority: 0.95, changeFrequency: "weekly" },
     { route: "/bulk-scuba-booking", priority: 0.85, changeFrequency: "weekly" },
     { route: "/contact", priority: 0.9, changeFrequency: "weekly" },
     { route: "/how-to-reach-murudeshwar", priority: 0.85, changeFrequency: "monthly" },

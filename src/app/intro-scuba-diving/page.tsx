@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
   title: "Beginner Scuba Diving in Murudeshwar: Intro Try Dive (₹1,999)",
@@ -52,6 +53,7 @@ export const metadata: Metadata = {
 };
 
 export default function IntroScubaDiving() {
+  redirect("/#packages");
   const whyChoose = [
     {
       title: "Accessible Pricing",

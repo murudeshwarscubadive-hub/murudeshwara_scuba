@@ -26,7 +26,7 @@ export default function Navbar() {
   const links = [
     { name: "Home", href: "/" },
     { name: "Netrani Scuba", href: "/netrani-scuba-diving" },
-    { name: "Intro Scuba", href: "/intro-scuba-diving" },
+    { name: "Packages", href: "/#packages" },
     { name: "Blog", href: "/blog" },
     { name: "Gallery", href: "/gallery" },
     { name: "Contact", href: "/contact" },

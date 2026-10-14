@@ -5,7 +5,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
   description:
-    "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹1,999, beginner guidance, and free HD photos.",
+    "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹3,500, beginner guidance, and free HD photos.",
   keywords: [
     "Murudeshwar scuba diving",
     "Murudeshwara scuba dive",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
     description:
-      "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹1,999, beginner guidance, and free HD photos.",
+      "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹3,500, beginner guidance, and free HD photos.",
     url: "https://www.murudeshwarscubadive.in",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Murudeshwar Scuba Diving Packages & Netrani Island Booking",
     description:
-      "Discover scuba diving in Murudeshwar with Netrani Island packages from ₹1,999. Certified instructors, complete gear, and free HD photos.",
+      "Discover scuba diving in Murudeshwar with Netrani Island packages from ₹3,500. Certified instructors, complete gear, and free HD photos.",
     images: ["/hero.webp"],
   },
 };
@@ -67,7 +67,7 @@ export default function Home() {
   const faqs = [
     {
       q: "How much does scuba diving cost at Netrani Island per person?",
-      a: "Murudeshwar scuba diving prices start at ₹1,999 for the Intro Try Dive (10–15 minutes underwater) and ₹3,500 for the Full Netrani Island Dive (30–40 minutes underwater). Both packages include the scenic boat cruise to Netrani Island, full gear rental, personal 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
+      a: "Murudeshwar scuba diving packages are ₹3,500 for the Full Netrani Island Dive (30–40 minutes underwater, offer price from ₹4,500) and ₹4,500 for the Extended Deep Dive (45–55 minutes underwater, offer price from ₹6,000). Both packages include the scenic boat cruise to Netrani Island, full gear rental, personal 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
       link: "/blog/murudeshwar-scuba-diving-price-cost",
       linkText: "View Complete Pricing Guide ->",
     },
@@ -85,7 +85,7 @@ export default function Home() {
     },
     {
       q: "Can individuals who cannot swim still experience scuba diving in Murudeshwar?",
-      a: "Yes, absolutely. Non-swimmers can comfortably participate in both the Intro Try Dive and the Full Netrani Dive. You wear a buoyancy control jacket (BCD) that keeps you effortlessly floating on the surface, and your personal certified instructor holds onto you underwater throughout the entire dive.",
+      a: "Yes, absolutely. Non-swimmers can comfortably participate in both the 30–40 min Full Netrani Dive and the 45–55 min Extended Deep Dive. You wear a buoyancy control jacket (BCD) that keeps you effortlessly floating on the surface, and your personal certified instructor holds onto you underwater throughout the entire dive.",
       link: "/blog/scuba-diving-murudeshwar-non-swimmers",
       linkText: "Read Non-Swimmer Diving Guide ->",
     },
@@ -145,7 +145,7 @@ export default function Home() {
     },
     {
       q: "Are underwater photos and videos included in the package price?",
-      a: "Yes. High-definition underwater photos and action video clips captured by your instructor are included free of charge with both the ₹1,999 Intro Dive and ₹3,500 Full Netrani Dive. Media files are transferred directly to your mobile phone or shared via private cloud link on the same day.",
+      a: "Yes. High-definition underwater photos and action video clips captured by your instructor are included free of charge with both the ₹3,500 Full Netrani Dive and ₹4,500 Extended Deep Dive. Media files are transferred directly to your mobile phone or shared via private cloud link on the same day.",
       link: "/blog/murudeshwar-scuba-diving-photos-videos",
       linkText: "Learn About Underwater Media ->",
     },
@@ -186,7 +186,7 @@ export default function Home() {
         "latitude": 14.0945,
         "longitude": 74.4844
       },
-      "priceRange": "₹1999 - ₹3500",
+      "priceRange": "₹3500 - ₹4500",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
@@ -209,23 +209,7 @@ export default function Home() {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Intro Scuba Try Dive",
-              "description": "Beginner and non-swimmer friendly 1:1 guided scuba dive at Netrani Island with free HD photos.",
-              "url": "https://www.murudeshwarscubadive.in/intro-scuba-diving",
-              "provider": {
-                "@type": "SportsActivityLocation",
-                "name": "Murudeshwar Scuba Dive"
-              }
-            },
-            "price": "1999",
-            "priceCurrency": "INR",
-            "availability": "https://schema.org/InStock"
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Netrani Island Scuba Diving Package",
+              "name": "Netrani Island Deep Reef Dive Package",
               "description": "Full 30-40 minute scuba diving package at Netrani Island with boat transfer, 1:1 instructor, gear, and free HD media.",
               "url": "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
               "provider": {
@@ -234,6 +218,22 @@ export default function Home() {
               }
             },
             "price": "3500",
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Netrani Island Extended Deep Dive Package",
+              "description": "Extended 45-55 minute scuba diving package at Netrani Island with boat transfer, 1:1 instructor, gear, and free HD media.",
+              "url": "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
+              "provider": {
+                "@type": "SportsActivityLocation",
+                "name": "Murudeshwar Scuba Dive"
+              }
+            },
+            "price": "4500",
             "priceCurrency": "INR",
             "availability": "https://schema.org/InStock"
           }
@@ -360,9 +360,9 @@ export default function Home() {
               <strong className="text-white font-semibold">package pricing</strong>, sanitized gear, and complimentary underwater photos &amp; videos.
             </p>
             <div className="flex flex-wrap gap-2 md:gap-2.5 max-w-2xl">
-              <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
+              {/* <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
                 Transparent Pricing from ₹1,999
-              </span>
+              </span> */}
               <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
                 Morning Boat Slots 8:00–9:00 AM
               </span>
@@ -456,30 +456,30 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className="snap-center shrink-0 w-[85vw] bg-white/[0.02] backdrop-blur-md border border-white/10 rounded-2xl p-6 flex flex-col justify-between shadow-2xl">
+              <div className="snap-center shrink-0 w-[85vw] bg-white/[0.02] backdrop-blur-md border border-[#00D4FF]/30 rounded-2xl p-6 flex flex-col justify-between shadow-2xl">
                 <div>
-                  <h3 className="text-blue-300 font-bold uppercase tracking-wider text-[10px] mb-1">
-                    Beginner Friendly
+                  <h3 className="text-amber-400 font-bold uppercase tracking-wider text-[10px] mb-1">
+                    Extended Experience
                   </h3>
                   <h2 className="text-xl font-black text-white uppercase leading-tight mb-2 font-display">
-                    Ocean Try <br />
-                    Dive Session
+                    Netrani Island <br />
+                    Extended Dive
                   </h2>
                   <p className="text-gray-400 text-xs mb-4 leading-relaxed">
-                    Comfortable 10-15 minute shallow reef dive guided 1:1 by certified instructors.
+                    Extended Netrani excursion with 45-55 minutes of guided underwater exploration.
                   </p>
                   <div className="flex items-baseline gap-2 mb-4">
                     <span className="text-2xl font-bold text-white font-display">
-                      ₹1,999
+                      ₹4,500
                     </span>
                     <span className="text-sm text-gray-500 line-through">
-                      ₹3,000
+                      ₹6,000
                     </span>
                   </div>
                 </div>
                 <Link
-                  className="w-full flex items-center justify-center gap-2 bg-white text-black font-bold py-3 rounded-full hover:bg-gray-200 transition-colors uppercase tracking-widest text-xs"
-                  href="/intro-scuba-diving"
+                  className="w-full flex items-center justify-center gap-2 bg-[#00D4FF] text-black font-bold py-3 rounded-full hover:bg-white transition-colors uppercase tracking-widest text-xs"
+                  href="/netrani-scuba-diving"
                 >
                   See Details
                 </Link>
@@ -515,10 +515,10 @@ export default function Home() {
                   <span className="text-xs md:text-sm font-medium text-gray-400 mr-2 uppercase tracking-wider">
                     Starts at
                   </span>
-                  ₹1,999
+                  ₹3,500
                 </span>
                 <span className="text-gray-500 text-xs md:text-sm line-through font-semibold">
-                  ₹3,500
+                  ₹4,500
                 </span>
               </div>
               <a
@@ -533,7 +533,7 @@ export default function Home() {
       </div>
 
       {/* Packages Section */}
-      <section className="py-24 md:py-32 px-6 relative overflow-hidden bg-gradient-to-b from-[#00111F] to-[#002B5B]">
+      <section id="packages" className="py-24 md:py-32 px-6 relative overflow-hidden bg-gradient-to-b from-[#00111F] to-[#002B5B]">
         {/* Background Decorative Element Gradients */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#00D4FF]/5 rounded-full blur-[120px] pointer-events-none"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-500/5 rounded-full blur-[120px] pointer-events-none"></div>
@@ -678,69 +678,71 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Card 2: Intro Try Dive */}
-            <div className="group relative rounded-3xl overflow-hidden glass-panel border border-white/10 shadow-2xl hover:border-blue-400/30 hover:shadow-[0_20px_50px_rgba(59,130,246,0.08)] transition-all duration-500 flex flex-col hover:-translate-y-2">
+            {/* Card 2: Extended Deep Dive (4500 Plan) */}
+            <div className="group relative rounded-3xl overflow-hidden glass-panel border border-white/10 shadow-2xl hover:border-[#00D4FF]/30 hover:shadow-[0_20px_50px_rgba(0,212,255,0.12)] transition-all duration-500 flex flex-col hover:-translate-y-2">
               <div className="h-72 overflow-hidden relative flex-shrink-0">
                 <Image
-                  alt="Group of tourist scuba divers preparing for try dive training briefing at Murudeshwar"
-                  src="/images/group-divers.png"
+                  alt="Scuba diver exploring coral reef at Netrani Island during extended deep dive"
+                  src="/images/deep-dive.png"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#001c33] via-transparent to-transparent opacity-90"></div>
-                <div className="absolute top-5 left-5 w-20 h-20 opacity-30 animate-pulse-slow">
-                  <Image
-                    alt=""
-                    aria-hidden="true"
-                    src="/images/packages-star.png"
-                    fill
-                    className="object-contain"
-                  />
+                <div className="absolute top-5 right-5 bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-400/30 rounded-full px-3 py-1 backdrop-blur-md">
+                  <span className="text-[10px] font-bold text-amber-300 uppercase tracking-widest">
+                    Extended Bottom Time
+                  </span>
                 </div>
               </div>
               <div className="p-8 md:p-10 relative z-10 -mt-12 flex-grow flex flex-col bg-[#00111F]/90">
-                <div className="bg-blue-500/10 backdrop-blur-md border border-blue-500/20 rounded-lg py-1 px-3 inline-block mb-5 self-start">
-                  <span className="text-[10px] font-bold text-blue-300 uppercase tracking-widest">
-                    First-Timer Special
+                <div className="bg-[#00D4FF]/10 backdrop-blur-md border border-[#00D4FF]/20 rounded-lg py-1 px-3 inline-block mb-5 self-start">
+                  <span className="text-[10px] font-bold text-[#00D4FF] uppercase tracking-widest">
+                    VIP Extended Experience
                   </span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-black text-white uppercase mb-5 leading-tight font-display">
-                  Beginner Ocean <br /> Discovery Dive
+                  Netrani Island <br /> Extended Deep Dive
                 </h3>
                 <ul className="space-y-4 mb-8 text-gray-300 text-sm font-medium flex-grow">
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Tailored specifically for non-swimmers and first-time divers</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>10 to 15 minutes shallow reef exploration (5 to 8m depth)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg font-bold">✓</span>
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
                     <span>
-                      Round-trip offshore vessel transport to <strong className="text-white">Netrani Island</strong>
+                      19 km scenic offshore boat cruise to <strong className="text-white">Netrani Island</strong>
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Constant 1:1 hand-held guidance by a certified instructor</span>
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
+                    <span>
+                      <strong className="text-white">45 to 55 minutes</strong> of deep reef bottom time (up to 12m)
+                    </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Free digital photos and underwater action clips</span>
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
+                    <span>One-on-one certified PADI / SSI divemaster by your side</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg font-bold">✓</span>
-                    <span>Complimentary post-dive reef snorkeling session</span>
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
+                    <span>Professional HD underwater video &amp; portrait photography</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
+                    <span>Bonus surface snorkeling with life vests and masks</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
+                    <span>Fresh fruits, refreshments, and bottled water on board</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-[#00D4FF] text-lg font-bold">✓</span>
+                    <span>Sanitized international-standard diving suit, mask &amp; BCD gear</span>
                   </li>
                 </ul>
                 <div className="flex items-end gap-3 mb-8 mt-auto">
                   <span className="text-[#00D4FF] text-3xl md:text-4xl font-black tracking-tight font-display">
-                    ₹1,999
+                    ₹4,500
                   </span>
                   <span className="text-gray-500 text-lg line-through font-semibold mb-1">
-                    ₹3,000
+                    ₹6,000
                   </span>
                   <span className="text-gray-400 text-[10px] mb-2 font-bold uppercase tracking-wider">
                     / Person
@@ -749,15 +751,15 @@ export default function Home() {
                 <div className="flex gap-4">
                   <Link
                     className="flex-1 flex items-center justify-center border border-white/20 text-white font-bold text-xs py-4 px-4 rounded-full hover:bg-white hover:text-black transition-all uppercase tracking-widest font-display text-center"
-                    href="/intro-scuba-diving"
+                    href="/netrani-scuba-diving"
                   >
-                    Beginner Dive Details
+                    Deep Dive Details
                   </Link>
                   <a
                     href="tel:+917829975777"
                     className="flex-1 flex items-center justify-center gap-2 bg-[#00D4FF] text-black font-bold text-xs py-4 px-4 rounded-full hover:bg-[#80e9ff] transition-all uppercase tracking-widest font-display text-center shadow-[0_0_20px_rgba(0,212,255,0.2)]"
                   >
-                    Book Beginner Dive
+                    Book Extended Dive
                   </a>
                 </div>
               </div>
@@ -824,7 +826,7 @@ export default function Home() {
                 Package Pricing &amp; Inclusions
               </h3>
               <p className="text-sm leading-relaxed text-gray-400 mb-6 font-medium">
-                The Intro Try Dive starts at ₹1,999 per person, while the Full Netrani Dive is ₹3,500. Both options include the boat cruise, full gear rental, 1:1 instructor guidance, and complimentary HD media.
+                The Full Netrani Dive is ₹3,500 per person (30–40 min underwater), while the Extended Deep Dive is ₹4,500 (45–55 min underwater). Both options include the boat cruise, full gear rental, 1:1 instructor guidance, and complimentary HD media.
               </p>
               <Link
                 className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-white hover:text-black font-display"
@@ -933,9 +935,9 @@ export default function Home() {
               </p>
               <Link
                 className="inline-flex items-center rounded-full border border-white/15 bg-white/5 px-6 py-3.5 text-xs font-bold uppercase tracking-widest text-white transition-all hover:bg-white hover:text-black font-display"
-                href="/intro-scuba-diving"
+                href="/netrani-scuba-diving"
               >
-                Explore Beginner Package
+                Explore Dive Packages
               </Link>
             </div>
           </div>
