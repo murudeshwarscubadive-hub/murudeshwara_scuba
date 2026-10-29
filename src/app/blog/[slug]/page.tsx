@@ -60,7 +60,9 @@ export async function generateMetadata({
       ],
       locale: "en_IN",
       type: "article",
-      publishedTime: post.date,
+      publishedTime: post.isoDate || post.date,
+      modifiedTime: post.isoDate || post.date,
+      authors: post.author ? [post.author.name] : ["Murudeshwar Scuba Dive"],
     },
     twitter: {
       card: "summary_large_image",
@@ -466,16 +468,26 @@ export default async function BlogPostPage({ params }: PageProps) {
       "url": `https://www.murudeshwarscubadive.in/blog/${slug}`,
       "headline": post.title,
       "description": post.description,
-      "datePublished": post.date,
+      "datePublished": post.isoDate || post.date,
+      "dateModified": post.isoDate || post.date,
       "image": `https://www.murudeshwarscubadive.in${post.coverImage || "/images/netrani-scuba-cover.png"}`,
-      "author": {
-        "@type": "Organization",
-        "name": "Murudeshwar Scuba Dive",
-        "url": "https://www.murudeshwarscubadive.in",
-      },
+      "author": post.author
+        ? {
+            "@type": "Person",
+            "name": post.author.name,
+            "jobTitle": post.author.role,
+            "url": "https://www.murudeshwarscubadive.in/team",
+          }
+        : {
+            "@type": "Organization",
+            "name": "Murudeshwar Scuba Dive",
+            "url": "https://www.murudeshwarscubadive.in",
+          },
       "publisher": {
         "@type": "Organization",
+        "@id": "https://www.murudeshwarscubadive.in/#organization",
         "name": "Murudeshwar Scuba Dive",
+        "url": "https://www.murudeshwarscubadive.in",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.murudeshwarscubadive.in/favicon-32x32.png",
@@ -614,14 +626,16 @@ export default async function BlogPostPage({ params }: PageProps) {
           {/* Author / Editorial Credit */}
           <div className="mt-6 pt-6 border-t border-white/15 flex items-center gap-4">
             <div className="w-10 h-10 rounded-full bg-[#002B5B] border border-[#00D4FF]/50 flex items-center justify-center text-[#00D4FF] font-bold font-display text-sm">
-              MSD
+              {post.author ? post.author.name.slice(0, 2).toUpperCase() : "MSD"}
             </div>
             <div>
               <p className="text-xs font-bold text-white uppercase tracking-wider font-display">
-                Murudeshwar Scuba Dive Editorial
+                {post.author ? post.author.name : "Murudeshwar Scuba Dive Editorial"}
               </p>
               <p className="text-[11px] text-gray-400">
-                PADI Certified Ocean Guides &amp; Explorers • Netrani Island, Karnataka
+                {post.author
+                  ? `${post.author.role}${post.author.padiNumber ? ` (${post.author.padiNumber})` : ""} • Netrani Island, Karnataka`
+                  : "PADI Certified Ocean Guides & Explorers • Netrani Island, Karnataka"}
               </p>
             </div>
           </div>

@@ -8,6 +8,12 @@ export interface BlogPost {
   tags: string[];
   readTime: string;
   date: string;
+  isoDate?: string;
+  author?: {
+    name: string;
+    role: string;
+    padiNumber?: string;
+  };
   coverImage: string;
   content: string;
   faq?: Array<{
@@ -17,6 +23,131 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "scuba-diving-vs-snorkelling-netrani-island",
+    title: "Scuba Diving vs Snorkelling at Netrani Island: Which to Choose",
+    metaTitle: "Scuba Diving vs Snorkelling at Netrani Island: Which to Choose",
+    subtitle: "Scuba or snorkelling at Netrani Island? Compare depth, what you see, swimming needs, age rules and cost so you pick the right Murudeshwar trip.",
+    description: "Scuba or snorkelling at Netrani Island? Compare depth, what you see, swimming needs, age rules and cost so you pick the right Murudeshwar trip.",
+    category: "Guides",
+    tags: [
+      "scuba diving vs snorkelling netrani",
+      "snorkelling murudeshwar",
+      "netrani island snorkelling",
+      "difference between scuba and snorkelling",
+      "scuba diving vs snorkelling",
+      "netrani island scuba diving",
+      "murudeshwar scuba diving",
+      "scuba diving for beginners"
+    ],
+    readTime: "5 min read",
+    date: "29 Oct 2026",
+    isoDate: "2026-10-29T08:00:00+05:30",
+    author: {
+      name: "Vikram Shenoy",
+      role: "PADI Master Scuba Diver Trainer",
+      padiNumber: "PADI MSDT #384192",
+    },
+    coverImage: "/images/blog/snorkelling-fish-netrani.jpg",
+    faq: [
+      {
+        question: "Is scuba diving better than snorkelling at Netrani Island?",
+        answer: "Scuba diving provides a much closer, longer, and more immersive experience as you descend 5 to 12 metres down to the reef with a personal 1:1 certified instructor. Snorkelling lets you view the reef from the surface."
+      },
+      {
+        question: "Do I need to know swimming for scuba diving or snorkelling at Netrani?",
+        answer: "For scuba diving with us, no swimming ability is required because every participant gets a dedicated 1:1 certified instructor who holds you and manages your buoyancy. For snorkelling, swimming skills help because you stay afloat on your own."
+      },
+      {
+        question: "Is snorkelling included in the Netrani scuba diving packages?",
+        answer: "Yes, our Netrani Island scuba diving packages already include a surface snorkelling session, allowing you to try both on the same boat trip."
+      },
+      {
+        question: "What is the age limit for scuba diving vs snorkelling?",
+        answer: "Scuba diving at Netrani Island is open to guests aged 10 to 60 years in reasonable health. Snorkelling has fewer health restrictions and suits younger children and seniors."
+      },
+      {
+        question: "How much does scuba diving and snorkelling cost at Netrani Island?",
+        answer: "The Full Netrani Dive is ₹3,500 per person (30 to 40 minutes underwater), and the Extended Dive is ₹4,500 (45 to 55 minutes). Both include boat travel, gear, a 1:1 instructor, surface snorkelling, and free HD photos and videos. Non-diver boat passes are ₹1,500."
+      }
+    ],
+    content: `**Short answer:** snorkelling lets you float on the surface and look down at the reef. Scuba lets you go down into it. At Netrani Island, scuba gives you a much closer, longer look at the coral and fish, and you don't need to know how to swim. Our dive packages already include a surface snorkelling session, so most guests try both on the same trip.
+
+Here's how the two compare, so you can decide before you book.
+
+## The main difference in one table
+
+| Feature | Snorkelling | Scuba diving |
+|---|---|---|
+| Where you are | Floating on the surface | Underwater, beside the reef |
+| Breathing | Through a snorkel tube, face in the water | From an air tank, through a regulator |
+| Typical depth | 0 to 1 metre (surface) | Usually 5 to 12 metres for first-timers |
+| Time you see the reef | Short stretches, between breaths and waves | 30 to 40 minutes (Full Dive) or 45 to 55 minutes (Extended Dive) |
+| Swimming needed? | Helps a lot, since you stay afloat on your own | No. A 1:1 instructor controls your buoyancy and direction |
+| Age at Netrani with us | Included in dive packages | 10 to 60 years |
+| Price with us | Included with any dive package | ₹3,500 (Full Dive) or ₹4,500 (Extended Dive) |
+
+## What you actually see
+
+Netrani's reef starts a few metres below the surface. From the top, on a clear day, you'll see coral heads, shoals of small fish and the outline of the rocks. It's pretty, but you're looking through moving water, often with waves slapping your mask.
+
+On a scuba dive you're **at the reef**, face to face with what lives there: parrotfish grazing on coral, butterflyfish, sometimes a moray eel tucked into a crack. You can stay still and watch, which you can't really do while snorkelling. Our [Netrani marine life guide](/blog/netrani-island-marine-life) lists what divers commonly spot each season.
+
+![Surface snorkelling at Netrani Island|Surface view: Snorkelling allows you to float and observe shoals of reef fish from above](/images/blog/snorkelling-fish-netrani.jpg)
+
+![Scuba diver underwater face-to-face with coral reef fish at Netrani|Depth view: Scuba diving immerses you 5 to 12 metres down directly alongside vibrant corals and marine life](/images/blog/netrani-coral-reef-fish.jpg)
+
+## Do you need to know swimming?
+
+- **For snorkelling:** it really helps. You stay at the surface on your own, usually with a life jacket, and you need to be comfortable with your face in the water while the boat bobs nearby.
+- **For scuba with us:** no. Every diver has a personal 1:1 certified instructor who holds you, manages your buoyancy and decides how deep you go. Many of our guests can't swim at all. Read [Scuba diving in Murudeshwar for non-swimmers](/blog/scuba-diving-murudeshwar-non-swimmers) for how the training works.
+
+This surprises most people: **for a non-swimmer, a guided scuba dive is often easier than snorkelling**, because someone else is doing the hard part.
+
+> "Many first-timers assume snorkelling is easier because you don't wear an air tank. But floating in open-sea waves while breathing through a tube takes effort. On a 1:1 guided scuba dive, your instructor manages your buoyancy, gear, and depth every second — you just relax, breathe normally, and take in the fish."
+
+## Is scuba diving more risky than snorkelling?
+
+Both are low-risk when they're run properly, but scuba has more rules, because you're breathing compressed air underwater. That's why we:
+
+- run a safety briefing and shallow-water practice before every dive;
+- keep one instructor per diver;
+- check basic health before you get in the water (see the [age and health rules](/blog/scuba-diving-age-limit)).
+
+Snorkelling has fewer health restrictions, which is one reason it suits family members who can't or don't want to dive.
+
+## Cost: what you pay for each
+
+- **Scuba diving:** ₹3,500 per person for the Full Netrani Dive (30 to 40 minutes underwater), or ₹4,500 for the Extended Dive (45 to 55 minutes).
+- **Both packages include** the boat ride to Netrani, all gear, a 1:1 instructor, surface snorkelling and free HD photos and videos of your dive.
+- **Not diving at all?** Family members can come on the boat with a Non-Diver Boat Pass for ₹1,500.
+
+So you don't have to choose one or the other: book a dive, and you snorkel too. Full details are on the [price and packages page](/blog/murudeshwar-scuba-diving-price-cost).
+
+👉
+
+## Which one should you pick?
+
+**Choose scuba diving if:**
+- you want to actually see the reef up close, not from above;
+- you're aged 10 to 60 and in reasonable health;
+- you can't swim, but you're happy to trust an instructor.
+
+**Snorkelling alone is enough if:**
+- you only want a short look at the water;
+- you're outside the age range for diving, or a health condition rules diving out;
+- you're travelling with a diver and just want to join the boat trip.
+
+**Best of both:** book a dive package for the divers in your group and Non-Diver Boat Passes for the rest. Everyone goes to Netrani on the same boat.
+
+## When to go
+
+Diving at Netrani runs from **October to May**. We don't run trips from June to September because of the monsoon. Boats leave Murudeshwar beach between 8:00 and 9:00 AM, and the trip takes roughly half a day. If the sea turns rough and we cancel, you get a full refund of your deposit or a free new date.
+
+## Book your Netrani trip
+
+Call **+91 78299 75777** or WhatsApp **+91 74063 29777** with your date and the number of divers. You can also see the packages on our [Netrani scuba diving page](/netrani-scuba-diving).`
+  },
   {
     slug: "murudeshwar-scuba-diving-packages",
     title: "Murudeshwar Scuba Diving Packages: 3 Options Compared for Beginners and Divers",

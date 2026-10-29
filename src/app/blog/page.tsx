@@ -81,7 +81,7 @@ export default function BlogListing() {
         "headline": post.title,
         "description": post.description,
         "url": `https://www.murudeshwarscubadive.in/blog/${post.slug}`,
-        "datePublished": post.date,
+        "datePublished": post.isoDate || post.date,
         "image": `https://www.murudeshwarscubadive.in${post.coverImage || '/images/netrani-diver.png'}`
       }))
     },
