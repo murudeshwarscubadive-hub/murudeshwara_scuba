@@ -24,6 +24,141 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "what-to-bring-scuba-diving-murudeshwar",
+    title: "What to Bring for Scuba Diving in Murudeshwar: Checklist",
+    metaTitle: "What to Bring for Scuba Diving in Murudeshwar: Checklist",
+    subtitle: "Packing list for scuba diving at Netrani Island: what to wear, ID to carry, what to eat before diving, and what to leave in your hotel.",
+    description: "Packing list for scuba diving at Netrani Island: what to wear, ID to carry, what to eat before diving, and what to leave in your hotel.",
+    category: "Guides",
+    tags: [
+      "what to bring for scuba diving murudeshwar",
+      "what to wear for scuba diving",
+      "scuba diving checklist",
+      "netrani island what to carry",
+      "packing list scuba diving",
+      "murudeshwar scuba diving tips",
+      "netrani scuba preparation"
+    ],
+    readTime: "5 min read",
+    date: "29 Oct 2026",
+    isoDate: "2026-10-29T09:00:00+05:30",
+    author: {
+      name: "Pooja Hegde",
+      role: "PADI Scuba Instructor",
+      padiNumber: "PADI OWSI #492815",
+    },
+    coverImage: "/images/blog/murudeshwar-dive-boat-departure.jpg",
+    faq: [
+      {
+        question: "What clothes should I wear for scuba diving in Murudeshwar?",
+        answer: "Wear swimwear or quick-drying shorts and a T-shirt under your casual clothes so you can easily slip into your wetsuit. Avoid heavy cotton garments and denim, which get heavy when wet."
+      },
+      {
+        question: "What ID proof is required before boarding the Netrani dive boat?",
+        answer: "Every passenger must carry a valid government photo ID (Aadhaar Card, Driver's License, or Passport for foreign nationals) as required by coastal port authorities. A clear digital copy or photo on your phone is accepted."
+      },
+      {
+        question: "Can I bring my phone or GoPro on the dive boat?",
+        answer: "Yes, you can bring your phone in a waterproof pouch to capture memories on the boat journey. You don't need a personal underwater camera because our dive packages include complimentary HD underwater photos and videos."
+      },
+      {
+        question: "What should I eat before scuba diving in Murudeshwar?",
+        answer: "Have a light, easily digestible breakfast 1 to 2 hours before departure (such as idli, toast, or upma). Avoid heavy, oily food and dairy, and do not dive on a completely empty stomach."
+      },
+      {
+        question: "Are there lockers or dry storage available on the dive boat?",
+        answer: "Yes, we provide a sealed water-resistant dry box on board for small essentials like phones, wallets, and keys. Larger luggage or heavy valuables should be left in your hotel room safe."
+      }
+    ],
+    content: `**Short answer:** bring swimwear (or quick-dry clothes), a towel, a change of clothes, sunscreen, water, a government photo ID and a light breakfast in your stomach. We provide all the diving gear, and we film your dive, so you don't need a camera.
+
+Below is the full list, plus what to leave behind.
+
+## The quick checklist
+
+Screenshot this before you leave your hotel.
+
+**Wear or carry:**
+- [ ] Swimwear, or a quick-dry T-shirt and shorts
+- [ ] A towel
+- [ ] A full change of clothes, including underwear
+- [ ] A government photo ID (Aadhaar, driving licence or passport)
+- [ ] Reef-safe sunscreen, applied an hour before
+- [ ] Sunglasses and a cap for the boat
+- [ ] A water bottle, at least 1 litre
+- [ ] A small dry bag or zip-lock pouch for your phone
+- [ ] Cash or UPI for the balance payment
+- [ ] Any personal medicine you need (tell your instructor about it)
+
+**We provide:**
+- Wetsuit, mask, fins, air tank, regulator and weights
+- Life jackets on the boat
+- Surface snorkelling gear
+- HD photos and videos of your dive
+
+![Murudeshwar scuba dive boat departure with gear and guests|Murudeshwar dive boat departure: pack light with a small daypack, towel, and change of clothes for the morning boat crossing to Netrani Island](/images/blog/murudeshwar-dive-boat-departure.jpg)
+
+## What to wear
+
+**Wear your swimwear under your clothes** so you can change quickly. Men usually wear swim shorts; women usually wear a swimsuit, or leggings and a fitted T-shirt. The wetsuit goes over the top.
+
+**Avoid:**
+- loose cotton clothes, which get heavy when wet;
+- jewellery, watches and anklets, which can catch on gear or get lost;
+- heavy make-up, which runs into the mask.
+
+**Footwear:** flip-flops or sandals. You'll walk on wet sand and the boat deck. Leave shoes at the hotel if you can.
+
+## Documents to carry
+
+Carry **one government photo ID**, such as Aadhaar, a driving licence or a passport. Boats going out to sea keep a passenger list for Indian Coast Guard compliance, so we verify your name and ID before departure. A clear digital copy or photo on your phone (DigiLocker or WhatsApp) is completely fine. Foreign guests should carry their passport or a clear passport copy.
+
+Keep your booking confirmation on WhatsApp so the harbour coordinator can find you quickly.
+
+## What to eat (and not eat) before diving
+
+- **Do:** eat a light breakfast 1 to 2 hours before. Idli, a banana, toast or upma are good choices.
+- **Don't:** dive on an empty stomach. You'll tire faster and feel worse on the boat.
+- **Don't:** eat a heavy, oily or very spicy meal just before. The boat ride and the dive both go better on a calm stomach.
+- **Avoid alcohol** the night before and the morning of your dive. It dehydrates you and isn't safe with diving.
+- **Drink water**, but not litres of it just before boarding.
+
+If you get seasick, read [Scuba diving with glasses, periods or seasickness](/blog/scuba-diving-with-glasses-periods-seasickness) for practical tips.
+
+## Phones, cameras and valuables
+
+- **Your phone:** bring it in a waterproof pouch for photos on the boat. You can't take it underwater.
+- **GoPro or action camera:** you're welcome to bring one for the boat, but **we film your dive for free**, so you don't need to manage a camera underwater on your first dive. See [how we shoot your photos and videos](/blog/murudeshwar-scuba-diving-photos-videos).
+- **Valuables:** leave laptops, heavy jewellery and large amounts of cash at your hotel.
+- **Boat storage & dry boxes:** we provide a sealed water-resistant dry container on the boat for small essentials (phones, car keys, and wallets). Daypacks can be placed in sheltered boat seating.
+
+> "Keep your packing simple. A comfortable dry change of clothes, your ID on your phone, and a bottle of water are the main things you need. We handle the heavy lifting — from premium Mares/Scubapro dive kits to professional underwater GoPro 4K recording."
+
+## If you wear glasses or contact lenses
+
+You can't wear spectacles under a dive mask. Soft contact lenses are usually fine if you keep your eyes closed when the mask is cleared. Tell us when you book, and bring your lens case and solution so you can take them out afterwards.
+
+## Timing: when to arrive
+
+Boats to Netrani Island leave **between 8:00 and 9:00 AM** from Murudeshwar beach. Arrive at our beach reporting desk (Temple Main Road, near Murudeshwar beach harbour point) **30 minutes early** (by 7:30 to 8:00 AM) for check-in, ID verification and the equipment safety briefing. Late arrivals can miss their boat when the sea window is short. See [dive timings](/blog/scuba-diving-timings) for the full day plan, and [how to reach Murudeshwar](/how-to-reach-murudeshwar) if you're coming from Bangalore, Gokarna or Udupi.
+
+👉
+
+## Things people forget most often
+
+1. **A change of underwear.** The most common one.
+2. **A plastic bag for wet clothes.**
+3. **Their ID.** Without it you can't board.
+4. **Sunscreen on the back of the neck and ears.** The boat ride is sunny.
+5. **Water.** You'll be thirsty after the dive.
+
+## Ready to book?
+
+Season runs **October to May**. Packages are ₹3,500 (Full Dive) and ₹4,500 (Extended Dive), with the boat, gear, 1:1 instructor, surface snorkelling and HD media included.
+
+Call **+91 78299 75777** or WhatsApp **+91 74063 29777**, or see the [Netrani scuba diving packages](/netrani-scuba-diving).`
+  },
+  {
     slug: "scuba-diving-vs-snorkelling-netrani-island",
     title: "Scuba Diving vs Snorkelling at Netrani Island: Which to Choose",
     metaTitle: "Scuba Diving vs Snorkelling at Netrani Island: Which to Choose",
