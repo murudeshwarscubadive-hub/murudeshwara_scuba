@@ -24,6 +24,144 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "murudeshwar-scuba-diving-with-family",
+    title: "Murudeshwar Scuba Diving with Family: Kids, Parents & Non-Divers",
+    metaTitle: "Murudeshwar Scuba Diving with Family: Kids, Parents & Non-Divers",
+    subtitle: "Taking family to Netrani Island? Age rules (10 to 60), what kids and non-divers can do, prices, and how to plan one boat trip for everyone.",
+    description: "Taking family to Netrani Island? Age rules (10 to 60), what kids and non-divers can do, prices, and how to plan one boat trip for everyone.",
+    category: "Guides",
+    tags: [
+      "murudeshwar scuba diving with family",
+      "scuba diving for kids murudeshwar",
+      "netrani island family trip",
+      "scuba diving for senior citizens murudeshwar",
+      "family scuba diving netrani",
+      "non diver boat pass murudeshwar",
+      "murudeshwar family tour"
+    ],
+    readTime: "6 min read",
+    date: "29 Oct 2026",
+    isoDate: "2026-10-29T11:00:00+05:30",
+    author: {
+      name: "Pooja Hegde",
+      role: "PADI Scuba Instructor",
+      padiNumber: "PADI OWSI #492815",
+    },
+    coverImage: "/images/group-divers.png",
+    faq: [
+      {
+        question: "Can children scuba dive in Murudeshwar?",
+        answer: "Yes, children aged 10 and older can participate in introductory scuba diving at Netrani Island. Every child is guided 1:1 by a certified PADI instructor at a safe, comfortable shallow depth. A parental consent form is required for divers under 18."
+      },
+      {
+        question: "What can family members do if they don't want to scuba dive?",
+        answer: "Non-diving family members (including grandparents and younger children) can join the same speedboat trip to Netrani Island with a Non-Diver Boat Pass for ₹1,500. They can enjoy the scenic boat cruise, dolphin spotting, surface sightseeing, and cheering on family divers."
+      },
+      {
+        question: "What is the maximum age limit for scuba diving at Netrani Island?",
+        answer: "The upper age limit for scuba diving is 60 years in reasonable health. Seniors over 60 can join as non-divers on the boat to share the offshore experience with the rest of the family."
+      },
+      {
+        question: "Can our entire family go together on the same boat?",
+        answer: "Yes. Both divers and non-divers travel together on the same speedboat from Murudeshwar beach to Netrani Island, making it an ideal half-day shared outing for families."
+      },
+      {
+        question: "Are there discounts for large family groups?",
+        answer: "For families or groups of 10 or more participants, custom group pricing and private boat arrangements are available through our bulk booking desk."
+      }
+    ],
+    content: `**Short answer:** family members aged **10 to 60** can scuba dive at Netrani Island with a personal instructor each. Anyone who can't or doesn't want to dive can come on the same boat with a **Non-Diver Boat Pass (₹1,500)**. So the whole family can do the trip together, even if only some of you go underwater.
+
+Here's how to plan it.
+
+## Who in the family can dive?
+
+| Family member | Can they scuba dive? | What we suggest |
+|---|---|---|
+| Children under 10 | No | Non-Diver Boat Pass (₹1,500), if comfortable on a boat (ages 5+) |
+| Children 10 to 17 | Yes, with parent's consent | Full Dive (₹3,500) with dedicated 1:1 instructor |
+| Adults 18 to 60 | Yes | Full Dive (₹3,500) or Extended Dive (₹4,500) |
+| Over 60 | No | Non-Diver Boat Pass (₹1,500) to enjoy the cruise |
+| Pregnant family members | No | Non-Diver Boat Pass after doctor check, or relax on shore |
+
+Divers need to be in reasonable health. The full list is in our [age limit and medical rules](/blog/scuba-diving-age-limit).
+
+![Family and group scuba diving trip at Netrani Island Murudeshwar|Family adventure: Divers of all ages sharing the boat trip to Netrani Island with dedicated 1:1 instructor supervision](/images/group-divers.png)
+
+## Can my child scuba dive?
+
+Yes, from **age 10**. Children dive the same way adults do on a guided dive:
+
+- one certified instructor holds and guides them the whole time;
+- they practise breathing in shallow water before going down;
+- the instructor keeps them at a comfortable, shallow depth;
+- they can stop at any time with a simple hand signal.
+
+What makes kids enjoy it:
+- **Tell them what they'll see:** clownfish, parrotfish, coral reefs and harmless marine life. Show them underwater photos the night before.
+- **Don't push:** if your child gets nervous at the surface, the instructor gives them plenty of patient time. Some kids prefer to snorkel first and dive after.
+- **Keep them fed and rested:** a light breakfast and a good night's sleep make a big difference.
+
+**Parental consent:** A parent or legal guardian must sign a standard youth medical and liability consent form at our beach counter before departure for divers aged 10 to 17.
+
+> "Kids aged 10 and above are often our most enthusiastic divers. Once they realise an instructor holds their hand the entire time, their curiosity takes over — seeing a parrotfish or clownfish in the wild is pure magic for them."
+
+## What can non-divers do?
+
+Grandparents, younger children (5+) and anyone who doesn't want to dive can still have a memorable day:
+
+- **The scenic speedboat cruise to Netrani Island**, a heart-shaped island 19 km off the Murudeshwar coast;
+- **Watching dolphins** often spotted along the Arabian Sea crossing;
+- **Cheering from the boat** while family members dive;
+- **Enjoying complimentary HD photos and videos** shot by our dive team, which are included free with every dive package.
+
+Book a **Non-Diver Boat Pass for ₹1,500** per person. If you're comparing surface snorkelling with diving for different family members, see [scuba diving vs snorkelling at Netrani](/blog/scuba-diving-vs-snorkelling-netrani-island).
+
+## What it costs for a typical family
+
+**Example: two parents, two children aged 12 and 14, and one grandparent aged 65.**
+
+| Participant | Package | Price |
+|---|---|---|
+| 2 parents | Full Dive, ₹3,500 each | ₹7,000 |
+| 2 children | Full Dive, ₹3,500 each | ₹7,000 |
+| Grandparent | Non-Diver Boat Pass | ₹1,500 |
+| **Total** | | **₹15,500** |
+
+Every dive package includes the boat ride, all gear, a 1:1 instructor, surface snorkelling and HD photos and videos. For large family reunions of **10 or more people**, check our [group scuba booking page](/bulk-scuba-booking) for customized group packages and private boat arrangements.
+
+## Is it safe for families?
+
+These are the strict safeguards we follow on every trip:
+
+- **One instructor per diver**, including every child.
+- **A safety briefing and shallow-water practice** before anyone goes deeper.
+- **Coast Guard approved life jackets** provided on board for every passenger, diver and non-diver.
+- **No diving in rough seas:** if port weather warnings come in, trips are called off. You get a full refund of your deposit or a free date transfer.
+- **Active season only:** trips operate October to May, never in the June to September monsoon.
+
+## Planning the day with family
+
+- **Morning:** boats leave Murudeshwar beach between 8:00 and 9:00 AM. Arrive 30 minutes early (7:30 to 8:00 AM) with everyone's government photo ID.
+- **The trip:** takes roughly half a day, returning to shore around 1:30 PM.
+- **Afternoon:** after returning to Murudeshwar beach, you can freshen up and visit the iconic 123-foot Shiva statue and Raja Gopura temple just steps away. Our [Murudeshwar itinerary guide](/blog/ultimate-murudeshwar-itinerary-guide) has full day plans.
+
+Pack for the trip using our [what-to-bring checklist](/blog/what-to-bring-scuba-diving-murudeshwar). For children, pack a small dry bag with snacks, water, and an extra change of clothes.
+
+👉
+
+## Tips from our instructors for family trips
+
+1. **Book early on weekends and holidays.** Family slots fill fast from December to January and during school vacation months (April and May).
+2. **Put nervous family members with the calmest diver** in the group during shallow-water briefing. Confidence spreads naturally.
+3. **Bring a big towel per person.** Kids and seniors get chilly after sea breezes.
+4. **Let the kids pick their own photos** from the dive footage afterwards. It's their favourite part of the day.
+
+## Book a family trip
+
+Send us the number of divers, their ages and your travel date on WhatsApp at **+91 74063 29777**, or call **+91 78299 75777**. You can also view package options on our [Netrani scuba diving page](/netrani-scuba-diving).`
+  },
+  {
     slug: "scuba-diving-with-glasses-periods-seasickness",
     title: "Scuba Diving with Glasses, Periods or Seasickness: Netrani FAQ",
     metaTitle: "Scuba Diving with Glasses, Periods or Seasickness: Netrani FAQ",
