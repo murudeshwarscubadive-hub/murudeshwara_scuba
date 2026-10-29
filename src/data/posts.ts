@@ -24,6 +24,149 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "scuba-diving-with-glasses-periods-seasickness",
+    title: "Scuba Diving with Glasses, Periods or Seasickness: Netrani FAQ",
+    metaTitle: "Scuba Diving with Glasses, Periods or Seasickness: Netrani FAQ",
+    subtitle: "Can you scuba dive at Netrani with glasses, during your period, if you get seasick, or with a cold? Straight answers from Murudeshwar instructors.",
+    description: "Can you scuba dive at Netrani with glasses, during your period, if you get seasick, or with a cold? Straight answers from Murudeshwar instructors.",
+    category: "Guides",
+    tags: [
+      "can i scuba dive with glasses",
+      "scuba diving during periods",
+      "scuba diving seasickness",
+      "scuba diving with cold",
+      "scuba diving contact lenses",
+      "netrani scuba health faq",
+      "scuba diving medical rules"
+    ],
+    readTime: "6 min read",
+    date: "29 Oct 2026",
+    isoDate: "2026-10-29T10:00:00+05:30",
+    author: {
+      name: "Vikram Shenoy",
+      role: "PADI Master Scuba Diver Trainer",
+      padiNumber: "PADI MSDT #384192",
+    },
+    coverImage: "/images/blog/scuba-instructor-hand-signal.jpg",
+    faq: [
+      {
+        question: "Can I scuba dive if I wear glasses?",
+        answer: "Yes, you can scuba dive if you wear glasses, but you cannot wear spectacles under a dive mask because the frame breaks the watertight silicone seal. Mild short sight is naturally compensated because water magnifies objects by about 33%. For strong prescriptions, soft contact lenses or prescription masks can be used."
+      },
+      {
+        question: "Can I scuba dive while on my period?",
+        answer: "Yes. Menstruation does not prevent you from diving. Tampons or menstrual cups are recommended under your swimwear and wetsuit. If you feel unwell or have severe cramps, free date rescheduling is available."
+      },
+      {
+        question: "What should I do if I feel seasick on the way to Netrani Island?",
+        answer: "Eat a light meal 1 to 2 hours before departure, sit in the middle of the boat in open air, focus on the horizon, and avoid looking down at your phone. Symptoms usually clear up once you enter the water."
+      },
+      {
+        question: "Can I scuba dive with a cold, sinus congestion, or cough?",
+        answer: "No. You should never dive with a cold or blocked sinus. Congestion prevents equalising the air spaces in your middle ears, which can cause ear barotrauma or severe pain. We offer free date rescheduling if you wake up with a cold."
+      },
+      {
+        question: "Do I need to know how to swim to scuba dive at Netrani?",
+        answer: "No. Guided scuba dives with Murudeshwar Scuba Dive pair every participant with a dedicated 1:1 certified instructor who handles your buoyancy, navigation, and equipment throughout the dive."
+      }
+    ],
+    content: `These are the questions guests ask us quietly, often on WhatsApp the night before their dive. The short answers:
+
+- **Glasses:** you can't wear them under the mask, but you can still dive.
+- **Contact lenses:** soft lenses are usually fine.
+- **Periods:** yes, you can dive.
+- **Seasickness:** you can manage it, and it usually stops once you're in the water.
+- **A cold or blocked nose:** postpone. It's the one on this list that can actually hurt you.
+
+This article is general guidance from our dive team and safety instructors. It isn't medical advice. If you have a diagnosed medical condition, check with your physician and inform our team during booking. For full regulatory requirements, see our [scuba diving age limit and medical rules](/blog/scuba-diving-age-limit) and our comprehensive [Murudeshwar scuba diving safety guide](/blog/murudeshwar-scuba-diving-safety).
+
+## Can I scuba dive if I wear glasses?
+
+**Yes, but not with the glasses on.** Spectacles don't fit inside a dive mask, because the mask needs a complete silicone seal against your face to keep water out.
+
+What helps:
+- Most people with mild short sight find the underwater view clear. Water has a higher refractive index than air and magnifies objects by roughly 33%, so corals and fish look closer and larger than they actually are.
+- Your instructor guides you 1:1 the entire time, so you don't need to read gauges or navigate underwater.
+- If your eyesight has high correction, ask us in advance when you book about our prescription mask options.
+
+Leave your glasses securely packed in a hard protective case inside your daypack on the boat.
+
+## Can I dive with contact lenses?
+
+**Usually, yes, with soft lenses.** Keep your eyes gently closed if a few drops of water seep into your mask, or while your instructor demonstrates mask clearing in shallow water, so the contact lens doesn't wash out. Bring your lens case and saline solution so you can remove them after the boat trip.
+
+Hard (rigid gas permeable) lenses are less comfortable under ocean pressure. If you wear rigid lenses, check with your optometrist first.
+
+## Can I scuba dive during my periods?
+
+**Yes.** Being on your period does not stop you from diving at Netrani Island. Many certified divers and first-timers dive throughout their menstrual cycle.
+
+Practical tips:
+- A tampon or menstrual cup works best under swimwear and your neoprene wetsuit. Sanitary pads absorb water and do not function underwater.
+- If you experience painful cramps, fatigue, or nausea on the morning of your trip, let our booking desk know. We offer free rescheduling so you can dive comfortably.
+- Stay well hydrated and have a light breakfast, as diving consumes energy.
+
+There is no physiological or medical barrier to diving on your period, and the persistent myth regarding sharks does not apply to Netrani Island reef waters.
+
+## What if I get seasick?
+
+The speedboat ride from Murudeshwar beach to Netrani Island takes approximately 60 to 75 minutes across the open Arabian Sea. On days with chop, some travelers feel queasy. Notably, seasickness almost always stops the moment you slip into the water.
+
+To prevent and manage motion sickness:
+- **Eat light** 1 to 2 hours beforehand. Avoid greasy, acidic, or heavy foods, but do not dive on a completely empty stomach.
+- **Sit in the middle of the boat** where pitch and roll are minimal, face forward, breathe fresh ocean air, and fix your gaze on the horizon.
+- **Avoid looking at mobile phone screens** while the boat is in transit.
+- **Ginger candy or lozenges** provide natural relief for many guests.
+- **Motion sickness tablets:** if you plan to take medication (such as dimenhydrinate), consult your doctor to ensure it does not induce drowsiness, which is unsafe when scuba diving.
+
+For a complete checklist of what to pack (including dry bags, snacks, and water), see our guide on [what to bring for scuba diving in Murudeshwar](/blog/what-to-bring-scuba-diving-murudeshwar).
+
+## Can I dive with a cold, cough or blocked nose?
+
+**Please don't.** This is the one safety question where the answer is strict.
+
+As you descend beneath the surface, hydrostatic pressure increases. You must "equalise" your middle ears and sinuses by gently pinching your nose and blowing, transferring air through your Eustachian tubes (similar to clearing your ears during an airplane descent). A head cold or nasal congestion blocks these passages. Forcing a descent while congested can cause severe ear barotrauma, reverse block, or eardrum rupture.
+
+> "Never dive through ear congestion. Water pressure doubles within the first 10 metres. If you have a head cold, sinus pressure, or a blocked nose, simply inform us before departure. We provide free rescheduling to a future date so you can dive safely once you've fully recovered."
+
+## Will my ears hurt?
+
+Most first-time divers feel mild pressure in their ears during the first couple of metres, exactly like taking off in a flight.
+
+Your instructor will guide you through shallow-water equalisation practice before diving and will take you down slowly, metre by metre. If your ears feel uncomfortable at any point, give the standard "ear" hand signal. Your instructor will immediately halt the descent, ascend a few feet until the pressure releases, and help you equalise comfortably. You never push through ear discomfort.
+
+![Certified scuba instructor demonstrating ear equalisation and safety hand signal|Underwater communication: Your 1:1 instructor reviews ear equalisation and standard dive hand signals before you descend](/images/blog/scuba-instructor-hand-signal.jpg)
+
+## Can I dive if I can't swim?
+
+**Yes.** You do not need to know how to swim to experience scuba diving at Netrani Island with our team. Every beginner dive is conducted 1:1 with an instructor who physically controls your buoyancy, depth, and direction while you simply breathe and enjoy the reef. Read our in-depth breakdown of [scuba diving in Murudeshwar for non-swimmers](/blog/scuba-diving-murudeshwar-non-swimmers).
+
+## Can I dive if I'm afraid of deep water?
+
+Yes, and this hesitation is completely natural. We never drop beginners into deep water. You begin in a calm, protected shallow bay at Netrani Island, practising breathing with your face submerged. You only descend once you give the thumbs-up sign and feel relaxed. Many hesitant guests end up having the highlight experience of their holiday.
+
+## Who shouldn't dive?
+
+Certain medical conditions require written clearance from a medical doctor, or preclude recreational scuba diving:
+
+- Pregnancy;
+- Active asthma or respiratory disorders;
+- Heart conditions or uncontrolled hypertension;
+- Recent major surgeries;
+- History of seizures or epilepsy;
+- Active sinus, ear, or respiratory infections.
+
+Review our full [scuba diving age limit and medical guidelines](/blog/scuba-diving-age-limit) before booking. All diving participants must be between **10 and 60 years old**.
+
+If anyone in your travelling group cannot dive due to health conditions, they can still accompany you on the speedboat to Netrani Island with a **Non-Diver Boat Pass (₹1,500)** to enjoy the boat trip and surface waters.
+
+👉
+
+## Still unsure? Ask us before you book
+
+Have questions about an upcoming trip, contact lenses, or fitness? Message our instructor desk on WhatsApp at **+91 74063 29777**, or call **+91 78299 75777**. Our PADI certified team is happy to guide you so you feel confident and prepared. When you're ready, explore our [Netrani scuba diving packages](/netrani-scuba-diving).`
+  },
+  {
     slug: "what-to-bring-scuba-diving-murudeshwar",
     title: "What to Bring for Scuba Diving in Murudeshwar: Checklist",
     metaTitle: "What to Bring for Scuba Diving in Murudeshwar: Checklist",
