@@ -110,7 +110,7 @@ export default function ScubaDivingMurudeshwar() {
               assume the boat, food, equipment, dive, media or transfer is covered until it appears in your written quote.
               Use this page to compare a current slot, operator and eligibility requirements. For a detailed price
               comparison, jump to{" "}
-              <Link href="/blog/scuba-diving-packages-murudeshwar">Murudeshwar scuba packages</Link>.
+              <Link href="/blog/murudeshwar-scuba-diving-price-cost">Murudeshwar scuba packages</Link>.
             </p>
             <div className="service-hero__actions">
               <a
@@ -472,7 +472,7 @@ export default function ScubaDivingMurudeshwar() {
               </nav>
               <p className="section__description">
                 Need a deeper package comparison after checking the price range here? Read{" "}
-                <Link href="/blog/scuba-diving-packages-murudeshwar">scuba package comparison</Link>. Need island
+                <Link href="/blog/murudeshwar-scuba-diving-price-cost">scuba package comparison</Link>. Need island
                 travel basics? Read <Link href="/blog/netrani-island-guide">Netrani Island timings</Link>.
               </p>
             </div>
@@ -531,7 +531,7 @@ export default function ScubaDivingMurudeshwar() {
                 If you want a travel-planning view (boat timings, season notes, and how the island trip works), read{" "}
                 <Link href="/blog/netrani-island-guide">Netrani Island timings and boat guide</Link>. If your
                 focus is only the diving itself, the detailed dive-site guide is{" "}
-                <Link href="/blog/scuba-diving-murudeshwar-netrani-island-guide">Netrani dive-site visibility guide</Link>.
+                <Link href="/blog/best-scuba-diving-netrani-island">Netrani dive-site visibility guide</Link>.
               </p>
               <h3 className="section__title netrani-h2">What you will do on the day (simple walkthrough)</h3>
               <p className="service-lede service-lede--flush">
@@ -589,7 +589,7 @@ export default function ScubaDivingMurudeshwar() {
               </ul>
               <p className="service-lede service-lede--spaced">
                 For a detailed packages breakdown, read{" "}
-                <Link href="/blog/scuba-diving-packages-murudeshwar">Netrani scuba package comparison</Link>. If you are
+                <Link href="/blog/murudeshwar-scuba-diving-price-cost">Netrani scuba package comparison</Link>. If you are
                 planning a full trip, our bundle guide is{" "}
                 <Link href="/contact">stay + taxi + scuba complete package</Link>
                 .
@@ -689,7 +689,7 @@ export default function ScubaDivingMurudeshwar() {
               <p className="service-lede service-lede--spaced">
                 If scuba is your main reason for travel, choose a commonly workable season and keep a buffer day if
                 possible. For a fuller planning view, the cluster guide{" "}
-                <Link href="/blog/scuba-diving-murudeshwar-netrani-island-guide">Netrani dive-site guide</Link> covers
+                <Link href="/blog/best-scuba-diving-netrani-island">Netrani dive-site guide</Link> covers
                 season advice and backup planning in more detail.
               </p>
               <h3 className="section__title netrani-h2">Go straight to the answer you need</h3>
@@ -896,7 +896,7 @@ export default function ScubaDivingMurudeshwar() {
               </p>
               <p className="service-lede service-lede--spaced">
                 For a detailed package comparison, the best cluster guide is{" "}
-                <Link href="/blog/scuba-diving-packages-murudeshwar">scuba package comparison</Link>. If you want the
+                <Link href="/blog/murudeshwar-scuba-diving-price-cost">scuba package comparison</Link>. If you want the
                 best value for a full trip, choose a bundle plan via{" "}
                 <Link href="/contact">
                   complete package (stay + taxi + scuba)
@@ -1042,7 +1042,7 @@ export default function ScubaDivingMurudeshwar() {
               </p>
               <p className="service-lede service-lede--spaced">
                 Detailed package comparisons are covered in our guide:{" "}
-                <Link href="/blog/scuba-diving-packages-murudeshwar">Murudeshwar scuba diving packages</Link>. If you
+                <Link href="/blog/murudeshwar-scuba-diving-price-cost">Murudeshwar scuba diving packages</Link>. If you
                 want a quick recommendation for your date and group size, message us on WhatsApp and we will shortlist
                 the right option.
               </p>
@@ -1130,7 +1130,7 @@ export default function ScubaDivingMurudeshwar() {
               </p>
               <p className="service-lede service-lede--spaced">
                 For seasons, conditions, and tips, read our{" "}
-                <Link href="/blog/scuba-diving-murudeshwar-netrani-island-guide">Netrani dive-site conditions guide</Link>.
+                <Link href="/blog/best-scuba-diving-netrani-island">Netrani dive-site conditions guide</Link>.
               </p>
             </div>
           </div>
@@ -1319,7 +1319,7 @@ export default function ScubaDivingMurudeshwar() {
               </div>
               <p className="service-note mt-4">
                 If you are combining scuba with other water activities, see{" "}
-                <Link href="/blog/water-sports-murudeshwar">Murudeshwar water sports and activities</Link>.
+                <Link href="/blog/water-sports-murudeshwar-beach-activities">Murudeshwar water sports and activities</Link>.
               </p>
             </div>
           </div>
@@ -1444,7 +1444,7 @@ export default function ScubaDivingMurudeshwar() {
               <p className="service-lede service-lede--flush">
                 Scuba is usually the highlight, but a good Murudeshwar trip is balanced: temple, beach, food, and one
                 adventure activity. If you want to add more activities, see{" "}
-                <Link href="/blog/water-sports-murudeshwar">water sports and activities</Link>. If your focus
+                <Link href="/blog/water-sports-murudeshwar-beach-activities">water sports and activities</Link>. If your focus
                 is comfort, browse <Link href="/contact">accommodations</Link> and shortlist stays that match
                 your morning reporting needs.
               </p>

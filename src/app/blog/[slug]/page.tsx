@@ -449,7 +449,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               </p>
             </div>
             <Link
-              href="https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com"
+              href="/netrani-scuba-diving"
               className="inline-flex items-center justify-center gap-2 bg-[#00D4FF] text-black font-bold text-xs uppercase tracking-widest px-6 py-3.5 rounded-full hover:bg-[#80e9ff] transition-all hover:scale-105 shadow-[0_0_20px_rgba(0,212,255,0.4)] whitespace-nowrap font-display"
             >
               Explore Packages →
@@ -555,7 +555,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         "longitude": 74.4844,
       },
       "url": "https://www.murudeshwarscubadive.in",
-      "priceRange": "₹1,999 - ₹3,500",
+      "priceRange": "₹3,500 - ₹4,500",
     },
   ];
 
@@ -761,7 +761,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   </p>
                   <div className="pt-2 flex flex-wrap gap-4">
                     <Link
-                      href="https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com"
+                      href="/netrani-scuba-diving"
                       className="inline-flex items-center gap-2 bg-[#00D4FF] text-black font-bold text-xs uppercase tracking-widest px-8 py-4 rounded-full hover:bg-[#80e9ff] transition-all hover:scale-105 shadow-[0_0_25px_rgba(0,212,255,0.4)] font-display"
                     >
                       Explore Netrani Scuba Diving
@@ -786,13 +786,13 @@ export default async function BlogPostPage({ params }: PageProps) {
                     href="/netrani-scuba-diving"
                     className="px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-[#00D4FF]/50 hover:text-[#00D4FF] transition-all font-medium"
                   >
-                    Netrani Island Package (₹3,500)
+                    Full Netrani Dive (₹3,500)
                   </Link>
                   <Link
-                    href="/intro-scuba-diving"
+                    href="/netrani-scuba-diving"
                     className="px-4 py-2 rounded-full bg-white/5 border border-white/10 hover:border-[#00D4FF]/50 hover:text-[#00D4FF] transition-all font-medium"
                   >
-                    Intro Try Dive for Beginners (₹1,999)
+                    Extended Deep Dive (₹4,500)
                   </Link>
                   <Link
                     href="/how-to-reach-murudeshwar"
@@ -839,18 +839,18 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <div className="space-y-3.5 font-display text-xs uppercase tracking-wider">
                   <div className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5">
                     <div>
-                      <p className="text-white font-bold">Intro Try Dive</p>
-                      <p className="text-[10px] text-gray-400 font-sans normal-case">Non-swimmers &amp; beginners</p>
+                      <p className="text-white font-bold">Full Netrani Dive</p>
+                      <p className="text-[10px] text-gray-400 font-sans normal-case">30–40 min underwater (1:1 guide)</p>
                     </div>
-                    <span className="text-[#00D4FF] font-black text-sm">₹1,999</span>
+                    <span className="text-[#00D4FF] font-black text-sm">₹3,500</span>
                   </div>
 
                   <div className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5">
                     <div>
-                      <p className="text-white font-bold">Full Netrani Dive</p>
-                      <p className="text-[10px] text-gray-400 font-sans normal-case">Extended reef bottom time</p>
+                      <p className="text-white font-bold">Extended Deep Dive</p>
+                      <p className="text-[10px] text-gray-400 font-sans normal-case">45–55 min extended reef time</p>
                     </div>
-                    <span className="text-[#00D4FF] font-black text-sm">₹3,500</span>
+                    <span className="text-[#00D4FF] font-black text-sm">₹4,500</span>
                   </div>
 
                   <div className="flex justify-between items-center px-3 py-2 text-emerald-400 text-[11px] font-semibold">
@@ -1004,7 +1004,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           </p>
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="https://www.murudeshwarscubadive.in/?utm_source=chatgpt.com"
+              href="/netrani-scuba-diving"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#00D4FF] text-black font-bold text-xs uppercase tracking-widest px-10 py-4 rounded-full hover:bg-[#80e9ff] transition-all hover:scale-105 shadow-[0_0_30px_rgba(0,212,255,0.5)] font-display"
             >
               Book Your Scuba Diving Experience

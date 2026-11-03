@@ -122,7 +122,7 @@ export default function Home() {
     {
       q: "How far in advance should I book my scuba diving slot in Murudeshwar?",
       a: "We recommend reserving your slot 3 to 5 days ahead, particularly for weekends and holiday periods between October and January. A nominal advance deposit of ₹500 per person reserves your boat seat and guarantees your dedicated 1:1 instructor assignment.",
-      link: "/blog/scuba-diving-booking-murudeshwar",
+      link: "/blog/netrani-island-scuba-diving-booking-how-to-book",
       linkText: "Read Booking & Deposit Guide ->",
     },
     {

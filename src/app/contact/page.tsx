@@ -323,7 +323,7 @@ export default function Contact() {
           </div>
           <div className="flex flex-wrap justify-center gap-6 text-xs font-bold uppercase tracking-widest font-display pt-2">
             <Link
-              href="/blog/scuba-diving-booking-murudeshwar"
+              href="/blog/netrani-island-scuba-diving-booking-how-to-book"
               className="text-[#00D4FF] hover:text-white transition-colors"
             >
               Booking Guide →

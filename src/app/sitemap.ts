@@ -24,16 +24,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticSitemaps = staticRoutes.map((item) => ({
     url: `${baseUrl}${item.route}`,
-    lastModified: new Date(),
+    lastModified: new Date("2026-11-03T08:00:00+05:30"),
     changeFrequency: item.changeFrequency,
     priority: item.priority,
   }));
 
-  // Dynamic blog routes from full list of posts
+  // Dynamic blog routes from full list of posts with real lastmod
   const allPosts = getAllPosts();
   const blogSitemaps = allPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(),
+    lastModified: post.isoDate ? new Date(post.isoDate) : new Date("2026-11-03T08:00:00+05:30"),
     changeFrequency: "weekly" as const,
     priority: 0.7,
   }));

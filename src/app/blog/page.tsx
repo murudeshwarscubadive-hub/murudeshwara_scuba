@@ -51,18 +51,18 @@ export default function BlogListing() {
 
   // Featured Priority Guides
   const featuredSlugs = [
-    "murudeshwar-scuba-diving-packages",
-    "scuba-diving-in-murudeshwar",
-    "murudeshwar-scuba-diving-complete-guide-netrani-island",
-    "best-scuba-diving-in-murudeshwara",
-    "murudeshwar-scuba-diving-first-timer-guide",
-    "scuba-diving-murudeshwar-netrani-island-guide",
-    "gandhada-gudi-netrani-scuba-diving-puneeth-rajkumar",
-    "best-time-scuba-diving-murudeshwar",
-    "scuba-diving-timings",
-    "how-to-reach-murudeshwar",
-    "scuba-diving-booking-murudeshwar",
-    "scuba-diving-packages-murudeshwar",
+    "murudeshwar-scuba-dive-guide",
+    "murudeshwar-scuba-diving-price-cost",
+    "best-scuba-diving-netrani-island",
+    "scuba-diving-age-limit",
+    "netrani-island-guide",
+    "murudeshwar-scuba-diving-from-bangalore",
+    "scuba-diving-karnataka",
+    "netrani-island-scuba-diving-booking-how-to-book",
+    "scuba-diving-price-india",
+    "scuba-diving-near-mangalore",
+    "goa-to-murudeshwar-scuba-diving",
+    "murudeshwar-scuba-diving-with-family",
   ];
 
   const priorityGuides = posts.filter((p) => featuredSlugs.includes(p.slug));

@@ -142,7 +142,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/blog/scuba-diving-booking-murudeshwar" className="hover:text-[#00D4FF] transition-colors">
+                <Link href="/blog/netrani-island-scuba-diving-booking-how-to-book" className="hover:text-[#00D4FF] transition-colors">
                   Scuba Diving Booking Guide
                 </Link>
               </li>
@@ -336,7 +336,7 @@ export default function Footer() {
           </div>
           <div className="flex flex-wrap gap-2 text-xs text-gray-400">
             <Link
-              href="/blog/scuba-diving-murudeshwar-netrani-island-guide"
+              href="/blog/best-scuba-diving-netrani-island"
               className="px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 hover:border-[#00D4FF]/50 hover:text-[#00D4FF] transition-all text-[#00D4FF] font-semibold"
             >
               Complete 2026 Netrani Guide
