@@ -24,6 +24,97 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    "slug": "scuba-diving-in-murudeshwar-price-per-person",
+    "title": "Scuba Diving in Murudeshwar Price Per Person: Complete Cost Guide",
+    "metaTitle": "Scuba Diving in Murudeshwar Price Per Person: Complete Cost Guide",
+    "subtitle": "Find the scuba diving in Murudeshwar price per person, package options, Netrani Island costs, inclusions, beginner rates and booking tips.",
+    "description": "Find the scuba diving in Murudeshwar price per person, package options, Netrani Island costs, inclusions, beginner rates and booking tips.",
+    "category": "Price & Packages",
+    "tags": [
+      "scuba diving in murudeshwar price per person",
+      "Murudeshwar scuba diving cost",
+      "scuba diving price in Murudeshwar",
+      "Netrani Island scuba diving price",
+      "Murudeshwar scuba diving packages",
+      "scuba diving cost per person",
+      "Murudeshwar diving ticket price",
+      "scuba diving for beginners price",
+      "Netrani Island diving packages"
+    ],
+    "readTime": "8 min read",
+    "date": "07 Nov 2026",
+    "isoDate": "2026-11-07T10:30:00+05:30",
+    "author": {
+      "name": "Vikram Shenoy",
+      "role": "PADI Master Scuba Diver Trainer",
+      "padiNumber": "PADI MSDT #384192"
+    },
+    "coverImage": "/images/murudeshwara/netrani_island_underwater_photography.webp",
+    "faq": [
+      {
+        "question": "What is the scuba diving in Murudeshwar price per person?",
+        "answer": "The price for a full Netrani Island scuba dive is ₹3,500 per person for a 30 to 40-minute guided dive, or ₹4,500 for an Extended Deep Dive (45 to 55 minutes). Both packages include boat travel, 1:1 instructor, gear, and free HD media."
+      },
+      {
+        "question": "What is the minimum price for scuba diving in Murudeshwar?",
+        "answer": "Short introductory shore try-dives may start around ₹1,999, but true coral reef diving at Netrani Island starts at ₹3,500 including the 19 km speedboat transfer and full equipment."
+      },
+      {
+        "question": "What is included in the scuba diving price?",
+        "answer": "Packages at Murudeshwar Scuba Dive include round-trip speedboat transportation to Netrani Island, full scuba equipment, a 1:1 certified instructor, safety briefing, shallow-water practice, surface snorkelling, and free HD photos/videos."
+      },
+      {
+        "question": "Is the Netrani Island boat ride included in the diving price?",
+        "answer": "Yes. Our ₹3,500 and ₹4,500 packages include the return speedboat journey from Murudeshwar beach to Netrani Island (19 km each way)."
+      },
+      {
+        "question": "Is scuba diving in Murudeshwar available for non-swimmers?",
+        "answer": "Yes. Non-swimmers can dive safely because every guest is assigned a personal 1:1 instructor who controls buoyancy, depth, and direction throughout the dive."
+      },
+      {
+        "question": "Is snorkeling cheaper than scuba diving in Murudeshwar?",
+        "answer": "Yes. A Non-Diver / Snorkelling Boat Pass is ₹1,500 per person, allowing guests to join the boat trip, enjoy the sea cruise, and observe marine life from the surface."
+      },
+      {
+        "question": "How much does scuba diving cost for two people?",
+        "answer": "For two divers taking the Full Netrani Dive, the cost is ₹7,000 total (₹3,500 per person). For the Extended Dive, it is ₹9,000 total for two."
+      },
+      {
+        "question": "Does the scuba diving price include underwater photos and videos?",
+        "answer": "Yes. Professional underwater photographs and HD action videos taken by your instructor are included completely free and transferred to your phone the same day."
+      },
+      {
+        "question": "Does the Murudeshwar scuba diving price change during weekends?",
+        "answer": "Our package rates remain consistent on weekdays and weekends. However, weekend slots fill up rapidly, so booking in advance is strongly recommended."
+      },
+      {
+        "question": "What is the best time to book scuba diving in Murudeshwar?",
+        "answer": "The operating season runs from October to May, with November through February offering the best sea visibility (15–30m). Booking 3 to 7 days ahead is recommended."
+      },
+      {
+        "question": "How long does a scuba diving trip from Murudeshwar take?",
+        "answer": "The complete outing takes about 5 to 6 hours (reporting at 8:00 AM and returning around 1:30–2:00 PM), with 30 to 55 minutes of actual underwater dive time."
+      },
+      {
+        "question": "Do I need to pay separately for scuba diving equipment?",
+        "answer": "No. All required scuba equipment—wetsuit, mask, fins, regulator, BCD, cylinder, and weights—is included in the quoted package price."
+      },
+      {
+        "question": "Are there discounts for group scuba diving bookings?",
+        "answer": "Yes. For families, college groups, or corporate teams of 10 or more participants, custom group discounts and private boat options are available through our bulk booking desk."
+      },
+      {
+        "question": "Can I book scuba diving in Murudeshwar in advance?",
+        "answer": "Yes. You can reserve your slots with a ₹500 advance deposit per person by calling +91 78299 75777 or messaging on WhatsApp at +91 74063 29777."
+      },
+      {
+        "question": "How can I find the latest scuba diving packages in Murudeshwar?",
+        "answer": "You can view current rates and package details directly on our Netrani scuba diving page or contact our dive desk for real-time slot confirmations."
+      }
+    ],
+    "content": "Planning an underwater adventure along the Karnataka coast? Before booking your trip, one of the first questions you will ask is the **scuba diving in Murudeshwar price per person**. The cost can vary depending on the operator, dive duration, package inclusions, season, and whether boat transportation to Netrani Island is provided.\n\nMurudeshwar is the mainland departure hub for boat trips to **Netrani Island** (also known as Pigeon Island), located 19 km offshore in the Arabian Sea. From introductory try-dives for non-swimmers to extended reef exploration, there are different options to consider. This guide breaks down the expected price ranges, what your package includes, how to budget for couples or groups, and how to avoid hidden costs.\n\n## What Is the Scuba Diving in Murudeshwar Price Per Person?\n\nThe price of scuba diving in Murudeshwar generally starts from around **₹1,999** for short introductory shore sessions, while full offshore **Netrani Island diving packages range between ₹3,500 and ₹4,500 per person**. The final cost depends on the dive duration, instructor supervision, boat transit, and included media.\n\n| Type of experience | Indicative price per person | Suitable for |\n|---|---|---|\n| Introductory or try scuba dive | From around ₹1,999–₹2,999 | Eligible first-time divers (short bottom time) |\n| Standard Netrani Island Full Dive | Around ₹3,500 | 30–40 min reef dive with 1:1 instructor |\n| Extended Deep Dive Package | Around ₹4,500 | 45–55 min extended underwater exploration |\n| Non-Diver / Snorkelling Boat Pass | Around ₹1,500 | Family members who prefer surface activities |\n| Certified Diver Fun Dive | Depends on dive count & kit | PADI / SSI certified divers |\n\nThese prices reflect standard rates at authorized Murudeshwar dive centres. Always verify package inclusions and availability directly before making payments.\n\n![Scuba diver underwater face-to-face with coral reef fish at Netrani|Transparent pricing: full equipment, 1:1 instructor, and boat transport included](/images/murudeshwara/netrani_island_underwater_photography.webp)\n\n## Why Does the Scuba Diving Price in Murudeshwar Vary?\n\nYou may notice different rates when comparing dive centres across Murudeshwar. A price difference usually comes down to what the package includes and how the experience is operated:\n\n### 1. Duration of the underwater dive\nThe underwater duration is the single most critical factor. Some budget packages advertise a short 10-to-15-minute introductory dip, whereas our **Full Netrani Dive offers 30 to 40 minutes underwater**, and the **Extended Dive provides 45 to 55 minutes** of continuous reef bottom time.\n\nAlways distinguish between:\n* **Total outing time:** 5 to 6 hours including boat travel and breaks.\n* **Boat crossing:** 60 to 75 minutes each way across the open Arabian Sea.\n* **Actual underwater time:** The minutes you spend breathing underwater alongside the reef.\n\n### 2. Instructor-to-diver ratio\nIntroductory scuba diving requires professional supervision. Reputable operators provide **strict 1:1 supervision**, meaning one certified instructor is assigned exclusively to hold, guide, and protect you underwater. Packages with lower rates may cut costs by pairing multiple divers with a single guide, which compromises personal safety.\n\n### 3. Speedboat transfer to Netrani Island\nNetrani Island lies approximately 19 km off Murudeshwar beach. Certified speedboats with marine safety licences and Coast Guard clearance represent a significant operational cost. Confirm that return boat travel is included in your quoted fee.\n\n### 4. Underwater photographs and videos\nMany first-time divers want memories of their adventure. At Murudeshwar Scuba Dive, **HD underwater photos and videos are included completely free** with your dive package and delivered to your phone the same day. Other operators may charge extra fees (often ₹500 to ₹1,000) for media files.\n\n### 5. Additional inclusions (Snorkelling & Refreshments)\nPremium dive packages include surface snorkelling equipment and onboard refreshments while you wait for dive turns, ensuring comfortable amenities throughout the half-day trip.\n\n> \"When comparing scuba diving prices in Murudeshwar, always check the actual underwater time, 1:1 instructor ratio, and boat transfer. A complete package that includes all gear and free HD media offers the best overall value.\"\n\n![Scuba divers preparing equipment and masks on dive boat|Scuba gear fitting and safety briefing before boat departure from Murudeshwar](/images/gallery/aquaride-1.jpg)\n\n## What Is Included in a Murudeshwar Scuba Diving Package?\n\nAt Murudeshwar Scuba Dive, our ₹3,500 Full Dive and ₹4,500 Extended Dive packages include:\n\n* **Complete scuba gear:** Internationally serviced wetsuit, mask, snorkel, fins, regulator, buoyancy control device (BCD), cylinder, and weights.\n* **1:1 Certified Instructor:** Personalized guidance from PADI/SSI certified divemasters from briefing to ascent.\n* **Speedboat transportation:** Round-trip ocean transit from Murudeshwar beach to Netrani Island.\n* **Safety briefing & shallow-water training:** Comprehensive breathing and ear equalisation practice in a protected bay.\n* **Complimentary surface snorkelling:** Gear provided for swimming and observing marine life from the surface.\n* **Free underwater 4K media:** High-definition photos and action videos taken by your instructor.\n* **Onboard refreshments:** Drinking water, fresh fruit, and light snacks.\n\nFor complete breakdown, see our [Murudeshwar scuba diving price guide](/blog/murudeshwar-scuba-diving-price-cost).\n\n## Beginner Scuba Diving Price in Murudeshwar\n\nIf you have never dived before, a guided introductory package (Discover Scuba Diving) is the ideal choice. You do **not** need swimming skills or prior experience to participate.\n\n* **Eligibility:** Open to participants aged **10 to 60 years** in reasonable medical health.\n* **Non-swimmers:** Fully supported with 1:1 buoyancy management. Read our complete guide to [scuba diving for non-swimmers in Murudeshwar](/blog/scuba-diving-murudeshwar-non-swimmers).\n\n## Netrani Island Scuba Diving Price Per Person\n\nNetrani Island is Karnataka's premier offshore diving hub, famous for its clear turquoise water and thriving marine life (parrotfish, butterflyfish, moray eels, and sea turtles).\n\nWhen evaluating Netrani Island scuba diving prices, confirm whether the quoted price includes:\n* Return speedboat transfers (19 km each way).\n* Full scuba gear and cylinder fills.\n* 1:1 instructor supervision.\n* Complimentary surface snorkelling.\n* Free underwater photography.\n\nA package advertised with a lower price that excludes boat transit or photography often ends up costing more once add-ons are tallied.\n\n## Scuba Diving vs Snorkeling: Which Is More Affordable?\n\nIf members of your group have varying budgets or comfort levels, here is how the two activities compare:\n\n| Feature | Scuba Diving | Snorkeling |\n|---|---|---|\n| Experience | Submerged 5 to 12 metres down alongside the coral reef | Surface-level bird's-eye view looking down |\n| Equipment | Cylinder, regulator, BCD, mask, fins, weights | Mask, snorkel tube, life jacket and fins |\n| Guidance | Dedicated 1:1 certified instructor | Surface supervision from boat crew |\n| Price per person | ₹3,500 (Full Dive) / ₹4,500 (Extended Dive) | ₹1,500 (Non-Diver Boat Pass) |\n| Swimming needed? | No (instructor controls buoyancy and navigation) | Helpful (since you paddle independently) |\n| Suitable for | Adventure seekers, couples, non-swimmers (10–60 yrs) | Younger children (under 10), seniors, or surface swimmers |\n\nSnorkelling is more affordable and suits family members who prefer staying on the surface, while scuba diving offers the full immersive underwater experience. Read our detailed comparison: [scuba diving vs snorkelling at Netrani Island](/blog/scuba-diving-vs-snorkelling-netrani-island).\n\n![Surface snorkelling at Netrani Island|Snorkelling vs Scuba: surface exploration compared with deep reef diving](/images/blog/snorkelling-fish-netrani.jpg)\n\n## How Much Should Two People Budget for Scuba Diving?\n\nIf you are planning your Murudeshwar trip as a couple or with friends, here is a practical budget breakdown:\n\n| Package Option | Per Person Rate | Total Cost for 2 Divers | Key Inclusions |\n|---|---|---|---|\n| Full Netrani Dive | ₹3,500 | ₹7,000 | 30–40 min underwater, boat, 1:1 guide, free photos/videos |\n| Extended Deep Dive | ₹4,500 | ₹9,000 | 45–55 min underwater, extended reef bottom time, media |\n| 1 Diver + 1 Non-Diver | ₹3,500 + ₹1,500 | ₹5,000 | 1 full dive + 1 boat seat & surface snorkelling |\n\n*Note: A nominal advance of ₹500 per person is required at the time of booking to reserve boat seats and instructors, with the remaining balance paid upon check-in on the dive morning.*\n\nFor groups of 10 or more participants, custom group discounts and private boat options are available through our [bulk scuba booking desk](/bulk-scuba-booking).\n\n👉\n\n## Is the Cheapest Murudeshwar Scuba Diving Package the Best?\n\nNot necessarily. Scuba diving is an adventure sport where equipment maintenance, vessel safety, and instructor credentials directly impact your experience.\n\nBefore picking the lowest advertised price, verify:\n* Is return boat transit to Netrani Island included?\n* Will you have a dedicated 1:1 instructor, or will a guide be split across multiple divers?\n* How many minutes will you actually spend underwater?\n* Are HD photos and videos included without hidden charges?\n* Does the operator adhere to strict Coast Guard safety protocols and offer a 48-hour free cancellation policy?\n\nChoosing a licensed, safety-first operator ensures you enjoy a calm, confidence-inspiring dive.\n\n## Best Time to Plan Your Murudeshwar Scuba Diving Trip\n\nNetrani Island diving is seasonal:\n* **October to May (Open Season):** Calm Arabian Sea conditions, warm water, and ocean visibility ranging from 15 to 30 metres.\n* **November to February (Peak Months):** Ideal weather with comfortable temperatures and clear water.\n* **June to September (Monsoon - Closed):** High swells and monsoon rain prompt port authorities to suspend boat departures for passenger safety.\n\nFor month-by-month visibility, check the [best time for scuba diving in Murudeshwar](/blog/best-time-scuba-diving-murudeshwar).\n\n## How to Book Scuba Diving in Murudeshwar at the Right Price\n\nBooking directly with the operator guarantees transparent pricing without middlemen commissions:\n\n1. **Step 1: Choose Your Experience:** Decide between the Full Netrani Dive (₹3,500), Extended Dive (₹4,500), or Non-Diver Boat Pass (₹1,500).\n2. **Step 2: Check Availability:** Call **+91 78299 75777** or WhatsApp **+91 74063 29777** with your travel date and group size.\n3. **Step 3: Pay ₹500 Advance:** Secure your slots via UPI or online payment.\n4. **Step 4: Receive Voucher:** Get an instant WhatsApp confirmation with reporting directions on Temple Main Road.\n5. **Step 5: Morning Check-in:** Report at 7:30 to 8:00 AM, complete basic medical verification, pay the balance, and board the speedboat.\n\nReview our step-by-step walkthrough: [how to book Netrani scuba diving](/blog/netrani-island-scuba-diving-booking-how-to-book).\n\n## Final Thoughts: Plan Your Murudeshwar Scuba Diving Budget\n\nThe scuba diving in Murudeshwar price per person ranges from ₹3,500 for a comprehensive 30-to-40-minute dive to ₹4,500 for an extended dive. Both packages include speedboat transit, certified 1:1 instruction, all gear, and free HD media.\n\nCompare the total package value rather than just headline numbers to ensure your ocean adventure is safe, seamless, and memorable.\n\nReady to dive into the Arabian Sea? Explore our [Netrani scuba diving packages](/netrani-scuba-diving) and reserve your morning boat slot!\n\n## Frequently Asked Questions About Scuba Diving Price in Murudeshwar"
+  },
+  {
     "slug": "scuba-dive-in-murudeshwar",
     "title": "Scuba Dive in Murudeshwar: Complete Netrani Island Guide",
     "metaTitle": "Scuba Dive in Murudeshwar: Complete Netrani Island Guide",
