@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import BookingTicketCard from "@/components/BookingTicketCard";
 
 export const metadata: Metadata = {
   title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
@@ -344,8 +345,9 @@ export default function Home() {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-10 w-full flex-1 flex flex-col justify-center px-6 md:px-12 max-w-[1600px] mx-auto pt-32 pb-24 md:pt-36 md:pb-28 lg:pt-36 lg:pb-28">
-          <div className="max-w-4xl space-y-4 md:space-y-5 lg:space-y-5">
+        <div className="relative z-10 w-full flex-1 flex flex-col justify-center px-6 md:px-12 max-w-[1600px] mx-auto pt-28 pb-20 md:pt-36 md:pb-28">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 xl:gap-12 items-center">
+            <div className="lg:col-span-7 xl:col-span-7 space-y-4 md:space-y-5">
             <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full text-[10px] md:text-xs font-semibold uppercase tracking-[0.25em] text-[#00D4FF] backdrop-blur-md">
               <span className="w-1.5 h-1.5 rounded-full bg-[#00D4FF] animate-pulse"></span>
               Premier Netrani Coral Reef Adventures • Murudeshwar, Karnataka
@@ -421,6 +423,15 @@ export default function Home() {
               >
                 Our Certified Instructors
               </Link>
+            </div>
+            </div>
+
+            {/* Right Column: Ticket Booking Form Card */}
+            <div className="lg:col-span-5 xl:col-span-5 flex justify-center lg:justify-end w-full pt-6 lg:pt-0">
+              <BookingTicketCard
+                phoneNumber="+917829975777"
+                displayPhoneNumber="+91 78299 75777"
+              />
             </div>
           </div>
 
@@ -522,7 +533,7 @@ export default function Home() {
                 </span>
               </div>
               <a
-                href="tel:+917829975777"
+                href="#booking-card"
                 className="inline-flex items-center gap-2 border border-white/20 text-white text-xs font-bold py-2.5 px-6 rounded-full hover:bg-white hover:text-black transition-all hover:scale-105 uppercase tracking-widest font-display"
               >
                 Check Daily Slots
@@ -948,7 +959,7 @@ export default function Home() {
                 Three Steps to Verify Your Dive Booking
               </h3>
               <p className="text-sm md:text-base text-gray-400 leading-relaxed font-medium">
-                Before paying any advance deposit, verify your operator's direct contact, review authentic underwater photography, and confirm instructor allocation for total peace of mind.
+                Before paying any advance deposit, verify your operator&apos;s direct contact, review authentic underwater photography, and confirm instructor allocation for total peace of mind.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
