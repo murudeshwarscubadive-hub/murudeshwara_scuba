@@ -29,14 +29,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: item.priority,
   }));
 
+  // Exclude redirected blog slugs from XML sitemap to prevent GSC redirect errors
+  const redirectedSlugs = new Set([
+    "scuba-dive-cost-in-murudeshwar",
+    "scuba-dive-murdeshwar-price",
+    "netrani-scubadive-in-murdeshwar",
+  ]);
+
   // Dynamic blog routes from full list of posts with real lastmod
   const allPosts = getAllPosts();
-  const blogSitemaps = allPosts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: post.isoDate ? new Date(post.isoDate) : new Date("2026-11-03T08:00:00+05:30"),
-    changeFrequency: "weekly" as const,
-    priority: 0.7,
-  }));
+  const blogSitemaps = allPosts
+    .filter((post) => !redirectedSlugs.has(post.slug))
+    .map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: post.isoDate ? new Date(post.isoDate) : new Date("2026-11-03T08:00:00+05:30"),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
 
   return [...staticSitemaps, ...blogSitemaps];
 }
