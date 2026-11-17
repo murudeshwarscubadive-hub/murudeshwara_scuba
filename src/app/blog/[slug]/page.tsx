@@ -81,6 +81,25 @@ export default async function BlogPostPage({ params }: PageProps) {
     notFound();
   }
 
+  const allPosts = getAllPosts();
+  const currentTags = post.tags || [];
+
+  // Filter out current post to eliminate self-referencing links
+  const otherPosts = allPosts.filter((p) => p.slug !== slug);
+
+  // Score related posts by matching tags, fallback sorted by date
+  const scoredPosts = otherPosts.map((p) => {
+    const commonTags = (p.tags || []).filter((t) => currentTags.includes(t));
+    return { post: p, score: commonTags.length };
+  });
+
+  scoredPosts.sort((a, b) => {
+    if (b.score !== a.score) return b.score - a.score;
+    return new Date(b.post.date).getTime() - new Date(a.post.date).getTime();
+  });
+
+  const relatedPosts = scoredPosts.slice(0, 3).map((item) => item.post);
+
   const isGandhadaGudi = slug === "gandhada-gudi-netrani-scuba-diving-puneeth-rajkumar";
 
   // Helper to parse inline markdown (bold, italic, links)
@@ -836,22 +855,50 @@ export default async function BlogPostPage({ params }: PageProps) {
 
                 <hr className="border-white/10" />
 
-                <div className="space-y-3.5 font-display text-xs uppercase tracking-wider">
-                  <div className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5">
+                <div className="space-y-3 font-display text-xs uppercase tracking-wider">
+                  <Link
+                    href="/intro-scuba-diving"
+                    className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#00D4FF]/40 hover:bg-white/[0.05] transition-all group"
+                  >
                     <div>
-                      <p className="text-white font-bold">Full Netrani Dive</p>
+                      <p className="text-white font-bold group-hover:text-[#00D4FF] transition-colors">Intro Scuba Try Dive</p>
+                      <p className="text-[10px] text-gray-400 font-sans normal-case">10–15 min 1:1 guided dive (5–8m)</p>
+                    </div>
+                    <span className="text-[#00D4FF] font-black text-sm">₹1,999</span>
+                  </Link>
+
+                  <Link
+                    href="/netrani-scuba-diving"
+                    className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#00D4FF]/40 hover:bg-white/[0.05] transition-all group"
+                  >
+                    <div>
+                      <p className="text-white font-bold group-hover:text-[#00D4FF] transition-colors">Full Netrani Deep Dive</p>
                       <p className="text-[10px] text-gray-400 font-sans normal-case">30–40 min underwater (1:1 guide)</p>
                     </div>
                     <span className="text-[#00D4FF] font-black text-sm">₹3,500</span>
-                  </div>
+                  </Link>
 
-                  <div className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5">
+                  <Link
+                    href="/netrani-scuba-diving"
+                    className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#00D4FF]/40 hover:bg-white/[0.05] transition-all group"
+                  >
                     <div>
-                      <p className="text-white font-bold">Extended Deep Dive</p>
+                      <p className="text-white font-bold group-hover:text-[#00D4FF] transition-colors">VIP Extended Deep Dive</p>
                       <p className="text-[10px] text-gray-400 font-sans normal-case">45–55 min extended reef time</p>
                     </div>
                     <span className="text-[#00D4FF] font-black text-sm">₹4,500</span>
-                  </div>
+                  </Link>
+
+                  <Link
+                    href="/netrani-scuba-diving"
+                    className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#00D4FF]/40 hover:bg-white/[0.05] transition-all group"
+                  >
+                    <div>
+                      <p className="text-white font-bold group-hover:text-[#00D4FF] transition-colors">Snorkeler / Non-Diver Pass</p>
+                      <p className="text-[10px] text-gray-400 font-sans normal-case">Scenic boat ride &amp; surface snorkel</p>
+                    </div>
+                    <span className="text-[#00D4FF] font-black text-sm">₹1,500</span>
+                  </Link>
 
                   <div className="flex justify-between items-center px-3 py-2 text-emerald-400 text-[11px] font-semibold">
                     <span>HD Photos &amp; Video Pack</span>
@@ -886,6 +933,36 @@ export default async function BlogPostPage({ params }: PageProps) {
                     Balance payable upon morning reporting. Free cancellation up to 48 hrs prior.
                   </p>
                 </div>
+
+                {/* Useful Direct Navigation Links */}
+                <div className="pt-2 border-t border-white/10 space-y-2">
+                  <p className="text-[10px] font-bold uppercase tracking-wider text-gray-400 font-display">
+                    Trip Planning Resources
+                  </p>
+                  <div className="flex flex-col gap-1.5 text-xs">
+                    <Link
+                      href="/netrani-scuba-diving"
+                      className="text-gray-300 hover:text-[#00D4FF] transition-colors py-1 flex items-center justify-between group"
+                    >
+                      <span>Scuba Packages &amp; Booking</span>
+                      <span className="text-gray-500 group-hover:text-[#00D4FF] transition-transform group-hover:translate-x-0.5">→</span>
+                    </Link>
+                    <Link
+                      href="/contact"
+                      className="text-gray-300 hover:text-[#00D4FF] transition-colors py-1 flex items-center justify-between group"
+                    >
+                      <span>Contact &amp; Reporting Location</span>
+                      <span className="text-gray-500 group-hover:text-[#00D4FF] transition-transform group-hover:translate-x-0.5">→</span>
+                    </Link>
+                    <Link
+                      href="/how-to-reach-murudeshwar"
+                      className="text-gray-300 hover:text-[#00D4FF] transition-colors py-1 flex items-center justify-between group"
+                    >
+                      <span>How to Reach Murudeshwar</span>
+                      <span className="text-gray-500 group-hover:text-[#00D4FF] transition-transform group-hover:translate-x-0.5">→</span>
+                    </Link>
+                  </div>
+                </div>
               </div>
             </aside>
 
@@ -909,73 +986,33 @@ export default async function BlogPostPage({ params }: PageProps) {
               href="/blog"
               className="text-xs font-bold uppercase tracking-widest text-[#00D4FF] hover:text-white transition-colors font-display inline-flex items-center gap-1.5"
             >
-              View All 20+ Guides →
+              View All {allPosts.length} Guides →
             </Link>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Card 1: Discover Netrani Island */}
-            <Link
-              href="/blog/netrani-island-guide"
-              className="group rounded-3xl border border-white/10 bg-white/[0.02] p-6 hover:border-[#00D4FF]/40 hover:bg-white/[0.04] transition-all duration-300 flex flex-col justify-between shadow-2xl"
-            >
-              <div>
-                <span className="text-[9px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Island Guide
+            {relatedPosts.map((rPost) => (
+              <Link
+                key={rPost.slug}
+                href={`/blog/${rPost.slug}`}
+                className="group rounded-3xl border border-white/10 bg-white/[0.02] p-6 hover:border-[#00D4FF]/40 hover:bg-white/[0.04] transition-all duration-300 flex flex-col justify-between shadow-2xl"
+              >
+                <div>
+                  <span className="text-[9px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
+                    {rPost.tags?.[0] || "Netrani Guide"}
+                  </span>
+                  <h3 className="text-lg font-bold text-white group-hover:text-[#00D4FF] transition-colors mt-3 font-display leading-snug">
+                    {rPost.title}
+                  </h3>
+                  <p className="text-gray-400 text-xs leading-relaxed mt-3 line-clamp-3 font-medium">
+                    {rPost.description}
+                  </p>
+                </div>
+                <span className="text-xs font-bold text-[#00D4FF] uppercase tracking-wider font-display mt-6 inline-flex items-center gap-1">
+                  Read guide <span>→</span>
                 </span>
-                <h3 className="text-lg font-bold text-white group-hover:text-[#00D4FF] transition-colors mt-3 font-display leading-snug">
-                  Discover Netrani Island: Distance, Marine Life &amp; Travel
-                </h3>
-                <p className="text-gray-400 text-xs leading-relaxed mt-3 line-clamp-3 font-medium">
-                  Everything you need to know about Karnataka’s heart-shaped Pigeon Island, situated 19 km off Murudeshwar beach.
-                </p>
-              </div>
-              <span className="text-xs font-bold text-[#00D4FF] uppercase tracking-wider font-display mt-6 inline-flex items-center gap-1">
-                Read guide <span>→</span>
-              </span>
-            </Link>
-
-            {/* Card 2: Complete Guide to Netrani Scuba Diving */}
-            <Link
-              href="/blog/murudeshwar-scuba-diving-price-cost"
-              className="group rounded-3xl border border-white/10 bg-white/[0.02] p-6 hover:border-[#00D4FF]/40 hover:bg-white/[0.04] transition-all duration-300 flex flex-col justify-between shadow-2xl"
-            >
-              <div>
-                <span className="text-[9px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Pricing &amp; Cost
-                </span>
-                <h3 className="text-lg font-bold text-white group-hover:text-[#00D4FF] transition-colors mt-3 font-display leading-snug">
-                  Complete Guide to Netrani Scuba Diving Prices &amp; Packages (2026)
-                </h3>
-                <p className="text-gray-400 text-xs leading-relaxed mt-3 line-clamp-3 font-medium">
-                  Compare ₹1,999 Intro and ₹3,500 Netrani packages, equipment inclusions, and how to get group booking discounts.
-                </p>
-              </div>
-              <span className="text-xs font-bold text-[#00D4FF] uppercase tracking-wider font-display mt-6 inline-flex items-center gap-1">
-                Read guide <span>→</span>
-              </span>
-            </Link>
-
-            {/* Card 3: Best Time for Scuba Diving */}
-            <Link
-              href="/blog/best-time-scuba-diving-murudeshwar"
-              className="group rounded-3xl border border-white/10 bg-white/[0.02] p-6 hover:border-[#00D4FF]/40 hover:bg-white/[0.04] transition-all duration-300 flex flex-col justify-between shadow-2xl"
-            >
-              <div>
-                <span className="text-[9px] font-bold uppercase tracking-widest text-[#00D4FF] font-display">
-                  Best Season
-                </span>
-                <h3 className="text-lg font-bold text-white group-hover:text-[#00D4FF] transition-colors mt-3 font-display leading-snug">
-                  Best Time for Scuba Diving in Murudeshwar &amp; Netrani
-                </h3>
-                <p className="text-gray-400 text-xs leading-relaxed mt-3 line-clamp-3 font-medium">
-                  Month-by-month ocean visibility breakdown (15-30m), weather conditions, and monsoon safety schedule.
-                </p>
-              </div>
-              <span className="text-xs font-bold text-[#00D4FF] uppercase tracking-wider font-display mt-6 inline-flex items-center gap-1">
-                Read guide <span>→</span>
-              </span>
-            </Link>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

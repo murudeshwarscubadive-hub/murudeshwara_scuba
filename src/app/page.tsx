@@ -68,7 +68,7 @@ export default function Home() {
   const faqs = [
     {
       q: "How much does scuba diving cost at Netrani Island per person?",
-      a: "Murudeshwar scuba diving packages are ₹3,500 for the Full Netrani Island Dive (30–40 minutes underwater, offer price from ₹4,500) and ₹4,500 for the Extended Deep Dive (45–55 minutes underwater, offer price from ₹6,000). Both packages include the scenic boat cruise to Netrani Island, full gear rental, personal 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
+      a: "Murudeshwar scuba diving packages feature four transparent tiers: (1) Intro Scuba Try Dive at ₹1,999 (10–15 mins underwater, 5–8m depth for first-timers), (2) Full Netrani Deep Reef Dive at ₹3,500 (30–40 mins bottom time, up to 12m depth), (3) VIP Extended Deep Dive at ₹4,500 (45–55 mins reef time, up to 12m depth), and (4) Snorkeler / Non-Diver Boat Pass at ₹1,500. All diving packages include the 19 km boat cruise, full gear rental, personal 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
       link: "/blog/murudeshwar-scuba-diving-price-cost",
       linkText: "View Complete Pricing Guide ->",
     },
@@ -91,6 +91,24 @@ export default function Home() {
       linkText: "Read Non-Swimmer Diving Guide ->",
     },
     {
+      q: "Is scuba diving at Netrani Island safe for beginners and non-swimmers?",
+      a: "Yes, it is completely safe. Over 70% of our daily participants are first-time non-swimmers. Every beginner dives with a dedicated, certified 1:1 instructor who holds onto their harness and manages buoyancy, depth, and direction at all times. A certified Buoyancy Control Device (BCD) keeps you effortlessly afloat at the surface, and a thorough shallow-water safety briefing is completed before boat departure.",
+      link: "/blog/murudeshwar-scuba-diving-safety",
+      linkText: "Read Scuba Safety Protocols ->",
+    },
+    {
+      q: "How deep do you go during scuba diving at Netrani Island?",
+      a: "Introductory Discover Scuba Diving (DSD) sessions reach a safe, comfortable depth between 5 and 12 metres (Intro Try Dives reach 5–8 metres; Full Netrani and Extended Dives reach up to 12 metres). At this depth, natural sunlight illuminates coral reefs and marine life brightly with minimal water pressure. Advanced certified divers can explore deeper drop-offs down to 18–30 metres.",
+      link: "/netrani-scuba-diving",
+      linkText: "Explore Dive Sites & Depths ->",
+    },
+    {
+      q: "Where is the scuba diving reporting location in Murudeshwar, and what time should I arrive?",
+      a: "Divers report between 7:30 AM and 8:30 AM at our direct dive desk on Temple Main Road near Murudeshwar Beach (PIN 581350), approximately 1 km from the Lord Shiva Temple and 3 km from Murudeshwar Railway Station (MRDW). Morning boat departures for Netrani Island run between 8:00 AM and 9:00 AM.",
+      link: "/contact",
+      linkText: "View Reporting Location & Map ->",
+    },
+    {
       q: "What is the daily schedule and boat departure time for Netrani Island?",
       a: "Boats depart daily between 8:00 AM and 9:00 AM from Murudeshwar beach. The boat journey to Netrani Island takes approximately 60 to 75 minutes. After dive rotations and surface snorkeling, the boat returns to Murudeshwar by 2:30 PM to 3:30 PM. Advance reservation is recommended.",
       link: "/blog/scuba-diving-timings",
@@ -104,9 +122,9 @@ export default function Home() {
     },
     {
       q: "How can I connect with your direct Murudeshwar dive coordinators?",
-      a: "You can reach our Murudeshwar booking desk directly at +91 78299 75777 or message us on WhatsApp. Our coordinators are local divers who provide immediate slot confirmations, boat reporting locations, and live sea condition reports.",
-      link: "/blog/murudeshwar-scuba-diving-photos-videos",
-      linkText: "View Live Photos & Videos ->",
+      a: "You can reach our Murudeshwar booking desk directly at +91 78299 75777 or message us on WhatsApp (+91 74063 29777). Our coordinators are local divers who provide immediate slot confirmations, boat reporting locations, and live sea condition reports.",
+      link: "/contact",
+      linkText: "Visit Contact & Reporting Desk ->",
     },
     {
       q: "What is the best way to travel to Murudeshwar from Bangalore or Mangalore?",
@@ -129,8 +147,8 @@ export default function Home() {
     {
       q: "What should I wear and pack for the Netrani Island boat trip?",
       a: "Pack comfortable swimwear or quick-drying t-shirt and shorts, a dry towel, a fresh change of clothes, sunglasses, sunscreen, and a waterproof bag for your smartphone. We provide clean neoprene wetsuits, dive masks, fins, and all certified scuba apparatus.",
-      link: "/blog/beginner-scuba-diving-guide",
-      linkText: "See Beginner Packing Checklist ->",
+      link: "/blog/what-to-bring-scuba-diving-murudeshwar",
+      linkText: "View Complete Packing Checklist ->",
     },
     {
       q: "What happens if the sea is rough or the weather is bad?",
@@ -159,8 +177,8 @@ export default function Home() {
     {
       q: "Can I scuba dive if I wear spectacles or contact lenses?",
       a: "Standard spectacles cannot be worn inside a scuba mask because the frame breaks the watertight silicone seal. However, soft contact lenses are completely safe and comfortable to wear while diving. Underwater refraction also naturally magnifies objects by about 33%, allowing divers with mild correction to see distinctly without lenses.",
-      link: "/blog/scuba-diving-age-limit",
-      linkText: "Read Medical & Vision Guidelines ->",
+      link: "/blog/scuba-diving-with-glasses-periods-seasickness",
+      linkText: "Read Glasses & Vision Guidelines ->",
     },
   ];
 
@@ -265,7 +283,11 @@ export default function Home() {
       "@id": "https://www.murudeshwarscubadive.in/#website",
       "url": "https://www.murudeshwarscubadive.in",
       "name": "Murudeshwar Scuba Dive",
-      "description": "Book Murudeshwar scuba diving with Netrani Island packages starting from ₹1,999."
+      "description": "Book Murudeshwar scuba diving with Netrani Island packages starting from ₹1,999.",
+      "publisher": {
+        "@id": "https://www.murudeshwarscubadive.in/#organization"
+      },
+      "inLanguage": ["en-IN", "en"]
     },
     {
       "@context": "https://schema.org",
