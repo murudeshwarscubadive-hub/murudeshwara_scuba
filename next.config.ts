@@ -81,6 +81,21 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/blog/scuba-dive-cost-in-murudeshwar",
+        destination: "/blog/murudeshwar-scuba-diving-price-cost",
+        permanent: true,
+      },
+      {
+        source: "/blog/scuba-dive-murdeshwar-price",
+        destination: "/blog/murudeshwar-scuba-diving-price-cost",
+        permanent: true,
+      },
+      {
+        source: "/blog/netrani-scubadive-in-murdeshwar",
+        destination: "/blog/netrani-scuba-dive-guide",
+        permanent: true,
+      },
+      {
         source: "/blog/netrani-scuba-diving-complete-guide",
         destination: "/blog/best-scuba-diving-netrani-island",
         permanent: true,
