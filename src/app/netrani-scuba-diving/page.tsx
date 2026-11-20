@@ -3,9 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Netrani Island Scuba Diving Murudeshwar: Package, Price & Details",
+  title: "Netrani Island Scuba Diving Guide: Season, Depth, Marine Life",
   description:
-    "Book the full Netrani Island scuba diving experience from Murudeshwar for ₹3,500. Includes 30–40 min reef dive, 1:1 certified instructor, boat trip, gear, and free HD media.",
+    "Everything about diving at Netrani Island: best months, visibility, what you'll see, and how to get there from Murudeshwar.",
   keywords: [
     "Netrani Island scuba diving",
     "Murudeshwar scuba diving",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     canonical: "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
   },
   openGraph: {
-    title: "Netrani Island Scuba Diving Murudeshwar: Package, Price & Details",
+    title: "Netrani Island Scuba Diving Guide: Season, Depth, Marine Life",
     description:
-      "Book the full Netrani Island scuba diving experience from Murudeshwar for ₹3,500. Includes 30–40 min reef dive, 1:1 certified instructor, boat trip, gear, and free HD media.",
+      "Everything about diving at Netrani Island: best months, visibility, what you'll see, and how to get there from Murudeshwar.",
     url: "https://www.murudeshwarscubadive.in/netrani-scuba-diving",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Netrani Scuba Diving Package Murudeshwar: Price & Inclusions",
+    title: "Netrani Island Scuba Diving Guide: Season, Depth, Marine Life",
     description:
-      "Complete Netrani Island scuba diving packages from Murudeshwar. Official price starting at ₹3,500 with gear, 1:1 instructor, and HD photos included.",
+      "Everything about diving at Netrani Island: best months, visibility, what you'll see, and how to get there from Murudeshwar.",
     images: ["/images/netrani-diver.png"],
   },
 };

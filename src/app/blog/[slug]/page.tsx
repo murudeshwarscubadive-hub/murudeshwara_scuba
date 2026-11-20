@@ -61,7 +61,7 @@ export async function generateMetadata({
       locale: "en_IN",
       type: "article",
       publishedTime: post.isoDate || post.date,
-      modifiedTime: post.isoDate || post.date,
+      modifiedTime: post.dateModified || post.isoDate || post.date,
       authors: post.author ? [post.author.name] : ["Murudeshwar Scuba Dive"],
     },
     twitter: {
@@ -439,7 +439,7 @@ export default async function BlogPostPage({ params }: PageProps) {
             <div className="absolute top-0 left-0 w-1.5 h-full bg-[#00D4FF] shadow-[0_0_15px_rgba(0,212,255,0.8)]"></div>
             <div className="text-4xl text-[#00D4FF]/30 font-serif leading-none mb-2">“</div>
             <blockquote className="text-xl md:text-2xl lg:text-3xl font-bold text-white tracking-wide font-display italic leading-snug">
-              {quoteText}
+              {parseInlineMarkdown(quoteText)}
             </blockquote>
             <p className="mt-4 text-xs uppercase tracking-[0.25em] text-[#00D4FF] font-semibold">
               — Netrani Island Scuba Diving Guide
@@ -503,7 +503,7 @@ export default async function BlogPostPage({ params }: PageProps) {
       "headline": post.title,
       "description": post.description,
       "datePublished": post.isoDate || post.date,
-      "dateModified": post.isoDate || post.date,
+      "dateModified": post.dateModified || post.isoDate || post.date,
       "image": `https://www.murudeshwarscubadive.in${post.coverImage || "/images/netrani-scuba-cover.png"}`,
       "author": post.author
         ? {

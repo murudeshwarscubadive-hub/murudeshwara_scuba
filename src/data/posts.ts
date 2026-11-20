@@ -9,6 +9,7 @@ export interface BlogPost {
   readTime: string;
   date: string;
   isoDate?: string;
+  dateModified?: string;
   author?: {
     name: string;
     role: string;
@@ -639,9 +640,9 @@ export const blogPosts: BlogPost[] = [
   {
   "slug": "murudeshwar-scuba-diving-price-cost",
   "title": "Murudeshwar Scuba Diving Price (2026): Packages, Cost Per Person & Trip Budget Guide",
-  "metaTitle": "Murudeshwar Scuba Diving Price 2026: ₹1,999 to ₹4,500 Packages & Trip Cost",
-  "subtitle": "Official 2026 Murudeshwar scuba diving prices: ₹1,999 Intro, ₹3,500 Full Reef, ₹4,500 VIP & ₹1,500 Snorkeling. Inclusions, trip budget, hotels & booking tips.",
-  "description": "Official 2026 Murudeshwar scuba diving prices: ₹1,999 Intro, ₹3,500 Full Reef, ₹4,500 VIP & ₹1,500 Snorkeling. Inclusions, trip budget, hotels & booking tips.",
+  "metaTitle": "Murudeshwar Scuba Diving Price 2026: ₹3,500 & ₹4,500",
+  "subtitle": "Official 2026 Murudeshwar scuba diving prices: ₹3,500 Full Netrani Dive & ₹4,500 Extended Dive. Inclusions, trip budget, hotels & booking tips.",
+  "description": "Full Netrani Dive ₹3,500 (30–40 min) or Extended Dive ₹4,500 (45–55 min). Boat, gear, divemaster and HD video included. Ages 10–60.",
   "category": "Price & Packages",
   "tags": [
     "murudeshwar scuba diving price",
@@ -654,6 +655,7 @@ export const blogPosts: BlogPost[] = [
   "readTime": "10 min read",
   "date": "03 Nov 2026",
   "isoDate": "2026-11-03T08:15:00+05:30",
+  "dateModified": "2026-11-20T10:00:00+05:30",
   "author": {
     "name": "Vikram Shenoy",
     "role": "Lead Dive Instructor"

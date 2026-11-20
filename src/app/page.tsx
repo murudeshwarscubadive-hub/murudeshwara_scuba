@@ -4,9 +4,9 @@ import Image from "next/image";
 import BookingTicketCard from "@/components/BookingTicketCard";
 
 export const metadata: Metadata = {
-  title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
+  title: "Scuba Diving in Murudeshwar, Netrani Island | ₹3,500",
   description:
-    "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹3,500, beginner guidance, and free HD photos.",
+    "Dive Netrani Island from Murudeshwar with a 1:1 certified divemaster. Beginners welcome. Boat, gear, snorkeling and HD video included. Book on WhatsApp.",
   keywords: [
     "Murudeshwar scuba diving",
     "Murudeshwara scuba dive",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     canonical: "https://www.murudeshwarscubadive.in",
   },
   openGraph: {
-    title: "Murudeshwar Scuba Diving Packages & Netrani Island Dive Booking",
+    title: "Scuba Diving in Murudeshwar, Netrani Island | ₹3,500",
     description:
-      "Experience scuba diving in Murudeshwar at Netrani Island with certified instructors. Transparent packages from ₹3,500, beginner guidance, and free HD photos.",
+      "Dive Netrani Island from Murudeshwar with a 1:1 certified divemaster. Beginners welcome. Boat, gear, snorkeling and HD video included. Book on WhatsApp.",
     url: "https://www.murudeshwarscubadive.in",
     siteName: "Murudeshwar Scuba Dive",
     images: [
@@ -57,9 +57,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Murudeshwar Scuba Diving Packages & Netrani Island Booking",
+    title: "Scuba Diving in Murudeshwar, Netrani Island | ₹3,500",
     description:
-      "Discover scuba diving in Murudeshwar with Netrani Island packages from ₹3,500. Certified instructors, complete gear, and free HD photos.",
+      "Dive Netrani Island from Murudeshwar with a 1:1 certified divemaster. Beginners welcome. Boat, gear, snorkeling and HD video included. Book on WhatsApp.",
     images: ["/hero.webp"],
   },
 };
