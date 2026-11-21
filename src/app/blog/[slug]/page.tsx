@@ -857,7 +857,7 @@ export default async function BlogPostPage({ params }: PageProps) {
 
                 <div className="space-y-3 font-display text-xs uppercase tracking-wider">
                   <Link
-                    href="/intro-scuba-diving"
+                    href="/#packages"
                     className="flex justify-between items-center p-3 rounded-xl bg-white/[0.02] border border-white/5 hover:border-[#00D4FF]/40 hover:bg-white/[0.05] transition-all group"
                   >
                     <div>

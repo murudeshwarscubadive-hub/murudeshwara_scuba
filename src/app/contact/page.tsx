@@ -309,7 +309,7 @@ export default function Contact() {
               Full Dive ₹3,500
             </Link>
             <Link
-              href="/intro-scuba-diving"
+              href="/#packages"
               className="flex-1 bg-white/5 border border-white/10 text-white py-4 px-6 rounded-full hover:bg-white hover:text-black transition-all hover:scale-105"
             >
               Intro Dive
