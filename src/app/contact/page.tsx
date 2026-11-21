@@ -312,7 +312,7 @@ export default function Contact() {
               href="/intro-scuba-diving"
               className="flex-1 bg-white/5 border border-white/10 text-white py-4 px-6 rounded-full hover:bg-white hover:text-black transition-all hover:scale-105"
             >
-              Intro Dive ₹1,999
+              Intro Dive
             </Link>
             <Link
               href="/bulk-scuba-booking"

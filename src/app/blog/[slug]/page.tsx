@@ -864,7 +864,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                       <p className="text-white font-bold group-hover:text-[#00D4FF] transition-colors">Intro Scuba Try Dive</p>
                       <p className="text-[10px] text-gray-400 font-sans normal-case">10–15 min 1:1 guided dive (5–8m)</p>
                     </div>
-                    <span className="text-[#00D4FF] font-black text-sm">₹1,999</span>
+                    <span className="text-[#00D4FF] font-bold text-xs uppercase tracking-wider">Explore →</span>
                   </Link>
 
                   <Link

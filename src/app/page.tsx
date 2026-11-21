@@ -283,7 +283,7 @@ export default function Home() {
       "@id": "https://www.murudeshwarscubadive.in/#website",
       "url": "https://www.murudeshwarscubadive.in",
       "name": "Murudeshwar Scuba Dive",
-      "description": "Book Murudeshwar scuba diving with Netrani Island packages starting from ₹1,999.",
+      "description": "Book Murudeshwar scuba diving with Netrani Island packages.",
       "publisher": {
         "@id": "https://www.murudeshwarscubadive.in/#organization"
       },
