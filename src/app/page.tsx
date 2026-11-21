@@ -68,7 +68,7 @@ export default function Home() {
   const faqs = [
     {
       q: "How much does scuba diving cost at Netrani Island per person?",
-      a: "Murudeshwar scuba diving packages feature four transparent tiers: (1) Intro Scuba Try Dive at ₹1,999 (10–15 mins underwater, 5–8m depth for first-timers), (2) Full Netrani Deep Reef Dive at ₹3,500 (30–40 mins bottom time, up to 12m depth), (3) VIP Extended Deep Dive at ₹4,500 (45–55 mins reef time, up to 12m depth), and (4) Snorkeler / Non-Diver Boat Pass at ₹1,500. All diving packages include the 19 km boat cruise, full gear rental, personal 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
+      a: "Murudeshwar scuba diving packages feature two primary tiers: the Full Netrani Dive at ₹3,500 per person (30–40 minutes underwater, up to 12m depth) and the VIP Extended Dive at ₹4,500 per person (45–55 minutes reef time, up to 12m depth). A Snorkeler / Non-Diver Boat Pass is also available at ₹1,500. All scuba diving packages include the 19 km round-trip boat cruise, complete sanitized gear rental, dedicated 1:1 certified instructor guidance, surface snorkeling, and complimentary HD photos and videos.",
       link: "/blog/murudeshwar-scuba-diving-price-cost",
       linkText: "View Complete Pricing Guide ->",
     },
@@ -80,7 +80,7 @@ export default function Home() {
     },
     {
       q: "What are the minimum age criteria and health prerequisites for diving?",
-      a: "Participants must be at least 10 years of age to dive. There is no upper age limit as long as you are medically fit. Guests with active asthma requiring regular inhalers, heart conditions, recent major surgery, or pregnancy should refrain from tank diving for safety reasons.",
+      a: "Participants must be between the minimum age of 10 years and maximum age of 60 years to dive, and medically fit. Guests with active asthma requiring regular inhalers, heart conditions, recent major surgery, or pregnancy should refrain from tank diving for safety reasons.",
       link: "/blog/scuba-diving-age-limit",
       linkText: "Review Age & Health Guide ->",
     },
@@ -384,9 +384,6 @@ export default function Home() {
               <strong className="text-white font-semibold">package pricing</strong>, sanitized gear, and complimentary underwater photos &amp; videos.
             </p>
             <div className="flex flex-wrap gap-2 md:gap-2.5 max-w-2xl">
-              {/* <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
-                Transparent Pricing from ₹1,999
-              </span> */}
               <span className="inline-flex items-center rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold tracking-wide text-gray-200 backdrop-blur-md">
                 Morning Boat Slots 8:00–9:00 AM
               </span>
